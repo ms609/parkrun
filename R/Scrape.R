@@ -31,15 +31,15 @@ ScrapeResults <- function(eventName, runSeqNumber) {
                 as.numeric(as.POSIXct(strptime("0", format = "%S")))
   
   data.frame (
-    eventName = eventName,
-    runSeqNumber = runSeqNumber,
+    eventName = as.factor(eventName),
+    runSeqNumber = as.factor(runSeqNumber),
     pos = as.integer(ParseCell(".*>(\\d+)</td>", tableCells[2, ])),
-    athleteNumber = as.integer(ParseCell(".*athleteNumber\\=(\\d+)\".*", tableCells[3, ])),
+    athleteNumber = as.factor(ParseCell(".*athleteNumber\\=(\\d+)\".*", tableCells[3, ])),
     time = times,
     timeInSeconds = timeInSeconds,
-    ageCat = ParseCell(".*ageCat=(.*)\".*</td>", tableCells[5, ]),
+    ageCat = as.factor(ParseCell(".*ageCat=(.*)\".*</td>", tableCells[5, ])),
     ageGrade = as.numeric(ParseCell(">(.*) %</td>", tableCells[6, ])),
-    gender = ParseCell(">(.)</td>", tableCells[7, ]),
+    gender = as.factor(ParseCell(">(.)</td>", tableCells[7, ])),
     genderPos = as.numeric(ParseCell(">(\\d*)</td>", tableCells[8, ])),
     note = ParseCell(">(.*)</td>", tableCells[10, ]),
     totalRuns = as.integer(ParseCell(">(\\d*)</td>", tableCells[11, ]))
@@ -57,17 +57,24 @@ GetResults <- function (eventName, runSeqNumber) {
   eventFile <- paste0(eventDir, '/', runSeqNumber, '.txt')
   
   if (file.exists(eventFile)) {
-    # Return: 
-    read.table(eventFile)
+    results <- read.table(eventFile)
+    #results <- read.table(eventFile, colClasses=c('factor', 'factor', 'integer', 'factor', 'character', 'numeric', 'factor',
+    #                                              'numeric', 'factor', 'integer', 'character', 'integer'))
   } else {
     results <- ScrapeResults(eventName, runSeqNumber)
     Sys.sleep(runif(1) * 12) # Be polite and avoid overloading server
     if (!dir.exists(eventDir)) dir.create(eventDir)
     write.table(results, eventFile)
-    
-    # Return: 
-    results
   }
+  
+  results$eventName <- as.factor(results$eventName)
+  results$runSeqNumber <- as.factor(results$runSeqNumber)
+  results$athleteNumber <- as.factor(results$athleteNumber)
+  results$ageCat <- as.factor(results$ageCat)
+  results$gender <- as.factor(results$gender)
+  
+  # Return: 
+  results
 }
 
 #' Summarise parkrun results

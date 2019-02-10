@@ -1,0 +1,33 @@
+---
+title: "Time series analysis of single events"
+author: "Martin R. Smith"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::pdf_document2:
+    includes:
+      in_header: ../inst/preamble.tex
+  rmarkdown::html_document:
+
+vignette: >
+  %\VignetteIndexEntry{Time series analysis of a single event}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+```{r Load package, include=FALSE}
+require('parkrun')
+library('dplyr')
+```
+
+```{R benchmarking}
+course <- 'riverside'
+events <- 300:333
+
+results <- bind_rows(lapply(events, function (event) GetResults(course, event)))
+athleteRuns <- table(results$athleteNumber)
+repeatRunners <- names(athleteRuns [athleteRuns > 15])
+
+attach(results)
+lm(I(5000 / timeInSeconds) ~ athleteNumber * runSeqNumber, data=results[results$athleteNumber %in% repeatRunners, ])
+
+
+```
