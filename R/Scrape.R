@@ -59,6 +59,7 @@ GetResults <- function (eventName, runSeqNumber) {
     read.table(eventFile)
   } else {
     results <- ScrapeResults(eventName, runSeqNumber)
+    Sys.sleep(1) # Be polite and avoid overloading server
     if (!dir.exists(eventDir)) dir.create(eventDir)
     write.table(results, eventFile)
     
