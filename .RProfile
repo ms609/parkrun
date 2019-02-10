@@ -1,0 +1,3 @@
+library('RCurl')
+eventName <- 'riverside'
+runSeqNumber <- 300L
