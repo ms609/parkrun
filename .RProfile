@@ -3,3 +3,4 @@ library("testthat")
 library('RCurl')
 eventName <- 'riverside'
 runSeqNumber <- 300L
+athlete <- 2632906L
