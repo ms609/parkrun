@@ -18,6 +18,7 @@ Imports:
     RCurl
 Suggests:
     bookdown,
+    dplyr,
     knitr,
     rmarkdown,
     testthat

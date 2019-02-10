@@ -31,6 +31,8 @@ ScrapeResults <- function(eventName, runSeqNumber) {
                 as.numeric(as.POSIXct(strptime("0", format = "%S")))
   
   data.frame (
+    eventName = eventName,
+    runSeqNumber = runSeqNumber,
     pos = as.integer(ParseCell(".*>(\\d+)</td>", tableCells[2, ])),
     athleteNumber = as.integer(ParseCell(".*athleteNumber\\=(\\d+)\".*", tableCells[3, ])),
     time = times,
@@ -51,7 +53,7 @@ ScrapeResults <- function(eventName, runSeqNumber) {
 #' @export
 GetResults <- function (eventName, runSeqNumber) {
   
-  eventDir <- paste0('results/', eventName)
+  eventDir <- paste0(sub("(.*parkrun).*", "\\1", getwd()), '/results/', eventName)
   eventFile <- paste0(eventDir, '/', runSeqNumber, '.txt')
   
   if (file.exists(eventFile)) {
@@ -59,7 +61,7 @@ GetResults <- function (eventName, runSeqNumber) {
     read.table(eventFile)
   } else {
     results <- ScrapeResults(eventName, runSeqNumber)
-    Sys.sleep(1) # Be polite and avoid overloading server
+    Sys.sleep(runif(1) * 12) # Be polite and avoid overloading server
     if (!dir.exists(eventDir)) dir.create(eventDir)
     write.table(results, eventFile)
     
@@ -126,4 +128,5 @@ SummariseResults <- function (results, athlete=NA) {
   }
   
 }
+
 
