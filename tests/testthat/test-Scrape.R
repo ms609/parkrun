@@ -12,3 +12,8 @@ test_that("Results scraped correctly", {
   expect_equal(296L, length(unique(scrapings$note)))
   expect_equal(32L, median(scrapings$totalRuns, na.rm=TRUE))
 })
+
+test_that("hour-times parsed correctly", {
+  results <- GetResults('riverside', 319L)
+  expect_equal(3600L, results[303, 'timeInSeconds'])
+})

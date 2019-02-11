@@ -26,9 +26,10 @@ ScrapeResults <- function(eventName, runSeqNumber) {
   tableCells <- vapply(tableRows, function(row) unlist(strsplit(row, '<td', fixed=TRUE)), character(12))
   
   times <- ParseCell(">([\\d\\:]+)</td>", tableCells[4, ], perl=TRUE)
-  # From https://stackoverflow.com/questions/10835908:
-  timeInSeconds <- as.numeric(as.POSIXct(strptime(times, format = "%M:%OS"))) - 
-                as.numeric(as.POSIXct(strptime("0", format = "%S")))
+  timeBits <- strsplit(times, ':', fixed=TRUE)
+  timeInSeconds <- vapply(timeBits, 
+                          function (bits) as.integer(sum(as.integer(bits) * (60L^rev(seq_along(bits) - 1L)))), 
+                          integer(1))
   
   data.frame (
     eventName = as.factor(eventName),
