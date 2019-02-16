@@ -16,35 +16,60 @@ vignette: >
 ```{r Load package, include=FALSE}
 require('parkrun')
 library('dplyr')
+library('viridisLite')
 ```
 
 ```{R benchmarking}
+athlete1 <- 2632906
+athlete2 <- 805256
+typicalTime <- 22
+
 course <- 'riverside'
 events <- 270:337
 eventHistory <- EventHistory(course)
 eventDates <- as.Date(eventHistory[as.character(events), 'date'], origin='1970-01-01')
 
+
 results <- suppressWarnings(bind_rows(lapply(events, function (event) GetResults(course, event))))
+results <- results[!is.na(results$athleteNumber), ]
 results$date <- eventHistory[results$runSeqNumber, 'date']
+#repeatResults <- results[!is.na(results$athleteNumber) & results$athleteNumber %in% repeatRunners, ]
 athleteRuns <- table(results$athleteNumber)
-repeatRunners <- names(athleteRuns [athleteRuns > 25])
+repeatRunners <- names(athleteRuns [athleteRuns > 16])
 repeatResults <- results[results$athleteNumber %in% repeatRunners, ]
 
+outliers <- as.character(unlist(by(repeatResults, repeatResults$athleteNumber, function(x) {
+  athleteSpeeds <- 5000 / x$timeInSeconds
+  normalRange <- median(athleteSpeeds) + (sd(athleteSpeeds) * c(-4, +4))
+  rownames(x)[athleteSpeeds < normalRange[1] | athleteSpeeds > normalRange[2]]
+})))
+repeatResults <- repeatResults[!rownames(repeatResults) %in% outliers, ]
+
+
+
 with(repeatResults, {
-  #model <- lm(I(-5000 / timeInSeconds) ~ athleteNumber + runSeqNumber + date)
+  # The passage of time makes no significant contribution
+  model <- lm(I(5000 / timeInSeconds) ~ athleteNumber + runSeqNumber)
   coefs <- summary(model)$coefficients
-  plot(eventDates, c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']), pch='.', 
-       xlab="Event date", ylab="Extra difficulty", axes=F)
-  axis(1, at=eventDates, labels=format(eventDates, '%Y-%m-%d'))
+  plot(eventDates, coefs[1, 1] + c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']), 
+       pch='.', xlab="Event date", ylab="Loyal athlete speed", axes=F, col='white')
+  xTicks <- seq(min(eventDates), max(eventDates), length.out=7)
+  axis(1, at=xTicks, labels=format(xTicks, '%Y-%m-%d'), las=2, cex=0.7)
+  timeAdjustment <- seq(-90, 90, by=15)
   axis(2)
-  text(eventDates, c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']),
-       col=as.integer(format(as.Date(eventDates, origin='1970-01-01'), '%m')),
-       label=as.integer(format(as.Date(eventDates, origin='1970-01-01'), '%d')),
+  axis(4, at=(5000 / ((typicalTime * 60) + timeAdjustment)) - (5000 / (typicalTime * 60)), labels=timeAdjustment)
+  text(eventDates, coefs[1, 1] + c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']),
+       col=viridis(12)[as.integer(format(as.Date(eventDates, origin='1970-01-01'), '%m'))],
+       label=events,
        cex=0.7)
+  athlete1Runs <- results[results$athleteNumber == athlete1, ]
+  athlete2Runs <- results[results$athleteNumber == athlete2, ]
+  points(athlete1Runs$date, 5000/athlete1Runs$timeInSeconds, col=2, pch=2)
+  points(athlete2Runs$date, 5000/athlete2Runs$timeInSeconds, col=4, pch=4)
+  points(eventDates)
 })
 
-summary(model)
-
-within(repeatResults, {xx <- C(runSeqNumber, helmert); print(attributes(xx))})
 
 ```
+
+
