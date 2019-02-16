@@ -33,9 +33,9 @@ results$runSeqNumber <- paste0(results$eventName, results$runSeqNumber)
 
 uniqueAthletes <- na.omit(unique(results$athleteNumber))
 athletesAtEvent <- vapply(courseResults, function (x) uniqueAthletes %in% x$athleteNumber, logical(length(uniqueAthletes)))
-wayfarers <- uniqueAthletes[rowSums(athletesAtEvent) > 1]
+tourists <- uniqueAthletes[rowSums(athletesAtEvent) > 1]
 
-usefulResults <- results[results$athleteNumber %in% wayfarers, ]
+usefulResults <- results[results$athleteNumber %in% tourists, ]
 
 outliers <- as.character(unlist(by(usefulResults, usefulResults$athleteNumber, function(x) {
   athleteSpeeds <- 5000 / x$timeInSeconds
@@ -45,7 +45,7 @@ outliers <- as.character(unlist(by(usefulResults, usefulResults$athleteNumber, f
 usefulResults <- usefulResults[!rownames(usefulResults) %in% outliers, ]
 
 SecondsToMinutes <- function (s) {
-  paste(s %/% 60, round(s %% 60, 1), sep = ':')
+  paste(s %/% 60, formatC(round(s %% 60, 0), width=2, flag='0'), sep = ':')
 }
 
 
@@ -58,6 +58,11 @@ with(usefulResults, {
   intercept <- coefs[1, 1]
   exampleTimes <- c(17, 20, 22, 25, 28, 30, 35, 40) * 60
   exampleSpeeds <- 5000 / exampleTimes
-  SecondsToMinutes(5000 / vapply(coefs[1L + seq_along(courses[-1]), 1, drop=FALSE], function(x) exampleSpeeds + x, exampleSpeeds))
+  names(exampleSpeeds) <- SecondsToMinutes(exampleTimes)
+  eventCoefs <- coefs[1L + seq_along(courses[-1]), 1, drop=FALSE]
+  ret <- vapply(eventCoefs, function(x) SecondsToMinutes(5000 / (exampleSpeeds - x)), character(length(exampleSpeeds)))
+  dimnames(ret) <- list(SecondsToMinutes(exampleTimes), substring(rownames(eventCoefs), 10L))
+  # Return:
+  ret
 })
 ```
