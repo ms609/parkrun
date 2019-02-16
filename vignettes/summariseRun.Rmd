@@ -1,0 +1,24 @@
+---
+title: "Time series analysis of single events"
+author: "Martin R. Smith"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::pdf_document2:
+    includes:
+      in_header: ../inst/preamble.tex
+  rmarkdown::html_document:
+
+vignette: >
+  %\VignetteIndexEntry{Analysis of a single event's results}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+```{r Load package, include=FALSE}
+require('parkrun')
+```
+
+```{R Summarise an event} 
+results <- GetResults('riverside', 337)
+SummariseResults(results, 2632906)
+```
+
