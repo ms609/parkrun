@@ -1,0 +1,2 @@
+"date" "athletes" "maleAthletes" "femaleAthletes" "maleSpeedMean" "maleSpeedSD" "femaleSpeedMean" "femaleSpeedSD"
+"299" 17432 271 134 117 3.21344854873507 0.649098675376095 2.65225591339378 0.477254527899408
