@@ -20,14 +20,31 @@ library('dplyr')
 
 ```{R benchmarking}
 course <- 'riverside'
-events <- 300:333
+events <- 270:337
+eventHistory <- EventHistory(course)
+eventDates <- as.Date(eventHistory[as.character(events), 'date'], origin='1970-01-01')
 
-results <- bind_rows(lapply(events, function (event) GetResults(course, event)))
+results <- suppressWarnings(bind_rows(lapply(events, function (event) GetResults(course, event))))
+results$date <- eventHistory[results$runSeqNumber, 'date']
 athleteRuns <- table(results$athleteNumber)
-repeatRunners <- names(athleteRuns [athleteRuns > 15])
+repeatRunners <- names(athleteRuns [athleteRuns > 25])
+repeatResults <- results[results$athleteNumber %in% repeatRunners, ]
 
-attach(results)
-lm(I(5000 / timeInSeconds) ~ athleteNumber * runSeqNumber, data=results[results$athleteNumber %in% repeatRunners, ])
+with(repeatResults, {
+  #model <- lm(I(-5000 / timeInSeconds) ~ athleteNumber + runSeqNumber + date)
+  coefs <- summary(model)$coefficients
+  plot(eventDates, c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']), pch='.', 
+       xlab="Event date", ylab="Extra difficulty", axes=F)
+  axis(1, at=eventDates, labels=format(eventDates, '%Y-%m-%d'))
+  axis(2)
+  text(eventDates, c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']),
+       col=as.integer(format(as.Date(eventDates, origin='1970-01-01'), '%m')),
+       label=as.integer(format(as.Date(eventDates, origin='1970-01-01'), '%d')),
+       cex=0.7)
+})
 
+summary(model)
+
+within(repeatResults, {xx <- C(runSeqNumber, helmert); print(attributes(xx))})
 
 ```
