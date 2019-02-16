@@ -3,7 +3,6 @@
 #' Reads the table of results from http://www.parkrun.org.uk/`eventName`/results/weeklyresults/?runSeqNumber=`runSeqNumber`
 #' and returns the output as an array.
 #' 
-#' @param eventName Name of the event, taken from the URL (see details).
 #' @param runSeqNumber Integer specifying the event number (see details).
 #' 
 #' @return An array corresponding to the HTML table on the page requested
@@ -42,10 +41,11 @@ ScrapeResults <- function(eventName, runSeqNumber) {
   eventDate <- as.Date(sub(".*(\\d\\d)/(\\d\\d)/(\\d\\d\\d\\d)</", "\\3-\\2-\\1", strsplit(html, 'h2>', fixed=TRUE)[[1]][2]))
   
   averageSpeed <- 5000L / timeInSeconds
-  eventSummary <- data.frame(row.names = runSeqNumber, date = as.integer(eventDate),
-                    athletes = length(gender),
-                    maleAthletes = sum(male), femaleAthletes = sum(female),
-                    maleSpeedMean = mean(averageSpeed[male]), maleSpeedSD = sd(averageSpeed[male]),
+  eventSummary <- data.frame(row.names = runSeqNumber, 
+                             date = format(as.Date(eventDate, origin='1970-01-01'), '%Y-%m-%d'),
+                             athletes = length(gender),
+                             maleAthletes = sum(male), femaleAthletes = sum(female),
+                             maleSpeedMean = mean(averageSpeed[male]), maleSpeedSD = sd(averageSpeed[male]),
                     femaleSpeedMean = mean(averageSpeed[female]), femaleSpeedSD = sd(averageSpeed[female]),
                     extraTime = NA)
   
@@ -88,8 +88,8 @@ ScrapeEventHistory <- function (eventName, eventIndex) {
   html <- getURLContent(url)
   
   runDateRegExp <- '\\?runSeqNumber=(\\d+)\\\\*">(\\d\\d)/(\\d\\d)/(\\d\\d\\d\\d)'
-  dates <- as.Date(sub(pattern=runDateRegExp, replacement="\\4-\\3-\\2", 
-      regmatches(html, gregexpr(runDateRegExp, html))[[1]]))
+  dates <- format(as.Date(sub(pattern=runDateRegExp, replacement="\\4-\\3-\\2", 
+      regmatches(html, gregexpr(runDateRegExp, html))[[1]])), "%Y-%m-%d")
   write.table(
     data.frame(row.names = as.character(rev(seq_along(dates))), date = as.integer(dates),
                athletes = NA, maleAthletes = NA, femaleAthletes = NA,
@@ -103,6 +103,14 @@ ScrapeEventHistory <- function (eventName, eventIndex) {
 #' @export
 EventDirectory <- function (eventName) {
   paste0(sub("(.*parkrun).*", "\\1", getwd()), '/results/', eventName)
+}
+
+#' Load cache of past event details
+#' @template eventNameParam
+#' 
+#' @export
+EventHistory <- function (eventName) {
+  read.table(paste0(EventDirectory(eventName), "/index.txt"))
 }
 
 #' Obtain parkrun results from cache, scraping if not available
