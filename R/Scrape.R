@@ -80,10 +80,6 @@ ScrapeResults <- function(eventName, runSeqNumber) {
 ScrapeEventHistory <- function (eventName, eventIndex) {
   dir.create(EventDirectory(eventName))
   
-  ParseCell <- function(expression, string, perl=FALSE) {
-    ifelse(string == '/>' | string == ">Unknown</td>", NA, sub(expression, "\\1", string, perl=perl))
-  }
-  
   url <- paste0("http://www.parkrun.org.uk/", eventName, "/results/eventhistory/")
   html <- getURLContent(url)
   
@@ -91,7 +87,7 @@ ScrapeEventHistory <- function (eventName, eventIndex) {
   dates <- format(as.Date(sub(pattern=runDateRegExp, replacement="\\4-\\3-\\2", 
       regmatches(html, gregexpr(runDateRegExp, html))[[1]])), "%Y-%m-%d")
   write.table(
-    data.frame(row.names = as.character(rev(seq_along(dates))), date = as.integer(dates),
+    data.frame(row.names = as.character(rev(seq_along(dates))), date = dates,
                athletes = NA, maleAthletes = NA, femaleAthletes = NA,
                maleSpeedMean = NA, maleSpeedSD = NA, femaleSpeedMean = NA, femaleSpeedSD = NA,
                extraTime = NA),
@@ -110,7 +106,9 @@ EventDirectory <- function (eventName) {
 #' 
 #' @export
 EventHistory <- function (eventName) {
-  read.table(paste0(EventDirectory(eventName), "/index.txt"))
+  eventIndex <- paste0(EventDirectory(eventName), "/index.txt")
+  if (!file.exists(eventIndex)) GetResults(eventName, 1)
+  read.table(eventIndex)
 }
 
 #' Obtain parkrun results from cache, scraping if not available

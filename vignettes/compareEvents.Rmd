@@ -1,0 +1,63 @@
+---
+title: "Compare events against each other"
+author: "Martin R. Smith"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::pdf_document2:
+    includes:
+      in_header: ../inst/preamble.tex
+  rmarkdown::html_document:
+
+vignette: >
+  %\VignetteIndexEntry{Comparison of different events}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+```{r Load package, include=FALSE}
+require('parkrun')
+library('viridisLite')
+```
+
+```{R Compare events}
+courses <- c('riverside', 'durham', 'gibside')
+
+courseResults <- lapply(courses, function (course) {
+  eventHistory <- EventHistory(course)
+  eventDates <- as.Date(eventHistory[as.character(events), 'date'], origin='1970-01-01')
+  eventResults <- list.files(EventDirectory(course), pattern="\\d+", full.names=TRUE)
+  suppressWarnings(dplyr::bind_rows(lapply(eventResults, read.table)))
+})
+results <- suppressWarnings(dplyr::bind_rows(courseResults))
+results <- results[!is.na(results$athleteNumber), ]
+results$runSeqNumber <- paste0(results$eventName, results$runSeqNumber)
+
+uniqueAthletes <- na.omit(unique(results$athleteNumber))
+athletesAtEvent <- vapply(courseResults, function (x) uniqueAthletes %in% x$athleteNumber, logical(length(uniqueAthletes)))
+wayfarers <- uniqueAthletes[rowSums(athletesAtEvent) > 1]
+
+usefulResults <- results[results$athleteNumber %in% wayfarers, ]
+
+outliers <- as.character(unlist(by(usefulResults, usefulResults$athleteNumber, function(x) {
+  athleteSpeeds <- 5000 / x$timeInSeconds
+  normalRange <- median(athleteSpeeds) + (sd(athleteSpeeds) * c(-4, +4))
+  rownames(x)[athleteSpeeds < normalRange[1] | athleteSpeeds > normalRange[2]]
+})))
+usefulResults <- usefulResults[!rownames(usefulResults) %in% outliers, ]
+
+SecondsToMinutes <- function (s) {
+  paste(s %/% 60, round(s %% 60, 1), sep = ':')
+}
+
+
+
+with(usefulResults, {
+  # The passage of time makes no significant contribution
+  model <- lm(I(-5000 / timeInSeconds) ~ eventName + as.factor(athleteNumber))
+  coefs <- summary(model)$coefficients
+  
+  intercept <- coefs[1, 1]
+  exampleTimes <- c(17, 20, 22, 25, 28, 30, 35, 40) * 60
+  exampleSpeeds <- 5000 / exampleTimes
+  SecondsToMinutes(5000 / vapply(coefs[1L + seq_along(courses[-1]), 1, drop=FALSE], function(x) exampleSpeeds + x, exampleSpeeds))
+})
+```
