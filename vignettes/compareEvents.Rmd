@@ -44,22 +44,29 @@ outliers <- as.character(unlist(by(usefulResults, usefulResults$athleteNumber, f
 })))
 usefulResults <- usefulResults[!rownames(usefulResults) %in% outliers, ]
 
+athleteResults <- table(usefulResults$athleteNumber)
+athleteEntries <- rev(table(athleteResults))
 
+tooManyAthletes <- 500
+minRuns <- names(athleteEntries[sum(cumsum(athleteEntries) < tooManyAthletes)])
+usefulAthletes <- rownames(athleteResults)[athleteResults >= as.integer(minRuns)]
+usefulResults <- usefulResults[usefulResults$athleteNumber %in% usefulAthletes, ]
 
+# The passage of time makes no significant contribution
+model <- lm(I(-5000 / usefulResults$timeInSeconds) ~ 
+              usefulResults$eventName + as.factor(usefulResults$athleteNumber))
+coefs <- summary(model)$coefficients
 
-with(usefulResults, {
-  # The passage of time makes no significant contribution
-  model <- lm(I(-5000 / timeInSeconds) ~ eventName + as.factor(athleteNumber))
-  coefs <- summary(model)$coefficients
-  
-  intercept <- coefs[1, 1]
-  exampleTimes <- c(17, 20, 22, 25, 28, 30, 35, 40) * 60
-  exampleSpeeds <- 5000 / exampleTimes
-  names(exampleSpeeds) <- SecondsToMinutes(exampleTimes)
-  eventCoefs <- coefs[1L + seq_along(courses[-1]), 1, drop=FALSE]
-  ret <- vapply(eventCoefs, function(x) SecondsToMinutes(5000 / (exampleSpeeds - x)), character(length(exampleSpeeds)))
-  dimnames(ret) <- list(SecondsToMinutes(exampleTimes), substring(rownames(eventCoefs), 10L))
-  # Return:
-  ret
+intercept <- coefs[1, 1]
+exampleTimes <- c(17, 20, 22, 25, 28, 30, 35, 40) * 60
+exampleSpeeds <- 5000 / exampleTimes
+names(exampleSpeeds) <- SecondsToMinutes(exampleTimes)
+
+eventCoefs <- rbind(coefs[1L + seq_along(courses[-1]), c(1, 2), drop=FALSE])
+ret <- apply(eventCoefs, 1, function(x) {
+  target <- 5000 / (exampleSpeeds - x[1])
+  max <- 5000 / (exampleSpeeds - (x[1] + x[2]))
+  min <- 5000 / (exampleSpeeds - (x[1] - x[2]))
+  paste0(SecondsToMinutes(target), " ± ", round(colMeans(rbind(target- min, max - target))), 's')
 })
 ```
