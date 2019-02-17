@@ -7,8 +7,6 @@
 ScrapeResults(eventName, runSeqNumber)
 }
 \arguments{
-\item{eventName}{Name of the event, taken from the URL (see details).}
-
 \item{runSeqNumber}{Integer specifying the event number (see details).}
 }
 \value{
