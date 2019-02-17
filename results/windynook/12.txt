@@ -1,0 +1,23 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "windynook" "12" 1 "299662" "21:13" 1273 "VM35-39" 62.14 "M" 1 "PB stays at 00:20:29" 335
+"2" "windynook" "12" 2 "271372" "21:26" 1286 "VM35-39" 63.22 "M" 2 "New PB!" 143
+"3" "windynook" "12" 3 "1097161" "21:38" 1298 "VM45-49" 67.1 "M" 3 "PB stays at 00:19:43" 147
+"4" "windynook" "12" 4 "330189" "22:34" 1354 "VM35-39" 58.42 "M" 4 "First Timer!" 188
+"5" "windynook" "12" 5 "886670" "23:03" 1383 "SM25-29" 55.97 "M" 5 "First Timer!" 13
+"6" "windynook" "12" 6 "2322232" "23:20" 1400 "VM35-39" 57.64 "M" 6 "PB stays at 00:23:04" 40
+"7" "windynook" "12" 7 "44245" "24:01" 1441 "VM50-54" 61.42 "M" 7 "First Timer!" 324
+"8" "windynook" "12" 8 "741299" "24:22" 1462 "VM45-49" 58.62 "M" 8 "PB stays at 00:23:19" 95
+"9" "windynook" "12" 9 "1319584" "24:47" 1487 "VM45-49" 58.1 "M" 9 "New PB!" 98
+"10" "windynook" "12" 10 "83483" "25:39" 1539 "VM40-44" 54 "M" 10 "First Timer!" 235
+"11" "windynook" "12" 11 "2028370" "26:05" 1565 "VM55-59" 58.91 "M" 11 "First Timer!" 149
+"12" "windynook" "12" 12 "57617" "28:19" 1699 "VW45-49" 57.8 "F" 1 "First Timer!" 189
+"13" "windynook" "12" 13 "4082739" "29:07" 1747 "VM65-69" 59.87 "M" 12 "PB stays at 00:26:08" 42
+"14" "windynook" "12" 14 "780797" "29:55" 1795 "VW50-54" 56.04 "F" 2 "First Timer!" 132
+"15" "windynook" "12" 15 "780807" "29:58" 1798 "VM45-49" 48.05 "M" 13 "First Timer!" 134
+"16" "windynook" "12" 16 "609175" "30:16" 1816 "VW40-44" 50.83 "F" 3 "PB stays at 00:29:12" 13
+"17" "windynook" "12" 17 "935981" "30:39" 1839 "VM65-69" 54.7 "M" 14 "First Timer!" 230
+"18" "windynook" "12" 18 "449239" "30:53" 1853 "VM55-59" 51.48 "M" 15 "First Timer!" 76
+"19" "windynook" "12" 19 "64731" "31:42" 1902 "VW45-49" 50.58 "F" 4 "First Timer!" 265
+"20" "windynook" "12" 20 "64525" "34:31" 2071 "VM45-49" 41.09 "M" 16 "First Timer!" 273
+"21" "windynook" "12" 21 "15811" "39:52" 2392 "VM55-59" 38.55 "M" 17 "First Timer!" 315
+"22" "windynook" "12" 22 "2962322" "40:11" 2411 "VW35-39" 37.2 "F" 5 "PB stays at 00:37:42" 15

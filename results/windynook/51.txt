@@ -1,0 +1,22 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "windynook" "51" 1 "2907536" "22:27" 1347 "VM40-44" 62.21 "M" 1 "PB stays at 00:21:52" 41
+"2" "windynook" "51" 2 "111842" "23:45" 1425 "VM35-39" 56.63 "M" 2 "First Timer!" 330
+"3" "windynook" "51" 3 "1138338" "24:53" 1493 "VM50-54" 61.22 "M" 3 "First Timer!" 63
+"4" "windynook" "51" 4 "1158136" "27:12" 1632 "VM55-59" 56.5 "M" 4 "New PB!" 133
+"5" "windynook" "51" 5 "5002574" "28:03" 1683 "VM50-54" 53.42 "M" 5 "PB stays at 00:26:46" 11
+"6" "windynook" "51" 6 "1213534" "28:13" 1693 "VM70-74" 66.04 "M" 6 "PB stays at 00:24:21" 145
+"7" "windynook" "51" 7 "1190932" "29:07" 1747 "VM65-69" 57.58 "M" 7 "First Timer!" 193
+"8" "windynook" "51" 8 "2329647" "29:33" 1773 "VM40-44" 46.87 "M" 8 "PB stays at 00:27:33" 83
+"9" "windynook" "51" 9 "797769" "29:41" 1781 "VM45-49" 48.91 "M" 9 "PB stays at 00:28:21" 67
+"10" "windynook" "51" 10 "508051" "30:01" 1801 "VW45-49" 55.19 "F" 1 "PB stays at 00:26:03" 58
+"11" "windynook" "51" 11 "222465" "30:02" 1802 "VM65-69" 56.38 "M" 10 "PB stays at 00:25:06" 106
+"12" "windynook" "51" 12 "5115764" "30:22" 1822 "VM35-39" 44.29 "M" 11 "PB stays at 00:30:22" 7
+"13" "windynook" "51" 13 "3804877" "32:32" 1952 "VW45-49" 48.82 "F" 2 "PB stays at 00:29:16" 46
+"14" "windynook" "51" 14 "1377456" "32:42" 1962 "SW25-29" 45.26 "F" 3 "PB stays at 00:30:50" 42
+"15" "windynook" "51" 15 "5090164" "34:03" 2043 "VW40-44" 44.93 "F" 4 "New PB!" 12
+"16" "windynook" "51" 16 "2833567" "36:44" 2204 "JW10" 49.32 "F" 5 "PB stays at 00:33:04" 30
+"17" "windynook" "51" 17 "2134236" "36:48" 2208 "VW45-49" 44.02 "F" 6 "PB stays at 00:33:10" 48
+"18" "windynook" "51" 18 "4069656" "37:10" 2230 "VW35-39" 40.22 "F" 7 "PB stays at 00:34:13" 22
+"19" "windynook" "51" 19 "2502997" "39:26" 2366 "VW55-59" 45.9 "F" 8 "PB stays at 00:35:14" 70
+"20" "windynook" "51" 20 "2718874" "39:36" 2376 "VW45-49" 41.84 "F" 9 "PB stays at 00:37:23" 47
+"21" "windynook" "51" 21 "66926" "40:22" 2422 "VW50-54" 42.57 "F" 10 "First Timer!" 84

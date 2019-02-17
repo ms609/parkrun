@@ -1,0 +1,27 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "windynook" "48" 1 "3326238" "19:38" 1178 "VM45-49" 72.75 "M" 1 "First Timer!" 9
+"2" "windynook" "48" 2 "160786" "21:04" 1264 "VM40-44" 65.27 "M" 2 "First Timer!" 313
+"3" "windynook" "48" 3 "220264" "22:00" 1320 "VM50-54" 67.05 "M" 3 "New PB!" 98
+"4" "windynook" "48" 4 "356262" "23:05" 1385 "SM30-34" 56.53 "M" 4 "PB stays at 00:22:04" 55
+"5" "windynook" "48" 5 "1087846" "23:52" 1432 "SM30-34" 54.19 "M" 5 "PB stays at 00:21:32" 35
+"6" "windynook" "48" 6 "156268" "24:23" 1463 "VM60-64" 66.92 "M" 6 "First Timer!" 83
+"7" "windynook" "48" 7 "511722" "25:29" 1529 "SM30-34" 50.75 "M" 7 "New PB!" 34
+"8" "windynook" "48" 8 "320385" "25:41" 1541 "VM75-79" 76.57 "M" 8 "New PB!" 125
+"9" "windynook" "48" 9 "4893825" "25:54" 1554 "JW11-14" 60.68 "F" 1 "PB stays at 00:25:40" 6
+"10" "windynook" "48" 10 "1213534" "27:03" 1623 "VM70-74" 68.88 "M" 9 "PB stays at 00:24:21" 145
+"11" "windynook" "48" 11 "250142" "27:37" 1657 "VM50-54" 55.16 "M" 10 "First Timer!" 166
+"12" "windynook" "48" 12 "866077" "28:17" 1697 "VW50-54" 62.35 "F" 2 "New PB!" 132
+"13" "windynook" "48" 13 "797769" "28:45" 1725 "VM45-49" 50.49 "M" 11 "New PB!" 67
+"14" "windynook" "48" 14 "2329647" "29:36" 1776 "VM40-44" 46.79 "M" 12 "PB stays at 00:27:33" 83
+"15" "windynook" "48" 15 "876856" "30:52" 1852 "VM45-49" 47.41 "M" 13 "New PB!" 109
+"16" "windynook" "48" 16 "75934" "31:23" 1883 "VM80-84" 70.58 "M" 14 "New PB!" 383
+"17" "windynook" "48" 17 "4763479" "31:40" 1900 "VM70-74" 56.37 "M" 15 "PB stays at 00:30:57" 7
+"18" "windynook" "48" 18 "247564" "32:54" 1974 "VW55-59" 57.35 "F" 3 "First Timer!" 1
+"19" "windynook" "48" 19 "3703654" "33:34" 2014 "VW50-54" 49.95 "F" 4 "New PB!" 3
+"20" "windynook" "48" 20 "161468" "33:36" 2016 "VW35-39" 45.24 "F" 5 "First Timer!" 209
+"21" "windynook" "48" 21 "5136522" "33:51" 2031 "VM45-49" 42.89 "M" 16 "First Timer!" 1
+"22" "windynook" "48" 22 "4069656" "34:25" 2065 "VW35-39" 43.44 "F" 6 "New PB!" 22
+"23" "windynook" "48" 23 "814911" "35:13" 2113 "VW70-74" 63.23 "F" 7 "New PB!" 89
+"24" "windynook" "48" 24 "3703784" "35:24" 2124 "SW25-29" 41.81 "F" 8 "PB stays at 00:31:52" 4
+"25" "windynook" "48" 25 NA NA NA NA NA NA NA NA NA
+"26" "windynook" "48" 26 NA NA NA NA NA NA NA NA NA

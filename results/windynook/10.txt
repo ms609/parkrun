@@ -1,0 +1,28 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "windynook" "10" 1 "14396" "21:41" 1301 "VM40-44" 63.41 "M" 1 "First Timer!" 247
+"2" "windynook" "10" 2 "194748" "22:16" 1336 "VM45-49" 64.67 "M" 2 "First Timer!" 344
+"3" "windynook" "10" 3 "4111403" "23:05" 1385 "VM50-54" 64.91 "M" 3 "PB stays at 00:22:26" 10
+"4" "windynook" "10" 4 "921205" "24:13" 1453 "VM35-39" 54.44 "M" 4 "First Timer!" 80
+"5" "windynook" "10" 5 "741299" "24:30" 1470 "VM45-49" 58.3 "M" 5 "PB stays at 00:23:19" 95
+"6" "windynook" "10" 6 "2497113" "24:34" 1474 "VM35-39" 54 "M" 6 "First Timer!" 9
+"7" "windynook" "10" 7 "747931" "26:04" 1564 "VM40-44" 52.75 "M" 7 "First Timer!" 272
+"8" "windynook" "10" 8 "1690805" "26:26" 1586 "VM50-54" 57.19 "M" 8 "First Timer!" 118
+"9" "windynook" "10" 9 "3688841" "26:32" 1592 "VM45-49" 54.27 "M" 9 "First Timer!" 7
+"10" "windynook" "10" 10 "755297" "26:48" 1608 "VM35-39" 49.19 "M" 10 "PB stays at 00:23:18" 98
+"11" "windynook" "10" 11 "861121" "28:12" 1692 "VM45-49" 51.06 "M" 11 "PB stays at 00:21:42" 114
+"12" "windynook" "10" 12 "205155" "28:13" 1693 "VM35-39" 47.31 "M" 12 "First Timer!" 180
+"13" "windynook" "10" 13 "328232" "28:23" 1703 "SW30-34" 52.2 "F" 1 "PB stays at 00:24:59" 38
+"14" "windynook" "10" 14 "308702" "29:06" 1746 "VM45-49" 49.08 "M" 13 "First Timer!" 28
+"15" "windynook" "10" 15 "4203868" "29:06" 1746 "JM15-17" 47.82 "M" 14 "First Timer!" 2
+"16" "windynook" "10" 16 "4082739" "29:20" 1760 "VM65-69" 59.43 "M" 15 "PB stays at 00:26:08" 42
+"17" "windynook" "10" 17 "1213534" "29:39" 1779 "VM70-74" 61.89 "M" 16 "PB stays at 00:24:21" 145
+"18" "windynook" "10" 18 "4313830" "29:59" 1799 "VM35-39" 43.97 "M" 17 "First Timer!" 2
+"19" "windynook" "10" 19 "1026517" "33:09" 1989 "VW40-44" 47.11 "F" 2 "First Timer!" 126
+"20" "windynook" "10" 20 "1045731" "33:24" 2004 "VM65-69" 51.65 "M" 18 "PB stays at 00:32:55" 160
+"21" "windynook" "10" 21 "16041" "37:10" 2230 "VW60-64" 52.2 "F" 3 "First Timer!" 340
+"22" "windynook" "10" 22 "208501" "37:13" 2233 "VW45-49" 43.53 "F" 4 "First Timer!" 244
+"23" "windynook" "10" 23 "741127" "37:45" 2265 "VW55-59" 48.61 "F" 5 "PB stays at 00:34:29" 11
+"24" "windynook" "10" 24 "1037257" "38:26" 2306 "SW30-34" 38.55 "F" 6 "First Timer!" 158
+"25" "windynook" "10" 25 "3396765" "38:34" 2314 "SW25-29" 38.38 "F" 7 "First Timer!" 38
+"26" "windynook" "10" 26 "1729825" "39:06" 2346 "SM30-34" 33.25 "M" 19 "First Timer!" 51
+"27" "windynook" "10" 27 "314505" "40:45" 2445 "VM60-64" 39.71 "M" 20 "First Timer!" 156

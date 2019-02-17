@@ -1,0 +1,25 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "windynook" "60" 1 "1097161" "20:22" 1222 "VM45-49" 71.85 "M" 1 "PB stays at 00:19:43" 147
+"2" "windynook" "60" 2 "91504" "21:14" 1274 "VM40-44" 64.76 "M" 2 "PB stays at 00:20:17" 57
+"3" "windynook" "60" 3 "755297" "23:44" 1424 "VM35-39" 55.9 "M" 3 "PB stays at 00:23:18" 98
+"4" "windynook" "60" 4 "312134" "24:19" 1459 "VM55-59" 64.29 "M" 4 "First Timer!" 97
+"5" "windynook" "60" 5 "3227691" "24:30" 1470 "SM30-34" 53.27 "M" 5 "PB stays at 00:22:51" 16
+"6" "windynook" "60" 6 "1105177" "24:50" 1490 "VM35-39" 53.76 "M" 6 "PB stays at 00:24:47" 208
+"7" "windynook" "60" 7 "209322" "25:10" 1510 "VM55-59" 61.06 "M" 7 "First Timer!" 102
+"8" "windynook" "60" 8 "4622605" "25:27" 1527 "JM11-14" 56.97 "M" 8 "PB stays at 00:23:37" 11
+"9" "windynook" "60" 9 "5398653" "26:10" 1570 "JM11-14" 56.82 "M" 9 "First Timer!" 1
+"10" "windynook" "60" 10 "209602" "26:31" 1591 "VW50-54" 66.5 "F" 1 "First Timer!" 59
+"11" "windynook" "60" 11 "222465" "27:02" 1622 "VM65-69" 62.64 "M" 10 "PB stays at 00:25:06" 106
+"12" "windynook" "60" 12 "3090514" "27:33" 1653 "VM60-64" 59.23 "M" 11 "PB stays at 00:24:14" 51
+"13" "windynook" "60" 13 "2693993" "27:48" 1668 "VM35-39" 48.74 "M" 12 "First Timer!" 68
+"14" "windynook" "60" 14 "277279" "28:07" 1687 "VM35-39" 47.18 "M" 13 "First Timer!" 88
+"15" "windynook" "60" 15 "4082739" "28:16" 1696 "VM70-74" 62.38 "M" 14 "PB stays at 00:26:08" 42
+"16" "windynook" "60" 16 "234092" "29:09" 1749 "VW40-44" 53.57 "F" 2 "PB stays at 00:28:30" 137
+"17" "windynook" "60" 17 "1027534" "29:23" 1763 "VM35-39" 46.11 "M" 15 "New PB!" 10
+"18" "windynook" "60" 18 "4099103" "30:29" 1829 "VM45-49" 48 "M" 16 "First Timer!" 55
+"19" "windynook" "60" 19 NA NA NA NA NA NA NA NA NA
+"20" "windynook" "60" 20 NA NA NA NA NA NA NA NA NA
+"21" "windynook" "60" 21 "56468" "33:04" 1984 "VM50-54" 44.96 "M" 19 "PB stays at 00:27:43" 48
+"22" "windynook" "60" 22 "5398659" "33:05" 1985 "JW11-14" 49.22 "F" 3 "First Timer!" 1
+"23" "windynook" "60" 23 NA NA NA NA NA NA NA NA NA
+"24" "windynook" "60" 24 NA NA NA NA NA NA NA NA NA
