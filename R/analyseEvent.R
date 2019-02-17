@@ -43,12 +43,13 @@ AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4) {
     model <- lm(I(5000 / timeInSeconds) ~ athleteNumber + runSeqNumber)
     coefs <- summary(model)$coefficients
     plot(eventDates, coefs[1, 1] + c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']), 
-         pch='.', xlab="Event date", ylab="Loyal athlete speed", axes=F, col='white')
+         pch='.', xlab="Event date", ylab="Representative athlete speed", axes=F, col='white')
     xTicks <- seq(min(eventDates), max(eventDates), length.out=7)
     axis(1, at=xTicks, labels=format(xTicks, '%Y-%m-%d'), las=2, cex=0.7)
-    timeAdjustment <- seq(-90, 90, by=15)
     axis(2)
-    axis(4, at=(5000 / ((typicalTime * 60) + timeAdjustment)) - (5000 / (typicalTime * 60)), labels=timeAdjustment)
+    axisSpeeds <- coefs[1, 1] * seq(0.9, 1.1, length.out=19)
+    axis(4, at=axisSpeeds, labels=SecondsToMinutes(5000 / axisSpeeds))
+    mtext('Representative athlete time', side=4, line=0)
     
     eventLoadings <- c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate'])
     eventErrors <- c(0, coefs[paste0('runSeqNumber', events[-1]), 'Std. Error'])
