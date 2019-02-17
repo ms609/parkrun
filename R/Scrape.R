@@ -134,7 +134,7 @@ GetResults <- function (eventName, runSeqNumber) {
     results <- ScrapeResults(eventName, runSeqNumber)
     if (!dir.exists(EventDirectory(eventName))) dir.create(EventDirectory(eventName))
     write.table(results, eventFile)
-    Sys.sleep(runif(1) * 12) # Be polite: avoid overloading server
+    Sys.sleep((runif(1) * 10) + 0.3) # Be polite: avoid overloading server
   }
   
   results$eventName <- as.factor(results$eventName)
