@@ -30,7 +30,7 @@ eventHistory <- EventHistory(course)
 eventDates <- as.Date(eventHistory[as.character(events), 'date'], origin='1970-01-01')
 
 
-results <- suppressWarnings(bind_rows(lapply(events, function (event) GetResults(course, event))))
+results <- suppressWarnings(dplyr::bind_rows(lapply(events, function (event) GetResults(course, event))))
 results <- results[!is.na(results$athleteNumber), ]
 results$date <- eventHistory[results$runSeqNumber, 'date']
 #repeatResults <- results[!is.na(results$athleteNumber) & results$athleteNumber %in% repeatRunners, ]
