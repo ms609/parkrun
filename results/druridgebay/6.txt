@@ -1,0 +1,84 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "druridgebay" "6" 1 "1126801" "18:58" 1138 "VM40-44" 74.17 "M" 1 "First Timer!" 1
+"2" "druridgebay" "6" 2 "1151672" "19:57" 1197 "VM40-44" 68.42 "M" 2 "New PB!" 80
+"3" "druridgebay" "6" 3 "1133529" "20:02" 1202 "SM30-34" 65.47 "M" 3 "New PB!" 22
+"4" "druridgebay" "6" 4 "214656" "20:25" 1225 "VM55-59" 75.92 "M" 4 "First Timer!" 29
+"5" "druridgebay" "6" 5 "478197" "20:41" 1241 "VM45-49" 68.57 "M" 5 "New PB!" 56
+"6" "druridgebay" "6" 6 "296243" "20:53" 1253 "SM25-29" 61.85 "M" 6 "First Timer!" 7
+"7" "druridgebay" "6" 7 "646881" "20:59" 1259 "VM50-54" 71.41 "M" 7 "New PB!" 67
+"8" "druridgebay" "6" 8 "271969" "21:12" 1272 "VM50-54" 69.58 "M" 8 "First Timer!" 4
+"9" "druridgebay" "6" 9 "8450" "21:23" 1283 "VW50-54" 80.36 "F" 1 "First Timer!" 105
+"10" "druridgebay" "6" 10 "1185691" "21:40" 1300 "VM35-39" 62.54 "M" 9 "First Timer!" 8
+"11" "druridgebay" "6" 11 "1148406" "21:46" 1306 "SM25-29" 59.26 "M" 10 "New PB!" 5
+"12" "druridgebay" "6" 12 "724486" "22:10" 1330 "VW45-49" 73.08 "F" 2 "First Timer!" 24
+"13" "druridgebay" "6" 13 "1156461" "22:18" 1338 "VM40-44" 62.63 "M" 11 "New PB!" 28
+"14" "druridgebay" "6" 14 "280045" "22:29" 1349 "VM50-54" 66.64 "M" 12 "New PB!" 16
+"15" "druridgebay" "6" 15 "1181172" "22:33" 1353 "VM35-39" 59.65 "M" 13 "First Timer!" 3
+"16" "druridgebay" "6" 16 "379740" "22:35" 1355 "VM45-49" 63.25 "M" 14 "New PB!" 23
+"17" "druridgebay" "6" 17 "174675" "22:38" 1358 "VM45-49" 63.11 "M" 15 "First Timer!" 264
+"18" "druridgebay" "6" 18 "1124239" "22:43" 1363 "VM45-49" 63.39 "M" 16 "First Timer!" 145
+"19" "druridgebay" "6" 19 "1146405" "22:50" 1370 "VM50-54" 64.6 "M" 17 "New PB!" 3
+"20" "druridgebay" "6" 20 "174490" "22:50" 1370 "JW15-17" 67.01 "F" 3 "First Timer!" 281
+"21" "druridgebay" "6" 21 "1178685" "22:58" 1378 "SM30-34" 56.6 "M" 18 "First Timer!" 10
+"22" "druridgebay" "6" 22 "281315" "23:06" 1386 "VM35-39" 57.43 "M" 19 "New PB!" 78
+"23" "druridgebay" "6" 23 "1179887" "23:16" 1396 "SM25-29" 55.44 "M" 20 "First Timer!" 5
+"24" "druridgebay" "6" 24 "203616" "23:21" 1401 "VM45-49" 62.67 "M" 21 "First Timer!" 70
+"25" "druridgebay" "6" 25 "331541" "23:22" 1402 "VM35-39" 57.13 "M" 22 "First Timer!" 120
+"26" "druridgebay" "6" 26 "1102034" "23:29" 1409 "SM25-29" 54.93 "M" 23 "PB stays at 00:21:50" 33
+"27" "druridgebay" "6" 27 "1185328" "23:47" 1427 "VM35-39" 55.78 "M" 24 "First Timer!" 23
+"28" "druridgebay" "6" 28 "1044141" "23:56" 1436 "VM40-44" 58.77 "M" 25 "PB stays at 00:23:49" 7
+"29" "druridgebay" "6" 29 "207161" "24:26" 1466 "VM50-54" 61.32 "M" 26 "PB stays at 00:23:09" 90
+"30" "druridgebay" "6" 30 "1135492" "24:28" 1468 "SM25-29" 52.72 "M" 27 "PB stays at 00:19:57" 40
+"31" "druridgebay" "6" 31 "957188" "24:29" 1469 "VM50-54" 61.74 "M" 28 "New PB!" 125
+"32" "druridgebay" "6" 32 "1178361" "24:51" 1491 "SM25-29" 51.91 "M" 29 "First Timer!" 31
+"33" "druridgebay" "6" 33 "1163134" "24:54" 1494 "VW45-49" 64.39 "F" 4 "New PB!" 192
+"34" "druridgebay" "6" 34 "1124242" "25:03" 1503 "JW15-17" 60.35 "F" 5 "New PB!" 84
+"35" "druridgebay" "6" 35 "1123977" "25:23" 1523 "SM30-34" 51.41 "M" 30 "New PB!" 31
+"36" "druridgebay" "6" 36 "1123926" "25:24" 1524 "SM30-34" 51.18 "M" 31 "PB stays at 00:21:08" 193
+"37" "druridgebay" "6" 37 "629572" "25:26" 1526 "SW25-29" 58.19 "F" 6 "New PB!" 30
+"38" "druridgebay" "6" 38 "1128040" "25:31" 1531 "JM15-17" 53.69 "M" 32 "New PB!" 110
+"39" "druridgebay" "6" 39 "5409" "25:35" 1535 "VM60-64" 64.36 "M" 33 "First Timer!" 67
+"40" "druridgebay" "6" 40 "49336" "25:39" 1539 "VM60-64" 63.61 "M" 34 "First Timer!" 170
+"41" "druridgebay" "6" 41 "512026" "25:45" 1545 "SW25-29" 57.48 "F" 7 "PB stays at 00:25:08" 40
+"42" "druridgebay" "6" 42 "1154051" "25:47" 1547 "SW20-24" 57.4 "F" 8 "New PB!" 12
+"43" "druridgebay" "6" 43 "1126541" "25:50" 1550 "VM35-39" 51.03 "M" 35 "First Timer!" 17
+"44" "druridgebay" "6" 44 "1188221" "26:39" 1599 "VM35-39" 49.47 "M" 36 "First Timer!" 11
+"45" "druridgebay" "6" 45 "1123843" "26:44" 1604 "SM30-34" 48.63 "M" 37 "PB stays at 00:25:44" 5
+"46" "druridgebay" "6" 46 NA NA NA NA NA NA NA NA NA
+"47" "druridgebay" "6" 47 "1180091" "27:02" 1622 "VM45-49" 53.27 "M" 39 "First Timer!" 6
+"48" "druridgebay" "6" 48 "1180093" "27:02" 1622 "JW10" 64.92 "F" 9 "First Timer!" 5
+"49" "druridgebay" "6" 49 "1137896" "27:27" 1647 "VM45-49" 53.31 "M" 40 "New PB!" 14
+"50" "druridgebay" "6" 50 "1179304" "27:38" 1658 "VW40-44" 56.09 "F" 10 "First Timer!" 15
+"51" "druridgebay" "6" 51 "1184260" "27:40" 1660 "SW30-34" 53.55 "F" 11 "First Timer!" 1
+"52" "druridgebay" "6" 52 "1182771" "27:41" 1661 "VM35-39" 47.92 "M" 41 "First Timer!" 2
+"53" "druridgebay" "6" 53 "1116144" "27:49" 1669 "SW25-29" 53.21 "F" 12 "First Timer!" 65
+"54" "druridgebay" "6" 54 "1124237" "28:08" 1688 "VW45-49" 56.99 "F" 13 "New PB!" 149
+"55" "druridgebay" "6" 55 "1151678" "28:56" 1736 "JM10" 61.52 "M" 42 "New PB!" 42
+"56" "druridgebay" "6" 56 "890687" "28:58" 1738 "VW40-44" 53.51 "F" 14 "First Timer!" 3
+"57" "druridgebay" "6" 57 "338366" "29:07" 1747 "VM35-39" 46.19 "M" 43 "First Timer!" 5
+"58" "druridgebay" "6" 58 "1181029" "29:28" 1768 "SW25-29" 50.23 "F" 15 "First Timer!" 7
+"59" "druridgebay" "6" 59 "1100635" "29:28" 1768 "JW10" 57.92 "F" 16 "New PB!" 34
+"60" "druridgebay" "6" 60 "1100625" "29:29" 1769 "VW40-44" 52.97 "F" 17 "PB stays at 00:23:06" 78
+"61" "druridgebay" "6" 61 "1027078" "29:31" 1771 "VM35-39" 44.95 "M" 44 "PB stays at 00:24:12" 46
+"62" "druridgebay" "6" 62 "1183954" "30:09" 1809 "VM45-49" 47.04 "M" 45 "First Timer!" 3
+"63" "druridgebay" "6" 63 "555699" "30:35" 1835 "VW40-44" 50.03 "F" 18 "First Timer!" 5
+"64" "druridgebay" "6" 64 "896585" "30:38" 1838 "SW30-34" 48.42 "F" 19 "PB stays at 00:26:53" 107
+"65" "druridgebay" "6" 65 "1126080" "30:44" 1844 "VW40-44" 50.05 "F" 20 "PB stays at 00:28:44" 18
+"66" "druridgebay" "6" 66 "1126502" "30:44" 1844 "VW40-44" 49.78 "F" 21 "PB stays at 00:28:46" 87
+"67" "druridgebay" "6" 67 "454390" "30:53" 1853 "VM45-49" 46.63 "M" 46 "New PB!" 156
+"68" "druridgebay" "6" 68 "1148805" "31:21" 1881 "JM10" 52.15 "M" 47 "PB stays at 00:31:12" 3
+"69" "druridgebay" "6" 69 "1175119" "31:28" 1888 "JM10" 51.96 "M" 48 "First Timer!" 9
+"70" "druridgebay" "6" 70 "1181485" "31:37" 1897 "VM50-54" 47.39 "M" 49 "First Timer!" 26
+"71" "druridgebay" "6" 71 "613099" "32:14" 1934 "VW60-64" 59.36 "F" 22 "New PB!" 10
+"72" "druridgebay" "6" 72 "1142714" "32:34" 1954 "VW60-64" 60.44 "F" 23 "New PB!" 5
+"73" "druridgebay" "6" 73 "1097121" "33:36" 2016 "VM75-79" 57.39 "M" 50 "PB stays at 00:31:33" 142
+"74" "druridgebay" "6" 74 "1182498" "34:16" 2056 "SW25-29" 43.19 "F" 24 "First Timer!" 143
+"75" "druridgebay" "6" 75 "420804" "34:17" 2057 "SM25-29" 37.63 "M" 51 "First Timer!" 123
+"76" "druridgebay" "6" 76 "621238" "34:38" 2078 "VM70-74" 51.54 "M" 52 "PB stays at 00:32:36" 91
+"77" "druridgebay" "6" 77 "957105" "35:16" 2116 "VW45-49" 45.04 "F" 25 "First Timer!" 112
+"78" "druridgebay" "6" 78 "1134136" "35:31" 2131 "VM70-74" 50.26 "M" 53 "PB stays at 00:32:05" 174
+"79" "druridgebay" "6" 79 "1038463" "36:28" 2188 "VW35-39" 41.27 "F" 26 "PB stays at 00:34:48" 18
+"80" "druridgebay" "6" 80 "1012094" "40:13" 2413 "VW40-44" 38.04 "F" 27 "PB stays at 00:30:15" 119
+"81" "druridgebay" "6" 81 "1133541" "46:11" 2771 "JW10" 39.23 "F" 28 "First Timer!" 1
+"82" "druridgebay" "6" 82 "1052330" "46:13" 2773 "JW10" 42.26 "F" 29 "First Timer!" 3
+"83" "druridgebay" "6" 83 "312134" "46:14" 2774 "VM50-54" 32.41 "M" 54 "PB stays at 00:20:12" 97
