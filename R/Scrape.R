@@ -54,6 +54,8 @@ ScrapeResults <- function(eventName, runSeqNumber) {
   } else {
     index <- read.table(eventIndex, as.is=TRUE)
     index[as.character(runSeqNumber), ] <- eventSummary
+    # I can't figure out how to handle characters in data.frame... manual override!
+    index[as.character(runSeqNumber), 'date'] <- as.character(eventSummary$date)
     write.table(index, file=eventIndex)
   }
   
