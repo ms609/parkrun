@@ -79,7 +79,8 @@ ScrapeResults <- function(eventName, runSeqNumber) {
 #' Start an index file by scraping the dates of previous events
 #' @param eventIndex Path to `index.txt` file containing details of each event
 #' @export
-ScrapeEventHistory <- function (eventName, eventIndex) {
+ScrapeEventHistory <- function (eventName, eventIndex = paste0(EventDirectory(eventName), "/index.txt"),
+                                write=TRUE) {
   dir.create(EventDirectory(eventName))
   
   url <- paste0("http://www.parkrun.org.uk/", eventName, "/results/eventhistory/")
@@ -88,13 +89,16 @@ ScrapeEventHistory <- function (eventName, eventIndex) {
   runDateRegExp <- '\\?runSeqNumber=(\\d+)\\\\*">(\\d\\d)/(\\d\\d)/(\\d\\d\\d\\d)'
   dates <- format(as.Date(sub(pattern=runDateRegExp, replacement="\\4-\\3-\\2", 
       regmatches(html, gregexpr(runDateRegExp, html))[[1]])), "%Y-%m-%d")
-  write.table(
-    data.frame(row.names = as.character(rev(seq_along(dates))), date = dates,
-               athletes = NA, maleAthletes = NA, femaleAthletes = NA,
-               maleSpeedMean = NA, maleSpeedSD = NA, femaleSpeedMean = NA, femaleSpeedSD = NA,
-               extraTime = NA),
-    file = eventIndex)
+  ret <- data.frame(row.names = as.character(rev(seq_along(dates))), date = dates,
+                    athletes = NA, maleAthletes = NA, femaleAthletes = NA,
+                    maleSpeedMean = NA, maleSpeedSD = NA, femaleSpeedMean = NA, femaleSpeedSD = NA,
+                    extraTime = NA)
+  if (write) {
+    write.table(ret, file = eventIndex)
+  }
   
+  # Return:
+  ret
 }
 
 #' Determine path to local cache of results
