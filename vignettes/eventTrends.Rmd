@@ -14,20 +14,24 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 ```{r Load package}
-require('parkrun')
-library('viridisLite')
+library('parkrun')
 ```
 
-```{R benchmarking}
-athlete1 <- 2632906
-athlete2 <- 805256
-typicalTime <- 22
 
-course <- 'durham'
-events <- 200:300
+```{R Durham-history}
+AnalyseEvent('durham', 297:361, runsToQualify=8)
+```
 
-AnalyseEvent('durham', 200:300)
+```{R Durham-history}
+AnalyseEvent('durham', 290:361, runsToQualify=16)
+```
 
+```{R Durham-history}
+AnalyseEvent('durham', 290:361, runsToQualify=32)
+```
+
+```{R Riverside-history}
+AnalyseEvent('riverside', 198:337)
 ```
 
 
