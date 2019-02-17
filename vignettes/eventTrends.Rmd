@@ -70,7 +70,7 @@ with(repeatResults, {
   monthCols <- viridis(12)
   monthSemiTrans <- viridis(12, alpha=0.3)
   
-  lapply(seq_along(eventLoadings), function(i) {
+  xx <- lapply(seq_along(eventLoadings), function(i) {
     lines(rep(eventDates[i], 2), intercept + eventLoadings[i] + c(1, -1) * eventErrors[i],
           col = monthSemiTrans[as.integer(format(as.Date(eventDates[i], origin='1970-01-01'), '%m'))])
   })
