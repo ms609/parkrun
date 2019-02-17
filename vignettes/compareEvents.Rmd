@@ -13,13 +13,11 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
-```{r Load package, include=FALSE}
-require('parkrun')
-library('viridisLite')
-```
 
 ```{R Compare events}
 courses <- c('riverside', 'durham', 'gibside')
+require('parkrun')
+
 
 courseResults <- lapply(courses, function (course) {
   eventHistory <- EventHistory(course)
