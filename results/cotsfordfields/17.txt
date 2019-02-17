@@ -1,0 +1,31 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "cotsfordfields" "17" 1 "3862860" "18:39" 1119 "VM35-39" 70.69 "M" 1 "PB stays at 00:18:16" 59
+"2" "cotsfordfields" "17" 2 "15057" "18:53" 1133 "VM40-44" 73.96 "M" 2 "First Timer!" 389
+"3" "cotsfordfields" "17" 3 "3869692" "21:35" 1295 "VM45-49" 66.18 "M" 3 "PB stays at 00:21:00" 22
+"4" "cotsfordfields" "17" 4 "2205638" "22:15" 1335 "JM11-14" 63.75 "M" 4 "PB stays at 00:20:43" 97
+"5" "cotsfordfields" "17" 5 "2122389" "22:43" 1363 "VM45-49" 62.88 "M" 5 "New PB!" 130
+"6" "cotsfordfields" "17" 6 "747931" "22:57" 1377 "VM40-44" 60.35 "M" 6 "PB stays at 00:22:37" 272
+"7" "cotsfordfields" "17" 7 "4935474" "23:27" 1407 "VM50-54" 63.4 "M" 7 "New PB!" 10
+"8" "cotsfordfields" "17" 8 "360656" "24:04" 1444 "VM40-44" 57.13 "M" 8 "First Timer!" 323
+"9" "cotsfordfields" "17" 9 "83483" "24:47" 1487 "VM40-44" 56.36 "M" 9 "PB stays at 00:23:13" 235
+"10" "cotsfordfields" "17" 10 "145805" "24:56" 1496 "SM20-24" 52.27 "M" 10 "First Timer!" 109
+"11" "cotsfordfields" "17" 11 "3839962" "25:14" 1514 "VM45-49" 56.61 "M" 11 "New PB!" 14
+"12" "cotsfordfields" "17" 12 "4226961" "25:35" 1535 "VM35-39" 51.86 "M" 12 "PB stays at 00:24:09" 18
+"13" "cotsfordfields" "17" 13 "4983067" "26:04" 1564 "VM45-49" 55.69 "M" 13 "New PB!" 2
+"14" "cotsfordfields" "17" 14 "492866" "26:36" 1596 "SM30-34" 48.87 "M" 14 "First Timer!" 89
+"15" "cotsfordfields" "17" 15 "4947997" "26:41" 1601 "VM40-44" 52.72 "M" 15 "PB stays at 00:24:54" 14
+"16" "cotsfordfields" "17" 16 "628763" "26:53" 1613 "VM40-44" 52.32 "M" 16 "First Timer!" 121
+"17" "cotsfordfields" "17" 17 "3847114" "28:04" 1684 "VW35-39" 53.92 "F" 1 "New PB!" 26
+"18" "cotsfordfields" "17" 18 "4768807" "28:18" 1698 "VM45-49" 50.47 "M" 17 "PB stays at 00:27:46" 7
+"19" "cotsfordfields" "17" 19 "1906744" "29:20" 1760 "JM10" 53.81 "M" 18 "First Timer!" 120
+"20" "cotsfordfields" "17" 20 "1906736" "29:20" 1760 "VW40-44" 52.44 "F" 2 "First Timer!" 124
+"21" "cotsfordfields" "17" 21 "680125" "29:44" 1784 "VM50-54" 50.84 "M" 19 "PB stays at 00:25:41" 173
+"22" "cotsfordfields" "17" 22 "449239" "30:16" 1816 "VM60-64" 52.97 "M" 20 "First Timer!" 76
+"23" "cotsfordfields" "17" 23 "1026517" "31:05" 1865 "VW40-44" 50.24 "F" 3 "First Timer!" 126
+"24" "cotsfordfields" "17" 24 "1959571" "32:54" 1974 "VW45-49" 49.75 "F" 4 "PB stays at 00:28:46" 48
+"25" "cotsfordfields" "17" 25 "897045" "34:38" 2078 "VM55-59" 44.75 "M" 21 "PB stays at 00:34:08" 76
+"26" "cotsfordfields" "17" 26 "774752" "36:11" 2171 "VM55-59" 43.57 "M" 22 "New PB!" 183
+"27" "cotsfordfields" "17" 27 "1595077" "39:34" 2374 "VW35-39" 38.25 "F" 5 "PB stays at 00:28:53" 17
+"28" "cotsfordfields" "17" 28 "1594995" "39:36" 2376 "VM50-54" 38.47 "M" 23 "First Timer!" 22
+"29" "cotsfordfields" "17" 29 "447599" "52:01" 3121 "VM55-59" 30.31 "M" 24 "First Timer!" 253
+"30" "cotsfordfields" "17" 30 "1099366" "52:04" 3124 "VM45-49" 27.66 "M" 25 "PB stays at 00:24:03" 21
