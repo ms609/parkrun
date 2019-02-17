@@ -15,7 +15,8 @@ Encoding: UTF-8
 Language: en-GB
 Depends: R (>= 3.4.0)
 Imports:
-    RCurl
+    RCurl,
+    viridisLite
 Suggests:
     bookdown,
     dplyr,

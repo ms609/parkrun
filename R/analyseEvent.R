@@ -7,6 +7,7 @@
 #' but slower, analyses.
 #' 
 #' @author Martin R. Smith
+#' @importFrom viridisLite viridis
 #' @export
 AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4) {
   
