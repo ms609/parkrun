@@ -67,4 +67,12 @@ ret <- apply(eventCoefs, 1, function(x) {
   min <- 5000 / (exampleSpeeds - (x[1] - x[2]))
   paste0(SecondsToMinutes(target), " ± ", round(colMeans(rbind(target- min, max - target))), 's')
 })
+
+eventSequence <- sub('.*eventName(.*)', '\\1', rownames(eventCoefs))
+
+dimnames(ret) <- list(SecondsToMinutes(exampleTimes), eventSequence)
+ret <- cbind(SecondsToMinutes(exampleTimes), ret)
+colnames(ret)[1] <- sort(courses)[1]
+# Return:
+knitr::kable(ret)
 ```
