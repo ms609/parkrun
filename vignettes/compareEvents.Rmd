@@ -21,7 +21,6 @@ require('parkrun')
 
 courseResults <- lapply(courses, function (course) {
   eventHistory <- EventHistory(course)
-  eventDates <- as.Date(eventHistory[as.character(events), 'date'], origin='1970-01-01')
   eventResults <- list.files(EventDirectory(course), pattern="\\d+", full.names=TRUE)
   suppressWarnings(dplyr::bind_rows(lapply(eventResults, read.table)))
 })
