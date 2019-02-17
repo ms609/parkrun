@@ -15,7 +15,6 @@ vignette: >
 ---
 ```{r Load package, include=FALSE}
 require('parkrun')
-library('dplyr')
 library('viridisLite')
 ```
 
@@ -30,6 +29,8 @@ eventHistory <- EventHistory(course)
 if (any(eventHistory$date == 1)) {
   # Fix write errors!
   history <- ScrapeEventHistory(course, write=FALSE)
+  eventHistory$date <- history$date
+  write.table(eventHistory, paste0(EventDirectory(course), '/index.txt'))
 }
 eventDates <- as.Date(eventHistory[as.character(events), 'date'], origin='1970-01-01')
 
@@ -62,15 +63,27 @@ with(repeatResults, {
   timeAdjustment <- seq(-90, 90, by=15)
   axis(2)
   axis(4, at=(5000 / ((typicalTime * 60) + timeAdjustment)) - (5000 / (typicalTime * 60)), labels=timeAdjustment)
-  text(eventDates, coefs[1, 1] + c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']),
-       col=viridis(12)[as.integer(format(as.Date(eventDates, origin='1970-01-01'), '%m'))],
+  
+  eventLoadings <- c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate'])
+  eventErrors <- c(0, coefs[paste0('runSeqNumber', events[-1]), 'Std. Error'])
+  intercept <- coefs[1, 1]
+  monthCols <- viridis(12)
+  monthSemiTrans <- viridis(12, alpha=0.3)
+  
+  lapply(seq_along(eventLoadings), function(i) {
+    lines(rep(eventDates[i], 2), intercept + eventLoadings[i] + c(1, -1) * eventErrors[i],
+          col = monthSemiTrans[as.integer(format(as.Date(eventDates[i], origin='1970-01-01'), '%m'))])
+  })
+  abline(h=intercept + mean(eventLoadings), col='#00000044')
+  text(eventDates, intercept + eventLoadings,
+       col=monthCols[as.integer(format(as.Date(eventDates, origin='1970-01-01'), '%m'))],
        label=events,
        cex=0.7)
-  athlete1Runs <- results[results$athleteNumber == athlete1, ]
-  athlete2Runs <- results[results$athleteNumber == athlete2, ]
-  points(athlete1Runs$date, 5000/athlete1Runs$timeInSeconds, col=2, pch=2)
-  points(athlete2Runs$date, 5000/athlete2Runs$timeInSeconds, col=4, pch=4)
-  points(eventDates)
+  # athlete1Runs <- results[results$athleteNumber == athlete1, ]
+  # athlete2Runs <- results[results$athleteNumber == athlete2, ]
+  # points(athlete1Runs$date, 5000/athlete1Runs$timeInSeconds, col=2, pch=2)
+  # points(athlete2Runs$date, 5000/athlete2Runs$timeInSeconds, col=4, pch=4)
+  # points(eventDates)
 })
 
 
