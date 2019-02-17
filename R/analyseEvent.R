@@ -50,6 +50,7 @@ AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4) {
     axisSpeeds <- coefs[1, 1] * seq(0.9, 1.1, length.out=19)
     axis(4, at=axisSpeeds, labels=SecondsToMinutes(5000 / axisSpeeds))
     mtext('Representative athlete time', side=4, line=0)
+    mtext(paste0(course, ' parkrun'), side=3, line=0)
     
     eventLoadings <- c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate'])
     eventErrors <- c(0, coefs[paste0('runSeqNumber', events[-1]), 'Std. Error'])
