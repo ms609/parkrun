@@ -44,9 +44,6 @@ outliers <- as.character(unlist(by(usefulResults, usefulResults$athleteNumber, f
 })))
 usefulResults <- usefulResults[!rownames(usefulResults) %in% outliers, ]
 
-SecondsToMinutes <- function (s) {
-  paste(s %/% 60, formatC(round(s %% 60, 0), width=2, flag='0'), sep = ':')
-}
 
 
 
