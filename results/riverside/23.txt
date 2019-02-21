@@ -1,0 +1,28 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "riverside" "23" 1 "49738" "19:50" 1190 "SM30-34" 66.13 "M" 1 "PB stays at 00:17:01" 77
+"2" "riverside" "23" 2 "359231" "20:33" 1233 "SM25-29" 62.85 "M" 2 "PB stays at 00:17:49" 33
+"3" "riverside" "23" 3 "173509" "22:22" 1342 "VM40-44" 61.92 "M" 3 "PB stays at 00:17:36" 329
+"4" "riverside" "23" 4 "395254" "22:34" 1354 "SM20-24" 57.16 "M" 4 "PB stays at 00:20:28" 17
+"5" "riverside" "23" 5 "146747" "23:06" 1386 "SW30-34" 64.36 "F" 1 "PB stays at 00:21:57" 60
+"6" "riverside" "23" 6 "352273" "23:07" 1387 "VM35-39" 57.39 "M" 5 "PB stays at 00:20:38" 13
+"7" "riverside" "23" 7 "299009" "23:49" 1429 "VM45-49" 60.46 "M" 6 "PB stays at 00:21:12" 19
+"8" "riverside" "23" 8 "389260" "24:29" 1469 "SM25-29" 52.69 "M" 7 "PB stays at 00:20:28" 15
+"9" "riverside" "23" 9 "290646" "24:50" 1490 "VM45-49" 58.46 "M" 8 "PB stays at 00:20:43" 245
+"10" "riverside" "23" 10 "286827" "24:50" 1490 "JM15-17" 55.17 "M" 9 "PB stays at 00:16:24" 20
+"11" "riverside" "23" 11 "202581" "24:51" 1491 "VM40-44" 55.33 "M" 10 "PB stays at 00:17:13" 284
+"12" "riverside" "23" 12 "94488" "25:39" 1539 "VM50-54" 59.39 "M" 11 "First Timer!" 72
+"13" "riverside" "23" 13 "382854" "26:15" 1575 "JM15-17" 52.19 "M" 12 "PB stays at 00:22:28" 90
+"14" "riverside" "23" 14 "386855" "26:26" 1586 "VM40-44" 52.84 "M" 13 "PB stays at 00:21:33" 160
+"15" "riverside" "23" 15 "383077" "26:38" 1598 "VM45-49" 54.07 "M" 14 "PB stays at 00:23:05" 54
+"16" "riverside" "23" 16 "264622" "27:21" 1641 "VW45-49" 58.62 "F" 2 "PB stays at 00:23:03" 131
+"17" "riverside" "23" 17 "222463" "27:21" 1641 "VM40-44" 50.64 "M" 15 "PB stays at 00:23:06" 43
+"18" "riverside" "23" 18 "315906" "28:25" 1705 "VM45-49" 51.09 "M" 16 "PB stays at 00:23:31" 19
+"19" "riverside" "23" 19 "402453" "28:31" 1711 "VM50-54" 52.13 "M" 17 "PB stays at 00:27:25" 5
+"20" "riverside" "23" 20 "272309" "28:50" 1730 "VM45-49" 50.75 "M" 18 "PB stays at 00:21:51" 133
+"21" "riverside" "23" 21 NA NA NA NA NA NA NA NA NA
+"22" "riverside" "23" 22 "159331" "30:46" 1846 "SW25-29" 48.1 "F" 3 "First Timer!" 158
+"23" "riverside" "23" 23 "308382" "32:34" 1954 "VM65-69" 52.97 "M" 20 "PB stays at 00:25:02" 338
+"24" "riverside" "23" 24 "231704" "33:29" 2009 "VW45-49" 47.44 "F" 4 "PB stays at 00:25:43" 193
+"25" "riverside" "23" 25 "319199" "34:34" 2074 "VW40-44" 44.5 "F" 5 "PB stays at 00:27:25" 186
+"26" "riverside" "23" 26 "340625" "35:43" 2143 "SM30-34" 36.4 "M" 21 "PB stays at 00:31:20" 33
+"27" "riverside" "23" 27 NA NA NA NA NA NA NA NA NA
