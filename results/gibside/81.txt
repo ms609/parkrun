@@ -1,0 +1,22 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "gibside" "81" 1 "2073267" "22:00" 1320 "VM35-39" 61.14 "M" 1 "First Timer!" 1
+"2" "gibside" "81" 2 "1148980" "22:37" 1357 "VM35-39" 59.03 "M" 2 "PB stays at 00:21:11" 179
+"3" "gibside" "81" 3 "981712" "23:27" 1407 "SM30-34" 55.29 "M" 3 "First Timer!" 109
+"4" "gibside" "81" 4 "1859918" "23:48" 1428 "SM30-34" 54.48 "M" 4 "PB stays at 00:23:33" 34
+"5" "gibside" "81" 5 "1077161" "25:21" 1521 "VM60-64" 65.55 "M" 5 "PB stays at 00:25:07" 65
+"6" "gibside" "81" 6 "66926" "25:38" 1538 "VW45-49" 64.63 "F" 1 "First Timer!" 84
+"7" "gibside" "81" 7 "979403" "25:47" 1547 "VM55-59" 60.63 "M" 6 "First Timer!" 180
+"8" "gibside" "81" 8 NA NA NA NA NA NA NA NA NA
+"9" "gibside" "81" 9 "608983" "26:25" 1585 "SM25-29" 48.9 "M" 8 "New PB!" 189
+"10" "gibside" "81" 10 "1817118" "27:06" 1626 "SM30-34" 48.15 "M" 9 "PB stays at 00:23:16" 83
+"11" "gibside" "81" 11 "1471470" "27:38" 1658 "SW20-24" 53.56 "F" 2 "New PB!" 109
+"12" "gibside" "81" 12 "1810058" "28:35" 1715 "SW25-29" 51.78 "F" 3 "New PB!" 28
+"13" "gibside" "81" 13 "1213557" "29:10" 1750 "JM11-14" 50.97 "M" 10 "PB stays at 00:25:24" 32
+"14" "gibside" "81" 14 "866459" "29:40" 1780 "VW45-49" 55.84 "F" 4 "PB stays at 00:29:00" 67
+"15" "gibside" "81" 15 "1810052" "30:44" 1844 "SW30-34" 48.26 "F" 5 "PB stays at 00:29:24" 42
+"16" "gibside" "81" 16 "1589110" "31:05" 1865 "SM30-34" 41.82 "M" 11 "PB stays at 00:30:32" 144
+"17" "gibside" "81" 17 "1910857" "31:15" 1875 "VM60-64" 51.31 "M" 12 "PB stays at 00:27:45" 145
+"18" "gibside" "81" 18 "527565" "32:07" 1927 "VM55-59" 48.68 "M" 13 "First Timer!" 28
+"19" "gibside" "81" 19 "945010" "37:30" 2250 "SM18-19" 35.56 "M" 14 "PB stays at 00:28:34" 25
+"20" "gibside" "81" 20 "1589098" "37:31" 2251 "VW60-64" 53.22 "F" 6 "PB stays at 00:27:20" 16
+"21" "gibside" "81" 21 NA NA NA NA NA NA NA NA NA

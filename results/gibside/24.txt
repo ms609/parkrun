@@ -1,0 +1,32 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "gibside" "24" 1 "384355" "18:44" 1124 "SM30-34" 69.04 "M" 1 "PB stays at 00:18:30" 103
+"2" "gibside" "24" 2 "455292" "19:27" 1167 "VM40-44" 71.21 "M" 2 "First Timer!" 184
+"3" "gibside" "24" 3 "192093" "19:51" 1191 "VM45-49" 73.13 "M" 3 "First Timer!" 83
+"4" "gibside" "24" 4 "752574" "20:41" 1241 "SM25-29" 62.37 "M" 4 "First Timer!" 6
+"5" "gibside" "24" 5 "1143279" "20:44" 1244 "VW45-49" 76.61 "F" 1 "First Timer!" 13
+"6" "gibside" "24" 6 "519882" "20:56" 1256 "VM35-39" 63.38 "M" 5 "First Timer!" 22
+"7" "gibside" "24" 7 "594208" "22:47" 1367 "VM40-44" 61.3 "M" 6 "First Timer!" 20
+"8" "gibside" "24" 8 "870710" "22:59" 1379 "JM15-17" 60.55 "M" 7 "New PB!" 5
+"9" "gibside" "24" 9 "72394" "23:12" 1392 "VM50-54" 63.58 "M" 8 "New PB!" 26
+"10" "gibside" "24" 10 "880778" "23:15" 1395 "VM40-44" 60.5 "M" 9 "New PB!" 5
+"11" "gibside" "24" 11 "1030464" "23:30" 1410 "JW15-17" 65.11 "F" 2 "New PB!" 17
+"12" "gibside" "24" 12 NA NA NA NA NA NA NA NA NA
+"13" "gibside" "24" 13 "864659" "24:13" 1453 "SM25-29" 53.27 "M" 11 "New PB!" 28
+"14" "gibside" "24" 14 NA NA NA NA NA NA NA NA NA
+"15" "gibside" "24" 15 "866576" "24:47" 1487 "VM55-59" 62 "M" 13 "PB stays at 00:24:35" 14
+"16" "gibside" "24" 16 "1144522" "26:37" 1597 "JM11-14" 53.29 "M" 14 "First Timer!" 4
+"17" "gibside" "24" 17 "1142996" "27:21" 1641 "SM30-34" 47.41 "M" 15 "First Timer!" 20
+"18" "gibside" "24" 18 "64959" "27:37" 1657 "VM35-39" 48.7 "M" 16 "PB stays at 00:27:17" 15
+"19" "gibside" "24" 19 "116638" "27:40" 1660 "VW35-39" 54.4 "F" 3 "New PB!" 24
+"20" "gibside" "24" 20 NA NA NA NA NA NA NA NA NA
+"21" "gibside" "24" 21 "608983" "28:41" 1721 "SM25-29" 44.97 "M" 18 "New PB!" 189
+"22" "gibside" "24" 22 "1143258" "28:48" 1728 "JW11-14" 55.44 "F" 4 "First Timer!" 8
+"23" "gibside" "24" 23 "1143805" "29:51" 1791 "VM45-49" 48.24 "M" 19 "First Timer!" 2
+"24" "gibside" "24" 24 "608900" "29:55" 1795 "SW25-29" 49.47 "F" 5 "PB stays at 00:25:53" 116
+"25" "gibside" "24" 25 "1122590" "30:06" 1806 "SW30-34" 49.39 "F" 6 "First Timer!" 19
+"26" "gibside" "24" 26 "870811" "30:25" 1825 "JM11-14" 48.88 "M" 20 "PB stays at 00:29:13" 4
+"27" "gibside" "24" 27 "866446" "31:55" 1915 "VW55-59" 55.98 "F" 7 "PB stays at 00:28:41" 33
+"28" "gibside" "24" 28 "1116923" "35:53" 2153 "VM70-74" 49.74 "M" 21 "New PB!" 4
+"29" "gibside" "24" 29 "876976" "38:21" 2301 "VW40-44" 40.72 "F" 8 "PB stays at 00:36:16" 31
+"30" "gibside" "24" 30 "170511" "38:22" 2302 "JM11-14" 39.88 "M" 22 "First Timer!" 11
+"31" "gibside" "24" 31 "126991" "38:22" 2302 "VM45-49" 37.23 "M" 23 "PB stays at 00:23:28" 46
