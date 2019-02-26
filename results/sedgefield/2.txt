@@ -1,0 +1,86 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "sedgefield" "2" 1 "13439" "18:23" 1103 "VM35-39" 73.16 "M" 1 "First Timer!" 119
+"2" "sedgefield" "2" 2 "183480" "18:33" 1113 "VM35-39" 71.97 "M" 2 "New PB!" 179
+"3" "sedgefield" "2" 3 "200648" "18:45" 1125 "VM40-44" 74.49 "M" 3 "First Timer!" 31
+"4" "sedgefield" "2" 4 "180347" "19:09" 1149 "VM35-39" 70.23 "M" 4 "First Timer!" 50
+"5" "sedgefield" "2" 5 "180179" "19:32" 1172 "SM25-29" 66.04 "M" 5 "First Timer!" 103
+"6" "sedgefield" "2" 6 "121925" "19:36" 1176 "VM40-44" 70.66 "M" 6 "New PB!" 50
+"7" "sedgefield" "2" 7 "19249" "19:45" 1185 "VM40-44" 71.22 "M" 7 "PB stays at 00:18:35" 368
+"8" "sedgefield" "2" 8 "49429" "20:33" 1233 "VM45-49" 70.64 "M" 8 "First Timer!" 174
+"9" "sedgefield" "2" 9 "175510" "20:42" 1242 "VM35-39" 64.49 "M" 9 "PB stays at 00:20:35" 19
+"10" "sedgefield" "2" 10 "16978" "20:47" 1247 "VM35-39" 63.43 "M" 10 "New PB!" 27
+"11" "sedgefield" "2" 11 "198597" "20:57" 1257 "VM40-44" 67.14 "M" 11 "New PB!" 253
+"12" "sedgefield" "2" 12 "73779" "21:06" 1266 "SM25-29" 61.14 "M" 12 "New PB!" 66
+"13" "sedgefield" "2" 13 "245449" "21:27" 1287 "VM50-54" 69.85 "M" 13 "First Timer!" 50
+"14" "sedgefield" "2" 14 "24248" "21:31" 1291 "VM45-49" 66.92 "M" 14 "First Timer!" 257
+"15" "sedgefield" "2" 15 "181485" "21:37" 1297 "VM55-59" 71.7 "M" 15 "First Timer!" 51
+"16" "sedgefield" "2" 16 "193518" "21:46" 1306 "VM35-39" 61.33 "M" 16 "New PB!" 26
+"17" "sedgefield" "2" 17 "229860" "21:58" 1318 "VM45-49" 65.02 "M" 17 "First Timer!" 36
+"18" "sedgefield" "2" 18 "90649" "22:26" 1346 "VM50-54" 66.79 "M" 18 "New PB!" 143
+"19" "sedgefield" "2" 19 "254477" "22:32" 1352 "SM20-24" 57.25 "M" 19 "First Timer!" 3
+"20" "sedgefield" "2" 20 "111770" "22:55" 1375 "VM35-39" 59.13 "M" 20 "First Timer!" 37
+"21" "sedgefield" "2" 21 "180790" "22:56" 1376 "SW20-24" 64.53 "F" 1 "New PB!" 10
+"22" "sedgefield" "2" 22 "252873" "22:58" 1378 "SW30-34" 64.44 "F" 2 "New PB!" 12
+"23" "sedgefield" "2" 23 NA NA NA NA NA NA NA NA NA
+"24" "sedgefield" "2" 24 "217991" "23:41" 1421 "VM45-49" 61.79 "M" 22 "New PB!" 236
+"25" "sedgefield" "2" 25 "111773" "23:46" 1426 "SW30-34" 62.34 "F" 3 "First Timer!" 84
+"26" "sedgefield" "2" 26 "253662" "23:47" 1427 "VM40-44" 57.81 "M" 23 "First Timer!" 1
+"27" "sedgefield" "2" 27 "197258" "24:10" 1450 "VM40-44" 58.21 "M" 24 "New PB!" 252
+"28" "sedgefield" "2" 28 "180948" "24:11" 1451 "VW40-44" 64.09 "F" 4 "New PB!" 46
+"29" "sedgefield" "2" 29 "181550" "24:30" 1470 "VM65-69" 69.73 "M" 25 "New PB!" 221
+"30" "sedgefield" "2" 30 "252371" "24:44" 1484 "VM35-39" 53.98 "M" 26 "New PB!" 13
+"31" "sedgefield" "2" 31 "256517" "25:06" 1506 "VM45-49" 56.51 "M" 27 "First Timer!" 1
+"32" "sedgefield" "2" 32 "253657" "25:24" 1524 "VM40-44" 54.99 "M" 28 "PB stays at 00:22:23" 137
+"33" "sedgefield" "2" 33 "17622" "25:24" 1524 "VM45-49" 55.84 "M" 29 "First Timer!" 252
+"34" "sedgefield" "2" 34 "254362" "25:38" 1538 "VM40-44" 53.64 "M" 30 "New PB!" 19
+"35" "sedgefield" "2" 35 "18426" "25:54" 1554 "VM50-54" 57.4 "M" 31 "PB stays at 00:24:27" 169
+"36" "sedgefield" "2" 36 "74668" "25:57" 1557 "VW35-39" 57.61 "F" 5 "First Timer!" 254
+"37" "sedgefield" "2" 37 "254846" "26:19" 1579 "JM10" 59.97 "M" 32 "First Timer!" 89
+"38" "sedgefield" "2" 38 "252805" "26:20" 1580 "VW35-39" 56.77 "F" 6 "First Timer!" 8
+"39" "sedgefield" "2" 39 "251724" "26:49" 1609 "VW40-44" 57.36 "F" 7 "New PB!" 13
+"40" "sedgefield" "2" 40 "241248" "27:20" 1640 "VM65-69" 63.11 "M" 33 "New PB!" 163
+"41" "sedgefield" "2" 41 "13888" "27:35" 1655 "VM60-64" 58.13 "M" 34 "First Timer!" 312
+"42" "sedgefield" "2" 42 "125212" "27:35" 1655 "SW30-34" 54.02 "F" 8 "First Timer!" 256
+"43" "sedgefield" "2" 43 NA NA NA NA NA NA NA NA NA
+"44" "sedgefield" "2" 44 "255331" "27:48" 1668 "JM10" 61.21 "M" 36 "First Timer!" 132
+"45" "sedgefield" "2" 45 "249752" "27:48" 1668 "VM40-44" 49.1 "M" 37 "PB stays at 00:18:03" 229
+"46" "sedgefield" "2" 46 "228118" "28:07" 1687 "SM25-29" 45.88 "M" 38 "First Timer!" 11
+"47" "sedgefield" "2" 47 "256276" "28:28" 1708 "JM15-17" 48.89 "M" 39 "First Timer!" 2
+"48" "sedgefield" "2" 48 "253978" "29:23" 1763 "JM10" 55.64 "M" 40 "New PB!" 2
+"49" "sedgefield" "2" 49 "256073" "29:23" 1763 "SW25-29" 50.37 "F" 9 "First Timer!" 2
+"50" "sedgefield" "2" 50 "73189" "29:32" 1772 "SW30-34" 50.17 "F" 10 "PB stays at 00:29:28" 138
+"51" "sedgefield" "2" 51 "255334" "29:46" 1786 "VW55-59" 62.49 "F" 11 "First Timer!" 44
+"52" "sedgefield" "2" 52 "256598" "29:55" 1795 "VW35-39" 50.81 "F" 12 "First Timer!" 2
+"53" "sedgefield" "2" 53 "41153" "30:00" 1800 "SM30-34" 43.33 "M" 41 "PB stays at 00:27:31" 23
+"54" "sedgefield" "2" 54 "251856" "30:06" 1806 "VW40-44" 51.11 "F" 13 "New PB!" 15
+"55" "sedgefield" "2" 55 "197259" "30:10" 1810 "VW45-49" 52.65 "F" 14 "PB stays at 00:28:23" 117
+"56" "sedgefield" "2" 56 "124800" "30:12" 1812 "VM40-44" 46.58 "M" 42 "First Timer!" 14
+"57" "sedgefield" "2" 57 "228101" "30:18" 1818 "SM30-34" 43.29 "M" 43 "New PB!" 66
+"58" "sedgefield" "2" 58 "248513" "30:21" 1821 "VM45-49" 46.73 "M" 44 "New PB!" 4
+"59" "sedgefield" "2" 59 "256068" "30:41" 1841 "JM15-17" 44 "M" 45 "First Timer!" 1
+"60" "sedgefield" "2" 60 "248611" "31:08" 1868 "SM30-34" 41.76 "M" 46 "New PB!" 16
+"61" "sedgefield" "2" 61 "256748" "31:15" 1875 "VW45-49" 50.83 "F" 15 "First Timer!" 3
+"62" "sedgefield" "2" 62 "192484" "31:16" 1876 "VW35-39" 48.13 "F" 16 "First Timer!" 59
+"63" "sedgefield" "2" 63 "253794" "31:18" 1878 "SM25-29" 41.21 "M" 47 "PB stays at 00:29:42" 4
+"64" "sedgefield" "2" 64 "256732" "31:30" 1890 "VM35-39" 42.7 "M" 48 "First Timer!" 69
+"65" "sedgefield" "2" 65 "253066" "31:30" 1890 "VW50-54" 53.86 "F" 17 "PB stays at 00:30:47" 20
+"66" "sedgefield" "2" 66 "57676" "31:41" 1901 "SW30-34" 47.03 "F" 18 "First Timer!" 12
+"67" "sedgefield" "2" 67 "248608" "32:07" 1927 "SW30-34" 46.29 "F" 19 "New PB!" 43
+"68" "sedgefield" "2" 68 "249999" "32:18" 1938 "VW35-39" 46.59 "F" 20 "First Timer!" 5
+"69" "sedgefield" "2" 69 "250246" "32:19" 1939 "SW30-34" 46 "F" 21 "First Timer!" 11
+"70" "sedgefield" "2" 70 "126962" "32:38" 1958 "VW40-44" 48.21 "F" 22 "First Timer!" 3
+"71" "sedgefield" "2" 71 "223965" "32:41" 1961 "VW40-44" 47.78 "F" 23 "PB stays at 00:32:28" 4
+"72" "sedgefield" "2" 72 "190906" "33:50" 2030 "VW40-44" 46.16 "F" 24 "New PB!" 43
+"73" "sedgefield" "2" 73 "190937" "33:51" 2031 "VM40-44" 40.92 "M" 49 "New PB!" 11
+"74" "sedgefield" "2" 74 "220128" "34:41" 2081 "VW55-59" 53.63 "F" 25 "New PB!" 106
+"75" "sedgefield" "2" 75 "256873" "35:33" 2133 "VM40-44" 38.96 "M" 50 "First Timer!" 1
+"76" "sedgefield" "2" 76 "255089" "36:34" 2194 "SM30-34" 35.69 "M" 51 "First Timer!" 2
+"77" "sedgefield" "2" 77 "253241" "36:34" 2194 "VW50-54" 46.4 "F" 26 "New PB!" 83
+"78" "sedgefield" "2" 78 "256807" "37:47" 2267 "VW40-44" 40.49 "F" 27 "First Timer!" 83
+"79" "sedgefield" "2" 79 "256338" "39:21" 2361 "VW40-44" 39.69 "F" 28 "First Timer!" 180
+"80" "sedgefield" "2" 80 "256106" "42:41" 2561 "JW15-17" 35.42 "F" 29 "First Timer!" 1
+"81" "sedgefield" "2" 81 "255793" "43:31" 2611 "VW50-54" 40.52 "F" 30 "First Timer!" 49
+"82" "sedgefield" "2" 82 "255574" "44:05" 2645 "VW50-54" 38.49 "F" 31 "First Timer!" 2
+"83" "sedgefield" "2" 83 "256260" "44:06" 2646 "SW20-24" 33.56 "F" 32 "First Timer!" 2
+"84" "sedgefield" "2" 84 "253985" "52:51" 3171 "JW10" 38.63 "F" 33 "PB stays at 00:45:30" 2
+"85" "sedgefield" "2" 85 "252896" "52:52" 3172 "VW40-44" 29.1 "F" 34 "PB stays at 00:30:35" 13

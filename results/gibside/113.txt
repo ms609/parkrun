@@ -1,0 +1,97 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "gibside" "113" 1 "13439" "18:53" 1133 "VM40-44" 73.35 "M" 1 "PB stays at 00:18:17" 119
+"2" "gibside" "113" 2 "2455532" "19:28" 1168 "SM20-24" 66.27 "M" 2 "First Timer!" 37
+"3" "gibside" "113" 3 "950307" "19:35" 1175 "SM30-34" 66.04 "M" 3 "New PB!" 28
+"4" "gibside" "113" 4 NA NA NA NA NA NA NA NA NA
+"5" "gibside" "113" 5 "90002" "20:27" 1227 "VM35-39" 65.28 "M" 5 "PB stays at 00:19:18" 158
+"6" "gibside" "113" 6 "900724" "20:59" 1259 "VM45-49" 68.63 "M" 6 "PB stays at 00:19:32" 70
+"7" "gibside" "113" 7 NA NA NA NA NA NA NA NA NA
+"8" "gibside" "113" 8 NA NA NA NA NA NA NA NA NA
+"9" "gibside" "113" 9 "480998" "21:34" 1294 "VM55-59" 71.87 "M" 9 "PB stays at 00:20:56" 58
+"10" "gibside" "113" 10 "46520" "21:41" 1301 "VM45-49" 66.95 "M" 10 "PB stays at 00:21:06" 40
+"11" "gibside" "113" 11 "53949" "21:53" 1313 "VM55-59" 72.66 "M" 11 "PB stays at 00:21:18" 228
+"12" "gibside" "113" 12 NA NA NA NA NA NA NA NA NA
+"13" "gibside" "113" 13 "2620141" "22:41" 1361 "SM18-19" 58.12 "M" 13 "New PB!" 26
+"14" "gibside" "113" 14 "256817" "22:50" 1370 "JM11-14" 65.11 "M" 14 "PB stays at 00:19:15" 52
+"15" "gibside" "113" 15 "795414" "23:10" 1390 "SM25-29" 55.68 "M" 15 "PB stays at 00:21:49" 22
+"16" "gibside" "113" 16 NA NA NA NA NA NA NA NA NA
+"17" "gibside" "113" 17 NA NA NA NA NA NA NA NA NA
+"18" "gibside" "113" 18 "731486" "24:15" 1455 "SM25-29" 53.2 "M" 18 "PB stays at 00:22:56" 121
+"19" "gibside" "113" 19 "170418" "24:26" 1466 "VM35-39" 55.46 "M" 19 "First Timer!" 297
+"20" "gibside" "113" 20 "1148980" "24:28" 1468 "VM35-39" 54.97 "M" 20 "PB stays at 00:21:11" 180
+"21" "gibside" "113" 21 "399883" "24:34" 1474 "VM50-54" 60.99 "M" 21 "PB stays at 00:23:20" 91
+"22" "gibside" "113" 22 "608983" "24:50" 1490 "SM30-34" 52.08 "M" 22 "PB stays at 00:24:19" 190
+"23" "gibside" "113" 23 NA NA NA NA NA NA NA NA NA
+"24" "gibside" "113" 24 NA NA NA NA NA NA NA NA NA
+"25" "gibside" "113" 25 "2240373" "25:09" 1509 "VM35-39" 52.42 "M" 25 "PB stays at 00:23:04" 26
+"26" "gibside" "113" 26 "44579" "25:13" 1513 "VM45-49" 56.25 "M" 26 "PB stays at 00:23:35" 27
+"27" "gibside" "113" 27 "2614625" "25:19" 1519 "VM50-54" 60.17 "M" 27 "PB stays at 00:25:19" 84
+"28" "gibside" "113" 28 "1717886" "25:27" 1527 "JM10" 62.02 "M" 28 "PB stays at 00:23:28" 17
+"29" "gibside" "113" 29 NA NA NA NA NA NA NA NA NA
+"30" "gibside" "113" 30 NA NA NA NA NA NA NA NA NA
+"31" "gibside" "113" 31 NA NA NA NA NA NA NA NA NA
+"32" "gibside" "113" 32 NA NA NA NA NA NA NA NA NA
+"33" "gibside" "113" 33 NA NA NA NA NA NA NA NA NA
+"34" "gibside" "113" 34 NA NA NA NA NA NA NA NA NA
+"35" "gibside" "113" 35 "30933" "26:55" 1615 "VM35-39" 49.97 "M" 35 "First Timer!" 326
+"36" "gibside" "113" 36 "662932" "26:56" 1616 "VW50-54" 63 "F" 1 "PB stays at 00:24:11" 76
+"37" "gibside" "113" 37 "769780" "27:06" 1626 "SM25-29" 47.66 "M" 36 "PB stays at 00:25:42" 110
+"38" "gibside" "113" 38 "657886" "27:11" 1631 "JM10" 58.06 "M" 37 "First Timer!" 8
+"39" "gibside" "113" 39 "1651224" "27:21" 1641 "VM50-54" 54.36 "M" 38 "PB stays at 00:26:09" 124
+"40" "gibside" "113" 40 NA NA NA NA NA NA NA NA NA
+"41" "gibside" "113" 41 "1938987" "27:35" 1655 "VM35-39" 48.76 "M" 40 "New PB!" 89
+"42" "gibside" "113" 42 "160834" "27:40" 1660 "SW30-34" 53.49 "F" 2 "New PB!" 12
+"43" "gibside" "113" 43 "855750" "27:41" 1661 "SM30-34" 47.38 "M" 41 "PB stays at 00:25:32" 47
+"44" "gibside" "113" 44 "630482" "27:44" 1664 "VM40-44" 50.72 "M" 42 "PB stays at 00:27:12" 138
+"45" "gibside" "113" 45 "2179378" "27:50" 1670 "VM35-39" 48.32 "M" 43 "PB stays at 00:26:23" 5
+"46" "gibside" "113" 46 "1286993" "27:54" 1674 "VM45-49" 51.19 "M" 44 "PB stays at 00:26:04" 150
+"47" "gibside" "113" 47 "911944" "27:59" 1679 "VM40-44" 48.78 "M" 45 "New PB!" 141
+"48" "gibside" "113" 48 NA NA NA NA NA NA NA NA NA
+"49" "gibside" "113" 49 NA NA NA NA NA NA NA NA NA
+"50" "gibside" "113" 50 "1550814" "28:36" 1716 "VW45-49" 57.23 "F" 3 "PB stays at 00:27:31" 39
+"51" "gibside" "113" 51 "520807" "28:40" 1720 "VM35-39" 46.92 "M" 48 "PB stays at 00:25:41" 170
+"52" "gibside" "113" 52 NA NA NA NA NA NA NA NA NA
+"53" "gibside" "113" 53 "657889" "29:00" 1740 "JW10" 62.47 "F" 4 "First Timer!" 6
+"54" "gibside" "113" 54 "2060195" "29:11" 1751 "VW55-59" 62.88 "F" 5 "PB stays at 00:27:28" 63
+"55" "gibside" "113" 55 "657879" "29:22" 1762 "VM40-44" 46.48 "M" 50 "First Timer!" 5
+"56" "gibside" "113" 56 NA NA NA NA NA NA NA NA NA
+"57" "gibside" "113" 57 "1910857" "29:28" 1768 "VM60-64" 54.41 "M" 52 "PB stays at 00:27:45" 146
+"58" "gibside" "113" 58 "272363" "29:39" 1779 "VW50-54" 56.55 "F" 6 "PB stays at 00:27:32" 93
+"59" "gibside" "113" 59 "2603299" "29:51" 1791 "VM65-69" 56.17 "M" 53 "New PB!" 5
+"60" "gibside" "113" 60 "1528835" "30:06" 1806 "VM40-44" 46.4 "M" 54 "First Timer!" 55
+"61" "gibside" "113" 61 "75934" "30:18" 1818 "VM80-84" 69.36 "M" 55 "PB stays at 00:28:23" 384
+"62" "gibside" "113" 62 "2535339" "30:40" 1840 "SM25-29" 42.12 "M" 56 "First Timer!" 36
+"63" "gibside" "113" 63 NA NA NA NA NA NA NA NA NA
+"64" "gibside" "113" 64 NA NA NA NA NA NA NA NA NA
+"65" "gibside" "113" 65 "21266" "31:41" 1901 "VM50-54" 46.92 "M" 59 "First Timer!" 428
+"66" "gibside" "113" 66 "2239245" "32:12" 1932 "VW55-59" 56.21 "F" 7 "PB stays at 00:31:00" 106
+"67" "gibside" "113" 67 NA NA NA NA NA NA NA NA NA
+"68" "gibside" "113" 68 NA NA NA NA NA NA NA NA NA
+"69" "gibside" "113" 69 NA NA NA NA NA NA NA NA NA
+"70" "gibside" "113" 70 "2223058" "33:02" 1982 "VW50-54" 52.02 "F" 8 "PB stays at 00:31:03" 9
+"71" "gibside" "113" 71 NA NA NA NA NA NA NA NA NA
+"72" "gibside" "113" 72 "361713" "33:56" 2036 "VW45-49" 47.25 "F" 9 "PB stays at 00:30:13" 132
+"73" "gibside" "113" 73 "2594200" "34:04" 2044 "VM60-64" 48.34 "M" 64 "PB stays at 00:31:14" 77
+"74" "gibside" "113" 74 "552183" "34:14" 2054 "VW35-39" 43.96 "F" 10 "PB stays at 00:31:29" 178
+"75" "gibside" "113" 75 NA NA NA NA NA NA NA NA NA
+"76" "gibside" "113" 76 NA NA NA NA NA NA NA NA NA
+"77" "gibside" "113" 77 "2460014" "34:38" 2078 "SW25-29" 42.73 "F" 11 "PB stays at 00:30:37" 79
+"78" "gibside" "113" 78 NA NA NA NA NA NA NA NA NA
+"79" "gibside" "113" 79 NA NA NA NA NA NA NA NA NA
+"80" "gibside" "113" 80 "2092310" "34:53" 2093 "VW45-49" 45.96 "F" 12 "New PB!" 22
+"81" "gibside" "113" 81 "2714295" "34:53" 2093 "VW55-59" 51.22 "F" 13 "First Timer!" 1
+"82" "gibside" "113" 82 "2633266" "35:04" 2104 "VW45-49" 45.29 "F" 14 "PB stays at 00:31:18" 13
+"83" "gibside" "113" 83 NA NA NA NA NA NA NA NA NA
+"84" "gibside" "113" 84 "2716915" "35:15" 2115 "VM45-49" 40.52 "M" 70 "First Timer!" 2
+"85" "gibside" "113" 85 "2455544" "35:35" 2135 "SW20-24" 41.59 "F" 15 "First Timer!" 32
+"86" "gibside" "113" 86 "1182942" "37:00" 2220 "VM50-54" 40.18 "M" 71 "First Timer!" 85
+"87" "gibside" "113" 87 NA NA NA NA NA NA NA NA NA
+"88" "gibside" "113" 88 NA NA NA NA NA NA NA NA NA
+"89" "gibside" "113" 89 NA NA NA NA NA NA NA NA NA
+"90" "gibside" "113" 90 NA NA NA NA NA NA NA NA NA
+"91" "gibside" "113" 91 "171592" "38:18" 2298 "VW40-44" 39.95 "F" 16 "First Timer!" 113
+"92" "gibside" "113" 92 "2152589" "38:59" 2339 "VM55-59" 39.42 "M" 76 "First Timer!" 7
+"93" "gibside" "113" 93 NA NA NA NA NA NA NA NA NA
+"94" "gibside" "113" 94 NA NA NA NA NA NA NA NA NA
+"95" "gibside" "113" 95 "2670803" "40:51" 2451 "JW11-14" 40.72 "F" 17 "PB stays at 00:37:23" 4
+"96" "gibside" "113" 96 "183416" "40:53" 2453 "VW45-49" 39.62 "F" 18 "PB stays at 00:25:27" 16

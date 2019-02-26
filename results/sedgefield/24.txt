@@ -1,0 +1,59 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "sedgefield" "24" 1 "200648" "18:41" 1121 "VM40-44" 74.75 "M" 1 "New PB!" 31
+"2" "sedgefield" "24" 2 "178696" "19:01" 1141 "SM30-34" 68.36 "M" 2 "PB stays at 00:18:45" 22
+"3" "sedgefield" "24" 3 "180179" "19:14" 1154 "SM25-29" 67.07 "M" 3 "PB stays at 00:18:20" 103
+"4" "sedgefield" "24" 4 "57418" "19:44" 1184 "VM35-39" 68.16 "M" 4 "New PB!" 56
+"5" "sedgefield" "24" 5 "16583" "19:59" 1199 "SM30-34" 64.72 "M" 5 "PB stays at 00:19:47" 327
+"6" "sedgefield" "24" 6 "19249" "20:17" 1217 "VM40-44" 69.35 "M" 6 "PB stays at 00:18:35" 368
+"7" "sedgefield" "24" 7 "16282" "20:30" 1230 "VM35-39" 65.12 "M" 7 "First Timer!" 147
+"8" "sedgefield" "24" 8 "16978" "20:48" 1248 "VM35-39" 63.38 "M" 8 "PB stays at 00:20:28" 27
+"9" "sedgefield" "24" 9 "301335" "21:01" 1261 "SM25-29" 61.38 "M" 9 "New PB!" 165
+"10" "sedgefield" "24" 10 "175510" "21:12" 1272 "VM35-39" 62.97 "M" 10 "PB stays at 00:20:35" 19
+"11" "sedgefield" "24" 11 NA NA NA NA NA NA NA NA NA
+"12" "sedgefield" "24" 12 "317653" "21:33" 1293 "JM15-17" 62.65 "M" 12 "New PB!" 7
+"13" "sedgefield" "24" 13 "318535" "21:44" 1304 "SM25-29" 59.36 "M" 13 "New PB!" 95
+"14" "sedgefield" "24" 14 "33476" "21:52" 1312 "VM40-44" 62.88 "M" 14 "PB stays at 00:19:56" 221
+"15" "sedgefield" "24" 15 NA NA NA NA NA NA NA NA NA
+"16" "sedgefield" "24" 16 "252873" "22:58" 1378 "SW30-34" 64.51 "F" 1 "PB stays at 00:22:35" 12
+"17" "sedgefield" "24" 17 "333184" "23:00" 1380 "VM40-44" 60.22 "M" 16 "First Timer!" 4
+"18" "sedgefield" "24" 18 "22201" "23:03" 1383 "VM45-49" 61.97 "M" 17 "PB stays at 00:20:46" 275
+"19" "sedgefield" "24" 19 "305468" "23:20" 1400 "SM25-29" 55.29 "M" 18 "New PB!" 57
+"20" "sedgefield" "24" 20 "263866" "23:37" 1417 "VM35-39" 56.95 "M" 19 "PB stays at 00:20:10" 215
+"21" "sedgefield" "24" 21 "320385" "23:45" 1425 "VM70-74" 75.16 "M" 20 "PB stays at 00:22:51" 125
+"22" "sedgefield" "24" 22 "181943" "24:10" 1450 "SW30-34" 61.24 "F" 2 "PB stays at 00:22:53" 272
+"23" "sedgefield" "24" 23 "295547" "24:24" 1464 "SM30-34" 53.14 "M" 21 "PB stays at 00:23:05" 37
+"24" "sedgefield" "24" 24 "217991" "24:37" 1477 "VM50-54" 59.92 "M" 22 "PB stays at 00:22:48" 236
+"25" "sedgefield" "24" 25 "253941" "24:51" 1491 "SW25-29" 59.56 "F" 3 "PB stays at 00:22:05" 29
+"26" "sedgefield" "24" 26 "309520" "25:12" 1512 "VM45-49" 56.68 "M" 23 "PB stays at 00:19:30" 132
+"27" "sedgefield" "24" 27 "18433" "26:00" 1560 "VM60-64" 63.33 "M" 24 "PB stays at 00:25:05" 261
+"28" "sedgefield" "24" 28 NA NA NA NA NA NA NA NA NA
+"29" "sedgefield" "24" 29 "145687" "26:26" 1586 "SW25-29" 55.99 "F" 4 "PB stays at 00:25:06" 53
+"30" "sedgefield" "24" 30 "340069" "26:27" 1587 "VW40-44" 58.16 "F" 5 "First Timer!" 55
+"31" "sedgefield" "24" 31 "337869" "26:49" 1609 "SW30-34" 55.31 "F" 6 "First Timer!" 8
+"32" "sedgefield" "24" 32 "274431" "26:59" 1619 "VM55-59" 58.43 "M" 26 "PB stays at 00:24:20" 70
+"33" "sedgefield" "24" 33 "22202" "27:07" 1627 "VW40-44" 58.02 "F" 7 "PB stays at 00:25:00" 90
+"34" "sedgefield" "24" 34 "255331" "27:07" 1627 "JM10" 60.3 "M" 27 "PB stays at 00:18:11" 132
+"35" "sedgefield" "24" 35 "328147" "27:26" 1646 "SM30-34" 47.81 "M" 28 "PB stays at 00:23:41" 32
+"36" "sedgefield" "24" 36 "263738" "27:51" 1671 "VW35-39" 54.58 "F" 8 "New PB!" 12
+"37" "sedgefield" "24" 37 "269640" "28:37" 1717 "SW25-29" 51.72 "F" 9 "PB stays at 00:25:46" 59
+"38" "sedgefield" "24" 38 "321261" "28:44" 1724 "VM60-64" 57.31 "M" 29 "New PB!" 164
+"39" "sedgefield" "24" 39 NA NA NA NA NA NA NA NA NA
+"40" "sedgefield" "24" 40 NA NA NA NA NA NA NA NA NA
+"41" "sedgefield" "24" 41 "277669" "29:40" 1780 "VM55-59" 51.8 "M" 32 "PB stays at 00:25:48" 185
+"42" "sedgefield" "24" 42 "215639" "31:11" 1871 "JM11-14" 47.68 "M" 33 "PB stays at 00:24:25" 24
+"43" "sedgefield" "24" 43 "253412" "31:45" 1905 "VW55-59" 57.8 "F" 10 "PB stays at 00:29:05" 133
+"44" "sedgefield" "24" 44 "289876" "31:49" 1909 "VW45-49" 49.92 "F" 11 "PB stays at 00:28:53" 152
+"45" "sedgefield" "24" 45 "305450" "32:05" 1925 "JW10" 58.49 "F" 12 "PB stays at 00:25:57" 100
+"46" "sedgefield" "24" 46 "109468" "33:23" 2003 "JM10" 48.98 "M" 34 "PB stays at 00:26:05" 21
+"47" "sedgefield" "24" 47 "249752" "33:26" 2006 "VM40-44" 40.83 "M" 35 "PB stays at 00:18:03" 229
+"48" "sedgefield" "24" 48 "256807" "33:34" 2014 "VW40-44" 45.58 "F" 13 "PB stays at 00:30:52" 83
+"49" "sedgefield" "24" 49 "199188" "34:14" 2054 "VW60-64" 55.89 "F" 14 "PB stays at 00:31:00" 263
+"50" "sedgefield" "24" 50 "108460" "34:42" 2082 "VM55-59" 44.28 "M" 36 "PB stays at 00:24:04" 300
+"51" "sedgefield" "24" 51 "263551" "36:20" 2180 "JM10" 46.83 "M" 37 "PB stays at 00:22:53" 24
+"52" "sedgefield" "24" 52 "228101" "36:20" 2180 "VM35-39" 36.28 "M" 38 "PB stays at 00:26:23" 66
+"53" "sedgefield" "24" 53 "25158" "37:17" 2237 "VW45-49" 43 "F" 15 "First Timer!" 66
+"54" "sedgefield" "24" 54 "184525" "41:12" 2472 "JM11-14" 36.08 "M" 39 "PB stays at 00:35:37" 11
+"55" "sedgefield" "24" 55 "42668" "41:13" 2473 "VM40-44" 34.13 "M" 40 "PB stays at 00:24:53" 117
+"56" "sedgefield" "24" 56 "40273" "41:14" 2474 "VW45-49" 38.52 "F" 16 "PB stays at 00:30:13" 81
+"57" "sedgefield" "24" 57 "307479" "41:15" 2475 "VW35-39" 36.85 "F" 17 "PB stays at 00:25:35" 131
+"58" "sedgefield" "24" 58 "307480" "41:15" 2475 "JM15-17" 33.74 "M" 41 "PB stays at 00:24:35" 141

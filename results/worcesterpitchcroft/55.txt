@@ -1,0 +1,202 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "worcesterpitchcroft" "55" 1 NA NA NA NA NA NA NA NA NA
+"2" "worcesterpitchcroft" "55" 2 "100632" "16:10" 970 "VM35-39" 82.58 "M" 2 "New PB!" 11
+"3" "worcesterpitchcroft" "55" 3 "1017371" "17:02" 1022 "SM30-34" 76.61 "M" 3 "New PB!" 25
+"4" "worcesterpitchcroft" "55" 4 "514068" "17:09" 1029 "VM35-39" 76.87 "M" 4 "PB stays at 00:16:48" 22
+"5" "worcesterpitchcroft" "55" 5 "144973" "17:36" 1056 "VM40-44" 79.36 "M" 5 "New PB!" 96
+"6" "worcesterpitchcroft" "55" 6 "400187" "18:21" 1101 "JM15-17" 75.84 "M" 6 "PB stays at 00:17:25" 126
+"7" "worcesterpitchcroft" "55" 7 "1387631" "18:25" 1105 "VM45-49" 77.56 "M" 7 "PB stays at 00:17:50" 74
+"8" "worcesterpitchcroft" "55" 8 "1197035" "18:41" 1121 "VM40-44" 73.6 "M" 8 "PB stays at 00:18:41" 173
+"9" "worcesterpitchcroft" "55" 9 NA NA NA NA NA NA NA NA NA
+"10" "worcesterpitchcroft" "55" 10 "2265160" "18:50" 1130 "SW20-24" 78.58 "F" 1 "New PB!" 21
+"11" "worcesterpitchcroft" "55" 11 "1655407" "19:11" 1151 "VM50-54" 79.41 "M" 10 "New PB!" 80
+"12" "worcesterpitchcroft" "55" 12 "2237004" "19:15" 1155 "JM11-14" 75.32 "M" 11 "PB stays at 00:17:51" 55
+"13" "worcesterpitchcroft" "55" 13 NA NA NA NA NA NA NA NA NA
+"14" "worcesterpitchcroft" "55" 14 "121140" "19:20" 1160 "VM35-39" 69.05 "M" 13 "First Timer!" 195
+"15" "worcesterpitchcroft" "55" 15 "584608" "19:31" 1171 "VM35-39" 68.4 "M" 14 "PB stays at 00:18:30" 54
+"16" "worcesterpitchcroft" "55" 16 "199718" "19:36" 1176 "VM40-44" 70.15 "M" 15 "PB stays at 00:18:04" 256
+"17" "worcesterpitchcroft" "55" 17 "4760376" "19:39" 1179 "SM20-24" 65.65 "M" 16 "New PB!" 12
+"18" "worcesterpitchcroft" "55" 18 "3018137" "19:45" 1185 "SM25-29" 65.32 "M" 17 "PB stays at 00:18:57" 44
+"19" "worcesterpitchcroft" "55" 19 "650858" "19:53" 1193 "VM35-39" 67.14 "M" 18 "PB stays at 00:19:22" 90
+"20" "worcesterpitchcroft" "55" 20 "365095" "20:04" 1204 "VM45-49" 71.18 "M" 19 "PB stays at 00:18:30" 82
+"21" "worcesterpitchcroft" "55" 21 "3510752" "20:08" 1208 "SM20-24" 64.32 "M" 20 "PB stays at 00:18:22" 38
+"22" "worcesterpitchcroft" "55" 22 "479087" "20:20" 1220 "VM40-44" 67.13 "M" 21 "PB stays at 00:20:03" 90
+"23" "worcesterpitchcroft" "55" 23 "50229" "20:23" 1223 "SM30-34" 63.45 "M" 22 "New PB!" 55
+"24" "worcesterpitchcroft" "55" 24 "199263" "20:24" 1224 "VW35-39" 74.51 "F" 2 "PB stays at 00:19:17" 242
+"25" "worcesterpitchcroft" "55" 25 "2247054" "20:26" 1226 "VM45-49" 70.47 "M" 23 "PB stays at 00:19:34" 79
+"26" "worcesterpitchcroft" "55" 26 "372167" "20:35" 1235 "JM15-17" 65.59 "M" 24 "First Timer!" 24
+"27" "worcesterpitchcroft" "55" 27 "616982" "20:38" 1238 "VM45-49" 69.79 "M" 25 "PB stays at 00:20:07" 68
+"28" "worcesterpitchcroft" "55" 28 "1025442" "20:40" 1240 "VM40-44" 67.02 "M" 26 "New PB!" 5
+"29" "worcesterpitchcroft" "55" 29 "766281" "20:44" 1244 "VM45-49" 70.02 "M" 27 "PB stays at 00:20:20" 170
+"30" "worcesterpitchcroft" "55" 30 "1657768" "20:46" 1246 "VM55-59" 74.64 "M" 28 "PB stays at 00:20:19" 63
+"31" "worcesterpitchcroft" "55" 31 "1100371" "20:47" 1247 "SM30-34" 63.11 "M" 29 "First Timer!" 58
+"32" "worcesterpitchcroft" "55" 32 "1718653" "20:49" 1249 "VW35-39" 72.06 "F" 3 "PB stays at 00:20:30" 33
+"33" "worcesterpitchcroft" "55" 33 "1541937" "20:56" 1256 "SM30-34" 61.94 "M" 30 "PB stays at 00:19:06" 91
+"34" "worcesterpitchcroft" "55" 34 "4119834" "20:59" 1259 "VM45-49" 69.18 "M" 31 "New PB!" 40
+"35" "worcesterpitchcroft" "55" 35 "1303502" "21:04" 1264 "VM40-44" 64.79 "M" 32 "New PB!" 26
+"36" "worcesterpitchcroft" "55" 36 "1369459" "21:12" 1272 "VM40-44" 64.86 "M" 33 "First Timer!" 13
+"37" "worcesterpitchcroft" "55" 37 "307940" "21:25" 1285 "VM35-39" 61.56 "M" 34 "New PB!" 37
+"38" "worcesterpitchcroft" "55" 38 "3648824" "21:33" 1293 "SM20-24" 59.86 "M" 35 "PB stays at 00:18:54" 49
+"39" "worcesterpitchcroft" "55" 39 "515615" "21:38" 1298 "VM40-44" 63.1 "M" 36 "PB stays at 00:19:56" 72
+"40" "worcesterpitchcroft" "55" 40 "4823156" "21:41" 1301 "SM25-29" 59.49 "M" 37 "First Timer!" 1
+"41" "worcesterpitchcroft" "55" 41 "2143558" "21:45" 1305 "SM25-29" 59.31 "M" 38 "PB stays at 00:20:50" 78
+"42" "worcesterpitchcroft" "55" 42 "1203834" "21:45" 1305 "VM35-39" 61.84 "M" 39 "First Timer!" 125
+"43" "worcesterpitchcroft" "55" 43 "2154069" "21:46" 1306 "VM50-54" 68.84 "M" 40 "PB stays at 00:21:08" 105
+"44" "worcesterpitchcroft" "55" 44 NA NA NA NA NA NA NA NA NA
+"45" "worcesterpitchcroft" "55" 45 "2708211" "22:02" 1322 "VM45-49" 65.89 "M" 42 "First Timer!" 10
+"46" "worcesterpitchcroft" "55" 46 "752514" "22:05" 1325 "JM15-17" 61.13 "M" 43 "First Timer!" 61
+"47" "worcesterpitchcroft" "55" 47 "2694636" "22:05" 1325 "SW30-34" 67.02 "F" 4 "First Timer!" 43
+"48" "worcesterpitchcroft" "55" 48 "4069063" "22:06" 1326 "VM55-59" 69.53 "M" 44 "PB stays at 00:21:20" 57
+"49" "worcesterpitchcroft" "55" 49 "2375656" "22:26" 1346 "VM60-64" 71.47 "M" 45 "PB stays at 00:21:33" 86
+"50" "worcesterpitchcroft" "55" 50 "4776974" "22:27" 1347 "VM45-49" 64.14 "M" 46 "New PB!" 4
+"51" "worcesterpitchcroft" "55" 51 "611368" "22:33" 1353 "VM35-39" 59.2 "M" 47 "PB stays at 00:21:15" 50
+"52" "worcesterpitchcroft" "55" 52 "220453" "22:35" 1355 "VW45-49" 73.36 "F" 5 "PB stays at 00:22:02" 190
+"53" "worcesterpitchcroft" "55" 53 "752505" "22:38" 1358 "VM55-59" 70.25 "M" 48 "First Timer!" 181
+"54" "worcesterpitchcroft" "55" 54 "1216814" "22:41" 1361 "SW30-34" 65.25 "F" 6 "New PB!" 22
+"55" "worcesterpitchcroft" "55" 55 "1923992" "22:46" 1366 "VM50-54" 66.4 "M" 49 "PB stays at 00:21:35" 130
+"56" "worcesterpitchcroft" "55" 56 "751552" "22:48" 1368 "VM35-39" 57.82 "M" 50 "PB stays at 00:21:02" 87
+"57" "worcesterpitchcroft" "55" 57 "1578598" "22:51" 1371 "SM20-24" 56.46 "M" 51 "New PB!" 6
+"58" "worcesterpitchcroft" "55" 58 "1832833" "22:53" 1373 "SM20-24" 56.37 "M" 52 "PB stays at 00:22:12" 29
+"59" "worcesterpitchcroft" "55" 59 "1820296" "22:54" 1374 "VM35-39" 58.3 "M" 53 "PB stays at 00:22:13" 11
+"60" "worcesterpitchcroft" "55" 60 "4057955" "22:54" 1374 "SM20-24" 56.33 "M" 54 "First Timer!" 33
+"61" "worcesterpitchcroft" "55" 61 NA NA NA NA NA NA NA NA NA
+"62" "worcesterpitchcroft" "55" 62 "829106" "23:02" 1382 "VM40-44" 60.13 "M" 56 "New PB!" 163
+"63" "worcesterpitchcroft" "55" 63 "4138440" "23:05" 1385 "SM30-34" 56.82 "M" 57 "PB stays at 00:21:55" 18
+"64" "worcesterpitchcroft" "55" 64 "4073853" "23:15" 1395 "VM55-59" 66.09 "M" 58 "New PB!" 7
+"65" "worcesterpitchcroft" "55" 65 "1168354" "23:17" 1397 "VM35-39" 56.62 "M" 59 "PB stays at 00:22:53" 93
+"66" "worcesterpitchcroft" "55" 66 "4105525" "23:22" 1402 "JM11-14" 60.7 "M" 60 "New PB!" 7
+"67" "worcesterpitchcroft" "55" 67 "4804162" "23:27" 1407 "JM11-14" 63.4 "M" 61 "New PB!" 3
+"68" "worcesterpitchcroft" "55" 68 "186651" "23:29" 1409 "VM40-44" 59.47 "M" 62 "New PB!" 7
+"69" "worcesterpitchcroft" "55" 69 "119701" "23:31" 1411 "VW40-44" 66.9 "F" 7 "PB stays at 00:22:43" 158
+"70" "worcesterpitchcroft" "55" 70 "3706585" "23:40" 1420 "VM50-54" 62.32 "M" 63 "PB stays at 00:23:12" 30
+"71" "worcesterpitchcroft" "55" 71 "3832793" "23:44" 1424 "VM45-49" 61.66 "M" 64 "PB stays at 00:22:24" 18
+"72" "worcesterpitchcroft" "55" 72 "2237025" "23:45" 1425 "VM45-49" 61.61 "M" 65 "PB stays at 00:23:03" 66
+"73" "worcesterpitchcroft" "55" 73 "258499" "23:45" 1425 "VM50-54" 63.09 "M" 66 "PB stays at 00:23:05" 53
+"74" "worcesterpitchcroft" "55" 74 "2061944" "23:47" 1427 "VM40-44" 58.72 "M" 67 "PB stays at 00:22:55" 16
+"75" "worcesterpitchcroft" "55" 75 "3802642" "23:55" 1435 "VM35-39" 55.47 "M" 68 "New PB!" 60
+"76" "worcesterpitchcroft" "55" 76 "4511476" "23:56" 1436 "VM35-39" 56.2 "M" 69 "New PB!" 25
+"77" "worcesterpitchcroft" "55" 77 "3184702" "24:09" 1449 "VM60-64" 67.01 "M" 70 "PB stays at 00:23:28" 72
+"78" "worcesterpitchcroft" "55" 78 "184881" "24:19" 1459 "VM45-49" 59.7 "M" 71 "New PB!" 89
+"79" "worcesterpitchcroft" "55" 79 "4510735" "24:20" 1460 "JM10" 67.19 "M" 72 "PB stays at 00:23:36" 24
+"80" "worcesterpitchcroft" "55" 80 "3009386" "24:21" 1461 "VM60-64" 67.01 "M" 73 "PB stays at 00:23:39" 33
+"81" "worcesterpitchcroft" "55" 81 "416419" "24:22" 1462 "VW35-39" 61.76 "F" 8 "First Timer!" 140
+"82" "worcesterpitchcroft" "55" 82 "2136936" "24:23" 1463 "VW65-69" 84.42 "F" 9 "PB stays at 00:22:35" 102
+"83" "worcesterpitchcroft" "55" 83 "1077682" "24:39" 1479 "VM50-54" 60.78 "M" 74 "PB stays at 00:24:11" 57
+"84" "worcesterpitchcroft" "55" 84 "919681" "24:40" 1480 "JM15-17" 55.54 "M" 75 "New PB!" 8
+"85" "worcesterpitchcroft" "55" 85 NA NA NA NA NA NA NA NA NA
+"86" "worcesterpitchcroft" "55" 86 "4057943" "24:41" 1481 "SW20-24" 59.96 "F" 10 "First Timer!" 34
+"87" "worcesterpitchcroft" "55" 87 "745978" "24:46" 1486 "VW45-49" 64.74 "F" 11 "PB stays at 00:23:08" 151
+"88" "worcesterpitchcroft" "55" 88 "4645011" "24:51" 1491 "SM30-34" 52.31 "M" 77 "New PB!" 3
+"89" "worcesterpitchcroft" "55" 89 NA NA NA NA NA NA NA NA NA
+"90" "worcesterpitchcroft" "55" 90 "4810157" "25:02" 1502 "JM15-17" 54.73 "M" 79 "First Timer!" 3
+"91" "worcesterpitchcroft" "55" 91 "2634205" "25:15" 1515 "VM50-54" 58.42 "M" 80 "PB stays at 00:22:54" 59
+"92" "worcesterpitchcroft" "55" 92 NA NA NA NA NA NA NA NA NA
+"93" "worcesterpitchcroft" "55" 93 NA NA NA NA NA NA NA NA NA
+"94" "worcesterpitchcroft" "55" 94 "4595818" "25:25" 1525 "VM50-54" 58.03 "M" 83 "New PB!" 20
+"95" "worcesterpitchcroft" "55" 95 "2814160" "25:29" 1529 "SM30-34" 51.01 "M" 84 "PB stays at 00:24:48" 43
+"96" "worcesterpitchcroft" "55" 96 NA NA NA NA NA NA NA NA NA
+"97" "worcesterpitchcroft" "55" 97 "4688069" "25:35" 1535 "SM30-34" 50.68 "M" 86 "First Timer!" 23
+"98" "worcesterpitchcroft" "55" 98 NA NA NA NA NA NA NA NA NA
+"99" "worcesterpitchcroft" "55" 99 "999213" "25:37" 1537 "JW10" 68.51 "F" 12 "PB stays at 00:24:40" 139
+"100" "worcesterpitchcroft" "55" 100 "3690949" "25:38" 1538 "JM11-14" 55.33 "M" 88 "PB stays at 00:22:47" 53
+"101" "worcesterpitchcroft" "55" 101 "455886" "25:38" 1538 "VW40-44" 60.01 "F" 13 "New PB!" 21
+"102" "worcesterpitchcroft" "55" 102 "3450672" "25:41" 1541 "JM11-14" 56.46 "M" 89 "First Timer!" 4
+"103" "worcesterpitchcroft" "55" 103 "3531024" "25:42" 1542 "VW40-44" 61.22 "F" 14 "PB stays at 00:24:06" 57
+"104" "worcesterpitchcroft" "55" 104 "804951" "25:43" 1543 "VM50-54" 59.24 "M" 90 "PB stays at 00:22:59" 218
+"105" "worcesterpitchcroft" "55" 105 NA NA NA NA NA NA NA NA NA
+"106" "worcesterpitchcroft" "55" 106 "2708205" "25:59" 1559 "JW11-14" 60.49 "F" 15 "First Timer!" 4
+"107" "worcesterpitchcroft" "55" 107 "202748" "26:02" 1562 "VM65-69" 64.4 "M" 92 "PB stays at 00:25:38" 105
+"108" "worcesterpitchcroft" "55" 108 "3578174" "26:05" 1565 "VM55-59" 60.45 "M" 93 "PB stays at 00:22:41" 81
+"109" "worcesterpitchcroft" "55" 109 "4498230" "26:06" 1566 "VW50-54" 64.24 "F" 16 "New PB!" 24
+"110" "worcesterpitchcroft" "55" 110 "3115365" "26:24" 1584 "VM60-64" 62.37 "M" 94 "PB stays at 00:24:08" 50
+"111" "worcesterpitchcroft" "55" 111 "657911" "26:30" 1590 "VW35-39" 56.79 "F" 17 "PB stays at 00:23:13" 62
+"112" "worcesterpitchcroft" "55" 112 "3914213" "26:35" 1595 "SW25-29" 55.67 "F" 18 "PB stays at 00:26:16" 10
+"113" "worcesterpitchcroft" "55" 113 "3344899" "26:52" 1612 "VM45-49" 53.16 "M" 95 "PB stays at 00:25:59" 9
+"114" "worcesterpitchcroft" "55" 114 "4711375" "27:01" 1621 "VM50-54" 55.03 "M" 96 "PB stays at 00:25:59" 21
+"115" "worcesterpitchcroft" "55" 115 "625107" "27:03" 1623 "VW35-39" 55.64 "F" 19 "PB stays at 00:24:37" 58
+"116" "worcesterpitchcroft" "55" 116 "2489853" "27:12" 1632 "VM70-74" 68.5 "M" 97 "PB stays at 00:26:35" 61
+"117" "worcesterpitchcroft" "55" 117 "1834547" "27:14" 1634 "VW45-49" 60.83 "F" 20 "First Timer!" 45
+"118" "worcesterpitchcroft" "55" 118 "3951236" "27:22" 1642 "VW50-54" 62.79 "F" 21 "PB stays at 00:25:01" 17
+"119" "worcesterpitchcroft" "55" 119 "829117" "27:23" 1643 "JW10" 62.33 "F" 22 "New PB!" 145
+"120" "worcesterpitchcroft" "55" 120 "829124" "27:27" 1647 "VW40-44" 56.04 "F" 23 "First Timer!" 134
+"121" "worcesterpitchcroft" "55" 121 "2952667" "27:41" 1661 "VW45-49" 57.92 "F" 24 "PB stays at 00:26:22" 49
+"122" "worcesterpitchcroft" "55" 122 "3755465" "27:46" 1666 "VW55-59" 66.99 "F" 25 "New PB!" 19
+"123" "worcesterpitchcroft" "55" 123 "3587108" "27:48" 1668 "SM30-34" 47.18 "M" 98 "PB stays at 00:24:18" 5
+"124" "worcesterpitchcroft" "55" 124 "738247" "27:49" 1669 "VW70-74" 81.37 "F" 26 "PB stays at 00:25:08" 51
+"125" "worcesterpitchcroft" "55" 125 "4781638" "27:55" 1675 "VW45-49" 58.03 "F" 27 "New PB!" 3
+"126" "worcesterpitchcroft" "55" 126 "1083678" "28:00" 1680 "VW35-39" 53.39 "F" 28 "PB stays at 00:25:43" 19
+"127" "worcesterpitchcroft" "55" 127 "3958096" "28:09" 1689 "VW40-44" 54.35 "F" 29 "PB stays at 00:26:59" 31
+"128" "worcesterpitchcroft" "55" 128 "1774383" "28:10" 1690 "VM65-69" 60.65 "M" 99 "PB stays at 00:26:31" 175
+"129" "worcesterpitchcroft" "55" 129 "3555222" "28:28" 1708 "VM55-59" 55.39 "M" 100 "PB stays at 00:25:41" 23
+"130" "worcesterpitchcroft" "55" 130 "3662733" "28:34" 1714 "VM50-54" 53.33 "M" 101 "PB stays at 00:27:35" 62
+"131" "worcesterpitchcroft" "55" 131 "4767733" "28:36" 1716 "SM25-29" 45.1 "M" 102 "New PB!" 5
+"132" "worcesterpitchcroft" "55" 132 "3772755" "28:39" 1719 "VW50-54" 60.79 "F" 30 "First Timer!" 9
+"133" "worcesterpitchcroft" "55" 133 "4011683" "28:46" 1726 "VM50-54" 52.09 "M" 103 "PB stays at 00:27:10" 47
+"134" "worcesterpitchcroft" "55" 134 "814898" "28:47" 1727 "VM70-74" 62.02 "M" 104 "PB stays at 00:28:19" 238
+"135" "worcesterpitchcroft" "55" 135 "4135915" "28:58" 1738 "VW40-44" 54.32 "F" 31 "PB stays at 00:26:46" 40
+"136" "worcesterpitchcroft" "55" 136 "694228" "29:03" 1743 "SM30-34" 44.75 "M" 105 "PB stays at 00:22:25" 178
+"137" "worcesterpitchcroft" "55" 137 "4064674" "29:09" 1749 "VW50-54" 57.52 "F" 32 "New PB!" 44
+"138" "worcesterpitchcroft" "55" 138 "555899" "29:14" 1754 "VW65-69" 74.91 "F" 33 "New PB!" 26
+"139" "worcesterpitchcroft" "55" 139 "3546635" "29:17" 1757 "SW30-34" 50.88 "F" 34 "First Timer!" 7
+"140" "worcesterpitchcroft" "55" 140 "790204" "29:20" 1760 "VW50-54" 58.58 "F" 35 "PB stays at 00:27:47" 117
+"141" "worcesterpitchcroft" "55" 141 "1189886" "29:22" 1762 "VW50-54" 57.09 "F" 36 "New PB!" 52
+"142" "worcesterpitchcroft" "55" 142 NA NA NA NA NA NA NA NA NA
+"143" "worcesterpitchcroft" "55" 143 "881666" "29:40" 1780 "SW20-24" 49.89 "F" 37 "New PB!" 11
+"144" "worcesterpitchcroft" "55" 144 "569391" "29:41" 1781 "VW50-54" 57.16 "F" 38 "PB stays at 00:26:30" 67
+"145" "worcesterpitchcroft" "55" 145 "4817305" "30:18" 1818 "VW35-39" 49.34 "F" 39 "First Timer!" 8
+"146" "worcesterpitchcroft" "55" 146 "3339683" "30:24" 1824 "VW40-44" 50.99 "F" 40 "PB stays at 00:27:41" 41
+"147" "worcesterpitchcroft" "55" 147 "4789313" "30:27" 1827 "VM50-54" 50.03 "M" 107 "New PB!" 6
+"148" "worcesterpitchcroft" "55" 148 "4777511" "30:38" 1838 "SM18-19" 43.04 "M" 108 "New PB!" 2
+"149" "worcesterpitchcroft" "55" 149 "1254540" "30:39" 1839 "SW30-34" 48.4 "F" 41 "First Timer!" 82
+"150" "worcesterpitchcroft" "55" 150 "1804245" "30:50" 1850 "VW40-44" 49.62 "F" 42 "PB stays at 00:30:50" 8
+"151" "worcesterpitchcroft" "55" 151 "4518911" "30:55" 1855 "VW40-44" 49.76 "F" 43 "New PB!" 18
+"152" "worcesterpitchcroft" "55" 152 "3940699" "30:56" 1856 "VW35-39" 49.14 "F" 44 "PB stays at 00:29:18" 53
+"153" "worcesterpitchcroft" "55" 153 "3316130" "31:00" 1860 "VW60-64" 61.72 "F" 45 "First Timer!" 63
+"154" "worcesterpitchcroft" "55" 154 "2338678" "31:00" 1860 "VM35-39" 43.71 "M" 109 "PB stays at 00:25:45" 70
+"155" "worcesterpitchcroft" "55" 155 "4195778" "31:02" 1862 "VM45-49" 46.4 "M" 110 "New PB!" 13
+"156" "worcesterpitchcroft" "55" 156 "213510" "31:10" 1870 "VW70-74" 72.62 "F" 46 "PB stays at 00:29:42" 17
+"157" "worcesterpitchcroft" "55" 157 "4811091" "31:30" 1890 "VW40-44" 48.57 "F" 47 "First Timer!" 15
+"158" "worcesterpitchcroft" "55" 158 "1091507" "31:32" 1892 "VM60-64" 50.85 "M" 111 "PB stays at 00:28:57" 77
+"159" "worcesterpitchcroft" "55" 159 "607277" "31:39" 1899 "VW55-59" 56.45 "F" 48 "PB stays at 00:28:48" 40
+"160" "worcesterpitchcroft" "55" 160 "4348896" "31:48" 1908 "VW35-39" 47.17 "F" 49 "New PB!" 20
+"161" "worcesterpitchcroft" "55" 161 "4774365" "31:49" 1909 "VW45-49" 50.39 "F" 50 "New PB!" 3
+"162" "worcesterpitchcroft" "55" 162 "4823492" "32:11" 1931 "SW25-29" 45.99 "F" 51 "First Timer!" 1
+"163" "worcesterpitchcroft" "55" 163 "4823482" "32:12" 1932 "VM35-39" 40.94 "M" 112 "First Timer!" 1
+"164" "worcesterpitchcroft" "55" 164 "4322711" "32:31" 1951 "VW50-54" 54.23 "F" 52 "New PB!" 51
+"165" "worcesterpitchcroft" "55" 165 "4599072" "32:47" 1967 "VW35-39" 45.91 "F" 53 "New PB!" 8
+"166" "worcesterpitchcroft" "55" 166 "2507736" "33:06" 1986 "JW11-14" 48.24 "F" 54 "First Timer!" 4
+"167" "worcesterpitchcroft" "55" 167 "2507786" "33:06" 1986 "JM10" 53.78 "M" 113 "First Timer!" 13
+"168" "worcesterpitchcroft" "55" 168 NA NA NA NA NA NA NA NA NA
+"169" "worcesterpitchcroft" "55" 169 NA NA NA NA NA NA NA NA NA
+"170" "worcesterpitchcroft" "55" 170 "4580537" "33:33" 2013 "VW45-49" 49.38 "F" 55 "New PB!" 25
+"171" "worcesterpitchcroft" "55" 171 "405425" "33:34" 2014 "VW55-59" 53.92 "F" 56 "PB stays at 00:32:31" 137
+"172" "worcesterpitchcroft" "55" 172 "3735470" "33:56" 2036 "VW65-69" 63.51 "F" 57 "PB stays at 00:31:57" 9
+"173" "worcesterpitchcroft" "55" 173 "4419370" "34:05" 2045 "JW10" 50.07 "F" 58 "PB stays at 00:32:43" 11
+"174" "worcesterpitchcroft" "55" 174 "274686" "34:17" 2057 "VW60-64" 58.24 "F" 59 "PB stays at 00:31:34" 156
+"175" "worcesterpitchcroft" "55" 175 "4733114" "34:49" 2089 "VW50-54" 50.02 "F" 60 "New PB!" 21
+"176" "worcesterpitchcroft" "55" 176 "4566118" "35:11" 2111 "VM70-74" 50.73 "M" 116 "PB stays at 00:32:58" 18
+"177" "worcesterpitchcroft" "55" 177 "4632968" "35:17" 2117 "VM55-59" 43.55 "M" 117 "PB stays at 00:34:48" 10
+"178" "worcesterpitchcroft" "55" 178 "4607184" "35:23" 2123 "VW45-49" 46.26 "F" 61 "PB stays at 00:33:46" 7
+"179" "worcesterpitchcroft" "55" 179 "274243" "35:25" 2125 "VW40-44" 44.09 "F" 62 "PB stays at 00:35:12" 16
+"180" "worcesterpitchcroft" "55" 180 "1759728" "35:26" 2126 "VM50-54" 41.63 "M" 118 "PB stays at 00:20:25" 132
+"181" "worcesterpitchcroft" "55" 181 "3253545" "35:58" 2158 "VW35-39" 42.26 "F" 63 "First Timer!" 19
+"182" "worcesterpitchcroft" "55" 182 "3787302" "36:18" 2178 "VW55-59" 49.86 "F" 64 "PB stays at 00:33:05" 27
+"183" "worcesterpitchcroft" "55" 183 "4819696" "36:28" 2188 "SM25-29" 35.37 "M" 119 "First Timer!" 2
+"184" "worcesterpitchcroft" "55" 184 "4069055" "36:43" 2203 "VW55-59" 48.66 "F" 65 "PB stays at 00:32:51" 51
+"185" "worcesterpitchcroft" "55" 185 "4776563" "37:03" 2223 "VW35-39" 41.03 "F" 66 "First Timer!" 2
+"186" "worcesterpitchcroft" "55" 186 "4368950" "37:07" 2227 "VM70-74" 47.51 "M" 120 "PB stays at 00:32:11" 16
+"187" "worcesterpitchcroft" "55" 187 "4672573" "37:18" 2238 "VW60-64" 52.77 "F" 67 "New PB!" 7
+"188" "worcesterpitchcroft" "55" 188 "3833262" "37:36" 2256 "VW60-64" 53.1 "F" 68 "PB stays at 00:36:06" 34
+"189" "worcesterpitchcroft" "55" 189 "4767736" "37:56" 2276 "SW25-29" 39.02 "F" 69 "New PB!" 5
+"190" "worcesterpitchcroft" "55" 190 "4022632" "38:39" 2319 "VW50-54" 45.62 "F" 70 "New PB!" 10
+"191" "worcesterpitchcroft" "55" 191 NA NA NA NA NA NA NA NA NA
+"192" "worcesterpitchcroft" "55" 192 NA NA NA NA NA NA NA NA NA
+"193" "worcesterpitchcroft" "55" 193 NA NA NA NA NA NA NA NA NA
+"194" "worcesterpitchcroft" "55" 194 "2613479" "40:49" 2449 "SW30-34" 36.5 "F" 71 "First Timer!" 17
+"195" "worcesterpitchcroft" "55" 195 "1144745" "40:49" 2449 "VM35-39" 32.3 "M" 124 "First Timer!" 143
+"196" "worcesterpitchcroft" "55" 196 "4643121" "41:32" 2492 "SW30-34" 35.63 "F" 72 "New PB!" 6
+"197" "worcesterpitchcroft" "55" 197 "4805122" "41:32" 2492 "SW25-29" 35.63 "F" 73 "New PB!" 2
+"198" "worcesterpitchcroft" "55" 198 "4448710" "43:20" 2600 "VW45-49" 38.23 "F" 74 "New PB!" 10
+"199" "worcesterpitchcroft" "55" 199 "4639912" "51:17" 3077 "VM60-64" 31.82 "M" 125 "First Timer!" 12
+"200" "worcesterpitchcroft" "55" 200 "4639898" "51:20" 3080 "VW60-64" 37.27 "F" 75 "First Timer!" 14
+"201" "worcesterpitchcroft" "55" 201 "192666" "51:21" 3081 "VW75-79" 47.22 "F" 76 "PB stays at 00:27:38" 311
