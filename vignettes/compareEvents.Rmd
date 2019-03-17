@@ -27,6 +27,7 @@ courseResults <- lapply(courses, function (course) {
 results <- suppressWarnings(dplyr::bind_rows(courseResults))
 results <- results[!is.na(results$athleteNumber), ]
 results$runSeqNumber <- paste0(results$eventName, results$runSeqNumber)
+results$eventName <- relevel(as.factor(results$eventName), ref=courses[1])
 
 uniqueAthletes <- na.omit(unique(results$athleteNumber))
 athletesAtEvent <- vapply(courseResults, function (x) uniqueAthletes %in% x$athleteNumber, logical(length(uniqueAthletes)))
@@ -67,11 +68,10 @@ ret <- apply(eventCoefs, 1, function(x) {
   paste0(SecondsToMinutes(target), " ± ", round(colMeans(rbind(target- min, max - target))), 's')
 })
 
-eventSequence <- sub('.*eventName(.*)', '\\1', rownames(eventCoefs))
-
-dimnames(ret) <- list(SecondsToMinutes(exampleTimes), eventSequence)
 ret <- cbind(SecondsToMinutes(exampleTimes), ret)
-colnames(ret)[1] <- sort(courses)[1]
+eventSequence <- sub('.*eventName(.*)', '\\1', rownames(eventCoefs))
+colnames(ret) <- c(courses[1], eventSequence)
+
 # Return:
 knitr::kable(ret)
 ```
