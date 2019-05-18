@@ -17,7 +17,7 @@ ScrapeResults <- function(eventName, runSeqNumber) {
     ifelse(string == '/>' | string == ">Unknown</td>", NA, sub(expression, "\\1", string, perl=perl))
   }
   
-  url <- paste0("http://www.parkrun.org.uk/", eventName, "/results/weeklyresults/?runSeqNumber=", runSeqNumber)
+  url <- paste0("https://www.parkrun.org.uk/", eventName, "/results/weeklyresults/?runSeqNumber=", runSeqNumber)
   html <- getURLContent(url)
   
   # Load results table
