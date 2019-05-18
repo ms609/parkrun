@@ -1,0 +1,15 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "cotsfordfields" "40" 1 "2961637" "20:14" 1214 "VM35-39" 66.47 "M" 1 "PB stays at 00:19:20" 57
+"2" "cotsfordfields" "40" 2 "5126974" "20:44" 1244 "VM40-44" 66.8 "M" 2 "PB stays at 00:19:18" 14
+"3" "cotsfordfields" "40" 3 "805256" "20:54" 1254 "SM30-34" 62.44 "M" 3 "PB stays at 00:20:46" 90
+"4" "cotsfordfields" "40" 4 "2632906" "20:56" 1256 "SM30-34" 62.34 "M" 4 "New PB!" 44
+"5" "cotsfordfields" "40" 5 "1105177" "24:08" 1448 "VM35-39" 55.73 "M" 5 "PB stays at 00:23:08" 219
+"6" "cotsfordfields" "40" 6 "3199903" "24:21" 1461 "VM55-59" 65.3 "M" 6 "New PB!" 22
+"7" "cotsfordfields" "40" 7 "4226961" "24:29" 1469 "VM35-39" 54.53 "M" 7 "PB stays at 00:23:47" 22
+"8" "cotsfordfields" "40" 8 "817909" "25:44" 1544 "VM55-59" 60.23 "M" 8 "First Timer!" 70
+"9" "cotsfordfields" "40" 9 "1099366" "26:25" 1585 "VM45-49" 54.95 "M" 9 "PB stays at 00:24:03" 24
+"10" "cotsfordfields" "40" 10 NA NA NA NA NA NA NA NA NA
+"11" "cotsfordfields" "40" 11 "4871866" "27:49" 1669 "VM50-54" 53.45 "M" 11 "PB stays at 00:27:22" 37
+"12" "cotsfordfields" "40" 12 "366337" "28:27" 1707 "VM55-59" 54.48 "M" 12 "First Timer!" 84
+"13" "cotsfordfields" "40" 13 "499457" "34:48" 2088 "SW25-29" 42.53 "F" 1 "PB stays at 00:26:42" 38
+"14" "cotsfordfields" "40" 14 "3022776" "36:02" 2162 "SW30-34" 41.12 "F" 2 "PB stays at 00:22:09" 6
