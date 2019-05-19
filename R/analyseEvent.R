@@ -5,11 +5,13 @@
 #' @param runsToQualify How many events ought an athlete to have 
 #' attended in order to contribute to the analysis?  Lower numbers lead to more accurate, 
 #' but slower, analyses.
+#' @param forceWrite Logical specifying whether to overwrite saved properties of the race.
+#' Automatically overwritten if min(events) and max(events) are greater than those last saved.
 #' 
 #' @author Martin R. Smith
 #' @importFrom viridisLite viridis
 #' @export
-AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4) {
+AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4, forceWrite=FALSE) {
   
   eventHistory <- EventHistory(course)
   if (any(eventHistory$date == 1)) {
@@ -24,7 +26,6 @@ AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4) {
   results <- suppressWarnings(dplyr::bind_rows(lapply(events, function (event) GetResults(course, event))))
   results <- results[!is.na(results$athleteNumber), ]
   results$date <- eventHistory[results$runSeqNumber, 'date']
-  #repeatResults <- results[!is.na(results$athleteNumber) & results$athleteNumber %in% repeatRunners, ]
   athleteRuns <- table(results$athleteNumber)
   repeatRunners <- names(athleteRuns [athleteRuns > max(2L, runsToQualify)])
   repeatResults <- results[results$athleteNumber %in% repeatRunners, ]
@@ -90,11 +91,22 @@ AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4) {
          col=monthCols[as.integer(format(as.Date(notableDates, origin='1970-01-01'), '%m'))],
          label=events[eventNotable],
          cex=0.7)
-    # athlete1Runs <- results[results$athleteNumber == athlete1, ]
-    # athlete2Runs <- results[results$athleteNumber == athlete2, ]
-    # points(athlete1Runs$date, 5000/athlete1Runs$timeInSeconds, col=2, pch=2)
-    # points(athlete2Runs$date, 5000/athlete2Runs$timeInSeconds, col=4, pch=4)
-    # points(eventDates)
   })
   
+  # Write to file?
+  
+  lmFile <- paste0(EventDirectory(course), '/regression.txt')
+  writeToFile <- TRUE
+  if (!forceWrite && file.exists(lmFile)) {
+    existingStats <- read.table(lmFile, row.names = 1)
+    if (min(events) > existingStats['minEvent', 1] || 
+      max(events) < existingStats['maxEvent', 1]) writeToFile <- FALSE
+  }
+  if (writeToFile) write.table(
+    c(minEvent=min(events), maxEvent=max(events), 
+      coefs['sin(eventSeason)', c('Estimate', 'Std. Error')],
+      coefs['cos(eventSeason)', c('Estimate', 'Std. Error')]),
+    row.names = c('minEvent', 'maxEvent', 'sinEst', 'sinErr', 'cosEst', 'cosErr'),
+    col.names = FALSE,
+    file = lmFile)
 }
