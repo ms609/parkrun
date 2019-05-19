@@ -35,37 +35,60 @@ AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4) {
     rownames(x)[athleteSpeeds < normalRange[1] | athleteSpeeds > normalRange[2]]
   })))
   repeatResults <- repeatResults[!rownames(repeatResults) %in% outliers, ]
-  
-  
+  Season <- function (date) 2 * pi * as.integer(as.Date.factor(date) - as.Date('1999-01-01')) / 365.25
   
   with(repeatResults, {
-    # The passage of time makes no significant contribution
-    model <- lm(I(5000 / timeInSeconds) ~ athleteNumber + runSeqNumber)
-    coefs <- summary(model)$coefficients
-    plot(eventDates, coefs[1, 1] + c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate']), 
-         pch='.', xlab="Event date", ylab="Representative athlete speed", axes=F, col='white')
+    eventSeason <- Season(date)
+    timeModel <- lm(I(5000 / timeInSeconds) ~ sin(eventSeason) + cos(eventSeason) + (athleteNumber * eventSeason), data=repeatResults)
+    timeResid <- resid(timeModel)
+    #plot(timeResid ~ runSeqNumber)
+    
+    residLm <- lm(timeResid ~ runSeqNumber)
+    residCoefs <- summary(residLm)$coefficients
+    runSeqs <- as.integer(sub('runSeqNumber', '', rownames(residCoefs)[-1], fixed=TRUE))
+    runSeq0 <- events [!events %in% runSeqs]
+    if (length(runSeq0) > 1) stop("Some events not found: ", runSeq0[-1])
+    runSeqs <- c(runSeq0, runSeqs)
+    
+    residEsts <- residCoefs[, 'Estimate']
+    residErr <- residCoefs[, 'Std. Error']
+    runEsts <- c(runSeq0 = 0, residEsts[-1] + residEsts[1])
+    runEsts <- runEsts - mean(runEsts[-1])
+      
+    runNotable <- abs(runEsts) > residErr
+    
+    coefs <- summary(timeModel)$coefficients
+    eventSeasons <- Season(eventDates)
+    eventSeasonality <- coefs['(Intercept)', 'Estimate'] +
+      coefs['sin(eventSeason)', 'Estimate'] * sin(eventSeasons) +
+      coefs['cos(eventSeason)', 'Estimate'] * cos(eventSeasons)
+    eventResid <- runEsts[order(runSeqs)]
+    eventSpeed <- eventSeasonality + eventResid
+    plot(eventSpeed ~ eventDates,
+         pch='.', xlab="Event date", ylab="Seasonal speed variation", axes=F, col='white')
+    
     xTicks <- seq(min(eventDates), max(eventDates), length.out=7)
     axis(1, at=xTicks, labels=format(xTicks, '%Y-%m-%d'), las=2, cex=0.7)
     axis(2)
-    axisSpeeds <- coefs[1, 1] * seq(0.9, 1.1, length.out=19)
+    axisSpeeds <- mean(eventSpeed) * seq(0.9, 1.1, length.out=19)
     axis(4, at=axisSpeeds, labels=SecondsToMinutes(5000 / axisSpeeds))
     mtext('Representative athlete time', side=4, line=0)
     mtext(paste0(course, ' parkrun'), side=3, line=0)
     
-    eventLoadings <- c(0, coefs[paste0('runSeqNumber', events[-1]), 'Estimate'])
-    eventErrors <- c(0, coefs[paste0('runSeqNumber', events[-1]), 'Std. Error'])
-    intercept <- coefs[1, 1]
+    eventErrors <- residErr[order(runSeqs)]
     monthCols <- viridis(12)
     monthSemiTrans <- viridis(12, alpha=0.3)
     
-    xx <- lapply(seq_along(eventLoadings), function(i) {
-      lines(rep(eventDates[i], 2), intercept + eventLoadings[i] + c(1, -1) * eventErrors[i],
+    xx <- lapply(seq_along(eventSpeed), function(i) {
+      lines(rep(eventDates[i], 2), eventSpeed[i] + c(1, -1) * eventErrors[i],
             col = monthSemiTrans[as.integer(format(as.Date(eventDates[i], origin='1970-01-01'), '%m'))])
     })
-    abline(h=intercept + mean(eventLoadings), col='#00000044')
-    text(eventDates, intercept + eventLoadings,
-         col=monthCols[as.integer(format(as.Date(eventDates, origin='1970-01-01'), '%m'))],
-         label=events,
+    lines(eventSeasonality~eventDates)
+    eventNotable <- runNotable[order(runSeqs)]
+    notableDates <- eventDates[eventNotable]
+    text(notableDates, eventSpeed[eventNotable],
+         col=monthCols[as.integer(format(as.Date(notableDates, origin='1970-01-01'), '%m'))],
+         label=events[eventNotable],
          cex=0.7)
     # athlete1Runs <- results[results$athleteNumber == athlete1, ]
     # athlete2Runs <- results[results$athleteNumber == athlete2, ]
@@ -73,4 +96,5 @@ AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4) {
     # points(athlete2Runs$date, 5000/athlete2Runs$timeInSeconds, col=4, pch=4)
     # points(eventDates)
   })
+  
 }
