@@ -15,14 +15,17 @@ vignette: >
 ---
 
 ```{R Compare events}
-courses <- c('riverside', 'durham', 'gibside')
 require('parkrun')
 
+courses <- c('riverside', 'durham', 'gibside', 'cotsfordfields')
 
 courseResults <- lapply(courses, function (course) {
   eventHistory <- EventHistory(course)
   eventResults <- list.files(EventDirectory(course), pattern="\\d+", full.names=TRUE)
-  suppressWarnings(dplyr::bind_rows(lapply(eventResults, read.table)))
+  ret <- suppressWarnings(dplyr::bind_rows(lapply(eventResults, read.table)))
+  ret$date <- as.Date(eventHistory[as.character(ret$runSeqNumber), 'date'],
+                      origin='1970-01-01')
+  ret
 })
 results <- suppressWarnings(dplyr::bind_rows(courseResults))
 results <- results[!is.na(results$athleteNumber), ]
@@ -50,27 +53,52 @@ minRuns <- names(athleteEntries[sum(cumsum(athleteEntries) < tooManyAthletes)])
 usefulAthletes <- rownames(athleteResults)[athleteResults >= as.integer(minRuns)]
 usefulResults <- usefulResults[usefulResults$athleteNumber %in% usefulAthletes, ]
 
+eventSeason <- EventSeason(usefulResults$date)
+#timeModel <- lm(I(5000 / timeInSeconds) ~ (eventName * (sin(eventSeason) + cos(eventSeason))) + (as.factor(athleteNumber) * eventSeason), data=usefulResults)
+timeModel <- lm(I(5000 / timeInSeconds) ~ eventName + sin(eventSeason) + cos(eventSeason) + (as.factor(athleteNumber) * eventSeason), data=usefulResults)
+# BIC prefers single sin/cos for all events
+
+#####step(timeModel)
+#    timeResid <- resid(timeModel)
+    #plot(time)
+
 # The passage of time makes no significant contribution
-model <- lm(I(-5000 / usefulResults$timeInSeconds) ~ 
+oldModel <- lm(I(5000 / usefulResults$timeInSeconds) ~ 
               usefulResults$eventName + as.factor(usefulResults$athleteNumber))
-coefs <- summary(model)$coefficients
+oldCoefs <- summary(model)$coefficients
+coefs <- summary(timeModel)$coefficients
 
 intercept <- coefs[1, 1]
-exampleTimes <- c(17, 20, 21, 22, 23.5, 25, 28, 30, 35, 40) * 60
+exampleTimes <- c(17, 18.5, 19, 19.5, 20, 21, 22, 25, 28, 30, 35) * 60
 exampleSpeeds <- 5000 / exampleTimes
 names(exampleSpeeds) <- SecondsToMinutes(exampleTimes)
 
 eventCoefs <- rbind(coefs[1L + seq_along(courses[-1]), c(1, 2), drop=FALSE])
 ret <- apply(eventCoefs, 1, function(x) {
-  target <- 5000 / (exampleSpeeds - x[1])
-  max <- 5000 / (exampleSpeeds - (x[1] + x[2]))
-  min <- 5000 / (exampleSpeeds - (x[1] - x[2]))
-  paste0(SecondsToMinutes(target), " ± ", round(colMeans(rbind(target- min, max - target))), 's')
+  target <- 5000 / (exampleSpeeds + x[1])
+  max <- 5000 / (exampleSpeeds + (x[1] - x[2]))
+  min <- 5000 / (exampleSpeeds + (x[1] + x[2]))
+  paste0(SecondsToMinutes(target), " ± ", round(colMeans(rbind(target - min, max - target))), 's')
 })
 
-ret <- cbind(SecondsToMinutes(exampleTimes), ret)
+sinTerm <- coefs['sin(eventSeason)', 'Estimate']
+cosTerm <- coefs['sin(eventSeason)', 'Estimate']
+seasonVariance <- sqrt((sinTerm * sinTerm) + (cosTerm * cosTerm))
+slowPhase <- acos(cosTerm / seasonVariance)
+fastPhase <- slowPhase + pi
+yearToRad <-365.25 / (2 * pi)
+
+ret <- cbind(SecondsToMinutes(exampleTimes),
+             ret,
+             paste0(round((5000 / (exampleSpeeds - seasonVariance)) - 
+                    (5000 / (exampleSpeeds + seasonVariance)), 1), 's'))
 eventSequence <- sub('.*eventName(.*)', '\\1', rownames(eventCoefs))
-colnames(ret) <- c(courses[1], eventSequence)
+colnames(ret) <- c(courses[1], eventSequence, 
+                   paste0('Diff, ',
+                          format(as.Date('1999-01-01') + slowPhase * yearToRad, "%b %d")
+                          , ' to ', 
+                          format(as.Date('1999-01-01') + fastPhase * yearToRad, "%b %d"))
+)
 
 # Return:
 knitr::kable(ret)
