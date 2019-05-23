@@ -1,0 +1,4 @@
+"gibside" "riverside" "windynook"
+"gibside" NA 0.229981167587161 NA
+"riverside" -0.229981167587161 NA -0.287165263042443
+"windynook" NA 0.287165263042443 NA
