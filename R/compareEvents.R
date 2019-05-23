@@ -85,12 +85,42 @@ AddToCourseMatrix <- function (course1, course2) {
     err <- read.table(errorsFile)
   } else {
     courses <- sort(c(course1, course2))
-    mat <- matrix(nrow=2, ncol=2, dimnames = list(courses, courses))
-    err <- mat
+    err <- mat <- matrix(nrow=2, ncol=2, dimnames = list(courses, courses))
   }
+  
   mat[course1, course2] <- difference[1]
   mat[course2, course1] <- -difference[1]
   err[course1, course2] <- err[course2, course1] <- difference[2]
+  
   write.table(mat, resultsFile)
   write.table(err, errorsFile)
+}
+
+AddCourseToMatrix <- function (course) {
+  existing <- read.table('results/matrix.txt')
+  lapply(rownames(existing), AddToCourseMatrix, course)
+  invisible()
+}
+
+MatrixComparison <- function (course1, course2) {
+  results <- read.table('results/matrix.txt')
+  errors <- read.table('results/matrixErrors.txt')
+  variance <- sqrt(errors)
+  aToX <- results[course1, ]
+  xToB <- results[course2, ]
+  
+  aToB <- aToX - xToB
+  
+  aXVar <- variance[course1, ]
+  xBVar <- variance[course2, ]
+  
+  aBVar <- aXVar + xBVar
+  
+  # https://stats.stackexchange.com/questions/265626/combining-the-result-of-two-uncertain-measurements/265698
+  inverseVariance <- 1 / aBVar
+  
+  c(
+    Estimate = sum(aToB * inverseVariance, na.rm=TRUE) / sum(inverseVariance, na.rm=TRUE),
+    Std.Error = (1/sum(inverseVariance, na.rm=TRUE))**2
+  )
 }
