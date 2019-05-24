@@ -1,0 +1,6 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "sunderland" "55" 1 "70137" "23:10" 1390 "SM30-34" 56.12 "M" 1 "PB stays at 00:18:58" 177
+"2" "sunderland" "55" 2 "69600" "24:48" 1488 "VM45-49" 58.06 "M" 2 "PB stays at 00:21:06" 130
+"3" "sunderland" "55" 3 "68215" "30:16" 1816 "SM30-34" 43.12 "M" 3 "PB stays at 00:23:47" 217
+"4" "sunderland" "55" 4 "45317" "31:12" 1872 "VM70-74" 57.96 "M" 4 "PB stays at 00:24:59" 369
+"5" "sunderland" "55" 5 "25784" "34:24" 2064 "SW25-29" 43.02 "F" 1 "PB stays at 00:25:05" 16

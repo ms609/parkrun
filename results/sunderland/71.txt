@@ -1,0 +1,63 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "sunderland" "71" 1 "74112" "16:59" 1019 "VM35-39" 77.63 "M" 1 "PB stays at 00:16:45" 14
+"2" "sunderland" "71" 2 NA NA NA NA NA NA NA NA NA
+"3" "sunderland" "71" 3 "127132" "18:06" 1086 "JM15-17" 75.69 "M" 3 "New PB!" 26
+"4" "sunderland" "71" 4 "99645" "19:11" 1151 "SM18-19" 68.72 "M" 4 "PB stays at 00:19:03" 30
+"5" "sunderland" "71" 5 "117029" "19:34" 1174 "SM30-34" 66.1 "M" 5 "PB stays at 00:19:00" 16
+"6" "sunderland" "71" 6 "111218" "20:12" 1212 "VM35-39" 67.08 "M" 6 "PB stays at 00:19:45" 42
+"7" "sunderland" "71" 7 "131001" "20:24" 1224 "JM15-17" 67.16 "M" 7 "First Timer!" 21
+"8" "sunderland" "71" 8 "45740" "20:33" 1233 "VM45-49" 70.07 "M" 8 "PB stays at 00:19:03" 143
+"9" "sunderland" "71" 9 "96492" "20:36" 1236 "VM60-64" 79.94 "M" 9 "New PB!" 6
+"10" "sunderland" "71" 10 "110191" "20:43" 1243 "VM45-49" 69.51 "M" 10 "PB stays at 00:19:12" 339
+"11" "sunderland" "71" 11 "44445" "20:48" 1248 "VM40-44" 67.15 "M" 11 "PB stays at 00:19:33" 361
+"12" "sunderland" "71" 12 "93361" "20:59" 1259 "VM45-49" 69.18 "M" 12 "PB stays at 00:19:58" 118
+"13" "sunderland" "71" 13 "98127" "21:04" 1264 "VM40-44" 65.27 "M" 13 "PB stays at 00:20:24" 298
+"14" "sunderland" "71" 14 "86909" "21:14" 1274 "VM35-39" 62.87 "M" 14 "PB stays at 00:20:45" 330
+"15" "sunderland" "71" 15 "123758" "21:44" 1304 "VM50-54" 68.94 "M" 15 "New PB!" 26
+"16" "sunderland" "71" 16 NA NA NA NA NA NA NA NA NA
+"17" "sunderland" "71" 17 "126701" "22:13" 1333 "JM15-17" 61.67 "M" 17 "New PB!" 77
+"18" "sunderland" "71" 18 NA NA NA NA NA NA NA NA NA
+"19" "sunderland" "71" 19 "53850" "22:40" 1360 "VM45-49" 63.53 "M" 19 "PB stays at 00:21:09" 307
+"20" "sunderland" "71" 20 "121208" "23:22" 1402 "VM35-39" 57.13 "M" 20 "PB stays at 00:21:23" 120
+"21" "sunderland" "71" 21 "80622" "23:47" 1427 "SW20-24" 62.23 "F" 1 "New PB!" 11
+"22" "sunderland" "71" 22 "120760" "23:58" 1438 "JW15-17" 63.84 "F" 2 "PB stays at 00:23:44" 5
+"23" "sunderland" "71" 23 NA NA NA NA NA NA NA NA NA
+"24" "sunderland" "71" 24 "129234" "24:12" 1452 "VM45-49" 59.99 "M" 22 "New PB!" 7
+"25" "sunderland" "71" 25 NA NA NA NA NA NA NA NA NA
+"26" "sunderland" "71" 26 NA NA NA NA NA NA NA NA NA
+"27" "sunderland" "71" 27 "123169" "25:05" 1505 "SM30-34" 51.56 "M" 25 "PB stays at 00:18:28" 82
+"28" "sunderland" "71" 28 "111285" "25:23" 1523 "SW30-34" 58.7 "F" 3 "PB stays at 00:24:16" 55
+"29" "sunderland" "71" 29 "129448" "25:24" 1524 "SM25-29" 50.79 "M" 26 "First Timer!" 10
+"30" "sunderland" "71" 30 "120762" "25:32" 1532 "JW15-17" 59.92 "F" 4 "New PB!" 22
+"31" "sunderland" "71" 31 NA NA NA NA NA NA NA NA NA
+"32" "sunderland" "71" 32 "65111" "26:12" 1572 "VM40-44" 52.48 "M" 28 "PB stays at 00:24:40" 14
+"33" "sunderland" "71" 33 "117031" "26:23" 1583 "JM11-14" 53.76 "M" 29 "PB stays at 00:24:51" 6
+"34" "sunderland" "71" 34 "60049" "26:31" 1591 "VM60-64" 62.1 "M" 30 "PB stays at 00:26:03" 293
+"35" "sunderland" "71" 35 "74668" "27:07" 1627 "SW30-34" 54.95 "F" 5 "PB stays at 00:25:30" 254
+"36" "sunderland" "71" 36 "83327" "27:10" 1630 "VM45-49" 52.58 "M" 31 "New PB!" 365
+"37" "sunderland" "71" 37 NA NA NA NA NA NA NA NA NA
+"38" "sunderland" "71" 38 "70127" "27:44" 1664 "SM20-24" 46.51 "M" 33 "PB stays at 00:24:56" 21
+"39" "sunderland" "71" 39 "44988" "27:47" 1667 "VW40-44" 56.93 "F" 6 "New PB!" 150
+"40" "sunderland" "71" 40 "83326" "27:51" 1671 "VW40-44" 56.31 "F" 7 "New PB!" 376
+"41" "sunderland" "71" 41 "80625" "28:13" 1693 "VM55-59" 54.46 "M" 34 "PB stays at 00:25:51" 16
+"42" "sunderland" "71" 42 "127029" "28:14" 1694 "SM25-29" 45.75 "M" 35 "PB stays at 00:24:04" 15
+"43" "sunderland" "71" 43 "109732" "28:51" 1731 "VW45-49" 56.56 "F" 8 "PB stays at 00:26:20" 73
+"44" "sunderland" "71" 44 "121701" "29:11" 1751 "VW35-39" 51.23 "F" 9 "New PB!" 11
+"45" "sunderland" "71" 45 "45993" "29:12" 1752 "VM60-64" 56.91 "M" 36 "PB stays at 00:26:52" 83
+"46" "sunderland" "71" 46 "115030" "29:27" 1767 "VM65-69" 56.93 "M" 37 "New PB!" 316
+"47" "sunderland" "71" 47 "102089" "30:16" 1816 "VM35-39" 44.44 "M" 38 "New PB!" 10
+"48" "sunderland" "71" 48 "102394" "30:18" 1818 "VW35-39" 49.56 "F" 10 "New PB!" 8
+"49" "sunderland" "71" 49 NA NA NA NA NA NA NA NA NA
+"50" "sunderland" "71" 50 "99758" "30:47" 1847 "VW40-44" 49.81 "F" 11 "PB stays at 00:27:29" 280
+"51" "sunderland" "71" 51 "73729" "30:59" 1859 "VW35-39" 48.9 "F" 12 "New PB!" 16
+"52" "sunderland" "71" 52 "44730" "31:56" 1916 "SW30-34" 46.35 "F" 13 "PB stays at 00:28:35" 188
+"53" "sunderland" "71" 53 "104657" "33:02" 1982 "SW25-29" 44.8 "F" 14 "PB stays at 00:25:28" 6
+"54" "sunderland" "71" 54 "131284" "33:04" 1984 "SM25-29" 39.01 "M" 40 "First Timer!" 1
+"55" "sunderland" "71" 55 "92258" "33:59" 2039 "VW50-54" 51.05 "F" 15 "PB stays at 00:29:04" 38
+"56" "sunderland" "71" 56 NA NA NA NA NA NA NA NA NA
+"57" "sunderland" "71" 57 NA NA NA NA NA NA NA NA NA
+"58" "sunderland" "71" 58 NA NA NA NA NA NA NA NA NA
+"59" "sunderland" "71" 59 "98608" "35:27" 2127 "JM10" 46.12 "M" 44 "New PB!" 172
+"60" "sunderland" "71" 60 "118362" "35:30" 2130 "VM50-54" 41.55 "M" 45 "PB stays at 00:19:58" 270
+"61" "sunderland" "71" 61 "57395" "35:39" 2139 "SW20-24" 41.51 "F" 16 "PB stays at 00:24:57" 70
+"62" "sunderland" "71" 62 "96149" "36:33" 2193 "VM35-39" 37.07 "M" 46 "PB stays at 00:28:58" 71

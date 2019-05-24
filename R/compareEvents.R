@@ -150,3 +150,5 @@ SpeedToTimes <- function (estimate, error, exampleTimes =
   ret
   
 }
+
+# Ridiculous: riverside vs lincoln
