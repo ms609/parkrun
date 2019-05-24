@@ -124,3 +124,19 @@ MatrixComparison <- function (course1, course2) {
     Std.Error = (1/sum(inverseVariance, na.rm=TRUE))**2
   )
 }
+
+SpeedToTimes <- function (estimate, error, exampleTimes = 
+                            c(17, 18.5, 19, 19.5, 20, 21, 22, 25, 28, 30, 35) * 60) {
+  
+  exampleSpeeds <- 5000 / exampleTimes
+  
+  target <- 5000 / (exampleSpeeds + estimate)
+  max <- 5000 / (exampleSpeeds + (estimate - error))
+  min <- 5000 / (exampleSpeeds + (estimate + error))
+  
+  ret <- paste0(SecondsToMinutes(target), " ± ", round(colMeans(rbind(target - min, max - target))), 's')
+  names(ret) <- SecondsToMinutes(exampleTimes)
+  
+  ret
+  
+}
