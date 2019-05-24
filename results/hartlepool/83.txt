@@ -1,0 +1,28 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "hartlepool" "83" 1 "281285" "19:51" 1191 "VM50-54" 74.31 "M" 1 "PB stays at 00:18:24" 74
+"2" "hartlepool" "83" 2 "972578" "20:09" 1209 "VM35-39" 66.75 "M" 2 "PB stays at 00:18:36" 25
+"3" "hartlepool" "83" 3 "1148038" "22:47" 1367 "VM45-49" 62.25 "M" 3 "PB stays at 00:20:32" 93
+"4" "hartlepool" "83" 4 "653662" "23:47" 1427 "VM40-44" 58.72 "M" 4 "PB stays at 00:21:18" 171
+"5" "hartlepool" "83" 5 "268350" "23:52" 1432 "VM55-59" 64.39 "M" 5 "PB stays at 00:21:12" 151
+"6" "hartlepool" "83" 6 "497026" "24:00" 1440 "VM50-54" 61.46 "M" 6 "First Timer!" 232
+"7" "hartlepool" "83" 7 "51814" "24:42" 1482 "VM40-44" 56.55 "M" 7 "New PB!" 13
+"8" "hartlepool" "83" 8 "1119994" "26:05" 1565 "VM45-49" 55.65 "M" 8 "PB stays at 00:22:07" 154
+"9" "hartlepool" "83" 9 "1961491" "26:46" 1606 "VM40-44" 51.74 "M" 9 "PB stays at 00:22:51" 62
+"10" "hartlepool" "83" 10 "49430" "27:41" 1661 "VW50-54" 61.29 "F" 1 "PB stays at 00:24:17" 178
+"11" "hartlepool" "83" 11 "1021480" "27:59" 1679 "SM20-24" 46.1 "M" 10 "PB stays at 00:23:31" 39
+"12" "hartlepool" "83" 12 "1035108" "28:01" 1681 "VM45-49" 50.98 "M" 11 "PB stays at 00:22:25" 41
+"13" "hartlepool" "83" 13 "2037672" "28:16" 1696 "JW11-14" 58.84 "F" 2 "First Timer!" 13
+"14" "hartlepool" "83" 14 "2037655" "28:20" 1700 "JW15-17" 54.71 "F" 3 "First Timer!" 10
+"15" "hartlepool" "83" 15 "2037678" "28:20" 1700 "VM45-49" 51.24 "M" 12 "First Timer!" 32
+"16" "hartlepool" "83" 16 "326075" "31:30" 1890 "VW40-44" 48.84 "F" 4 "PB stays at 00:27:32" 18
+"17" "hartlepool" "83" 17 "897399" "31:48" 1908 "VW35-39" 47.33 "F" 5 "PB stays at 00:23:31" 127
+"18" "hartlepool" "83" 18 "492121" "34:19" 2059 "VM40-44" 40.07 "M" 13 "PB stays at 00:28:11" 59
+"19" "hartlepool" "83" 19 "1914976" "36:24" 2184 "VW60-64" 55.68 "F" 6 "PB stays at 00:33:19" 84
+"20" "hartlepool" "83" 20 "2018182" "37:05" 2225 "SW30-34" 39.91 "F" 7 "New PB!" 16
+"21" "hartlepool" "83" 21 "2018193" "37:06" 2226 "SM30-34" 35.18 "M" 14 "New PB!" 10
+"22" "hartlepool" "83" 22 "1244805" "37:06" 2226 "VW40-44" 42.09 "F" 8 "PB stays at 00:28:23" 139
+"23" "hartlepool" "83" 23 "977308" "41:09" 2469 "VW50-54" 40.75 "F" 9 "PB stays at 00:37:00" 79
+"24" "hartlepool" "83" 24 "2005117" "42:00" 2520 "VW45-49" 38.17 "F" 10 "New PB!" 59
+"25" "hartlepool" "83" 25 "1873977" "42:01" 2521 "VW50-54" 40.9 "F" 11 "First Timer!" 7
+"26" "hartlepool" "83" 26 "2032316" "46:02" 2762 "VW65-69" 45.4 "F" 12 "First Timer!" 3
+"27" "hartlepool" "83" 27 "1481952" "46:04" 2764 "JM11-14" 31.48 "M" 15 "PB stays at 00:25:10" 25

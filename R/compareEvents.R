@@ -104,30 +104,36 @@ AddCourseToMatrix <- function (course) {
 
 MatrixComparison <- function (course1, course2) {
   results <- read.table('results/matrix.txt')
-  errors <- read.table('results/matrixErrors.txt')
-  variance <- sqrt(errors)
   aToX <- results[course1, ]
   xToB <- results[course2, ]
   
   aToB <- aToX - xToB
+  aToB[course1, course2] <- results[course1, course2]
   
+  errors <- read.table('results/matrixErrors.txt')
+  variance <- errors * errors
   aXVar <- variance[course1, ]
   xBVar <- variance[course2, ]
   
   aBVar <- aXVar + xBVar
+  aBVar[course1, course2] <- errors[course1, course2]
   
   # https://stats.stackexchange.com/questions/265626/combining-the-result-of-two-uncertain-measurements/265698
   inverseVariance <- 1 / aBVar
   
   c(
     Estimate = sum(aToB * inverseVariance, na.rm=TRUE) / sum(inverseVariance, na.rm=TRUE),
-    Std.Error = (1/sum(inverseVariance, na.rm=TRUE))**2
+    Std.Error = sqrt(1/sum(inverseVariance, na.rm=TRUE))
   )
 }
 
 SpeedToTimes <- function (estimate, error, exampleTimes = 
                             c(17, 18.5, 19, 19.5, 20, 21, 22, 25, 28, 30, 35) * 60) {
   
+  if (missing(error)) {
+    error <- estimate[2]
+    estimate <- estimate[1]
+  }
   exampleSpeeds <- 5000 / exampleTimes
   
   target <- 5000 / (exampleSpeeds + estimate)
