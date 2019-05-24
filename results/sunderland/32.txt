@@ -1,0 +1,24 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "sunderland" "32" 1 "73522" "19:32" 1172 "SM20-24" 66.72 "M" 1 "First Timer!" 9
+"2" "sunderland" "32" 2 "70137" "20:00" 1200 "SM30-34" 64.83 "M" 2 "New PB!" 177
+"3" "sunderland" "32" 3 "69774" "21:18" 1278 "JM11-14" 66.59 "M" 3 "New PB!" 4
+"4" "sunderland" "32" 4 "57006" "21:19" 1279 "SM30-34" 60.83 "M" 4 "PB stays at 00:19:43" 82
+"5" "sunderland" "32" 5 "47005" "22:23" 1343 "VM55-59" 69.25 "M" 5 "PB stays at 00:20:58" 298
+"6" "sunderland" "32" 6 "46554" "22:37" 1357 "VW50-54" 75.76 "F" 1 "First Timer!" 5
+"7" "sunderland" "32" 7 "76413" "22:38" 1358 "VM45-49" 62.67 "M" 6 "New PB!" 34
+"8" "sunderland" "32" 8 "69092" "22:40" 1360 "VM35-39" 59.34 "M" 7 "New PB!" 291
+"9" "sunderland" "32" 9 "50617" "22:56" 1376 "VM60-64" 71.15 "M" 8 "PB stays at 00:21:43" 401
+"10" "sunderland" "32" 10 "56872" "24:26" 1466 "VM40-44" 56.28 "M" 9 "PB stays at 00:19:44" 323
+"11" "sunderland" "32" 11 "62201" "25:10" 1510 "VM60-64" 63.71 "M" 10 "PB stays at 00:24:16" 22
+"12" "sunderland" "32" 12 "62199" "25:11" 1511 "VM55-59" 61.55 "M" 11 "New PB!" 24
+"13" "sunderland" "32" 13 "46642" "25:46" 1546 "VW35-39" 59.12 "F" 2 "PB stays at 00:25:17" 138
+"14" "sunderland" "32" 14 "74668" "26:28" 1588 "SW30-34" 56.17 "F" 3 "PB stays at 00:25:30" 254
+"15" "sunderland" "32" 15 "51405" "26:29" 1589 "VW40-44" 59.72 "F" 4 "PB stays at 00:23:40" 376
+"16" "sunderland" "32" 16 "49849" "26:30" 1590 "VM60-64" 62.14 "M" 12 "PB stays at 00:25:06" 387
+"17" "sunderland" "32" 17 "60049" "27:01" 1621 "VM60-64" 60.39 "M" 13 "PB stays at 00:26:03" 293
+"18" "sunderland" "32" 18 "45743" "27:13" 1633 "SW30-34" 54.62 "F" 5 "PB stays at 00:26:17" 21
+"19" "sunderland" "32" 19 "45296" "27:22" 1642 "VW35-39" 55.66 "F" 6 "PB stays at 00:24:56" 319
+"20" "sunderland" "32" 20 "60463" "30:15" 1815 "JM11-14" 46.89 "M" 14 "PB stays at 00:20:22" 217
+"21" "sunderland" "32" 21 "44730" "32:33" 1953 "SW25-29" 45.47 "F" 7 "PB stays at 00:28:35" 188
+"22" "sunderland" "32" 22 "43116" "33:50" 2030 "VM45-49" 42.56 "M" 15 "First Timer!" 6
+"23" "sunderland" "32" 23 "78039" "34:51" 2091 "VM55-59" 44.09 "M" 16 "First Timer!" 1

@@ -1,0 +1,30 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "sunderland" "1" 1 "5498" "17:28" 1048 "VM45-49" 83.11 "M" 1 "First Timer!" 62
+"2" "sunderland" "1" 2 NA NA NA NA NA NA NA NA NA
+"3" "sunderland" "1" 3 "44737" "19:56" 1196 "VM55-59" 77.76 "M" 3 "First Timer!" 32
+"4" "sunderland" "1" 4 "43874" "20:10" 1210 "JW11-14" 77.93 "F" 1 "First Timer!" 6
+"5" "sunderland" "1" 5 "44813" "22:21" 1341 "VM55-59" 68.75 "M" 4 "First Timer!" 19
+"6" "sunderland" "1" 6 "44809" "22:44" 1364 "VW35-39" 66.35 "F" 2 "First Timer!" 93
+"7" "sunderland" "1" 7 "43178" "22:45" 1365 "SW30-34" 65.35 "F" 3 "First Timer!" 16
+"8" "sunderland" "1" 8 "44892" "22:46" 1366 "VM40-44" 61.35 "M" 5 "First Timer!" 33
+"9" "sunderland" "1" 9 "44985" "24:32" 1472 "VM35-39" 55.23 "M" 6 "First Timer!" 198
+"10" "sunderland" "1" 10 "43619" "24:38" 1478 "VM40-44" 57.1 "M" 7 "First Timer!" 18
+"11" "sunderland" "1" 11 "44827" "24:43" 1483 "VW40-44" 62.04 "F" 4 "First Timer!" 3
+"12" "sunderland" "1" 12 "23237" "24:46" 1486 "VW40-44" 63.32 "F" 5 "First Timer!" 1
+"13" "sunderland" "1" 13 "44788" "24:48" 1488 "VW40-44" 61.83 "F" 6 "First Timer!" 7
+"14" "sunderland" "1" 14 "25383" "24:51" 1491 "SW25-29" 59.56 "F" 7 "First Timer!" 57
+"15" "sunderland" "1" 15 "20772" "25:01" 1501 "VM40-44" 54.56 "M" 8 "First Timer!" 42
+"16" "sunderland" "1" 16 "45080" "25:51" 1551 "JM11-14" 59.19 "M" 9 "First Timer!" 50
+"17" "sunderland" "1" 17 "45079" "25:53" 1553 "VW45-49" 63.04 "F" 8 "First Timer!" 127
+"18" "sunderland" "1" 18 "44903" "26:16" 1576 "VM60-64" 61.61 "M" 10 "First Timer!" 11
+"19" "sunderland" "1" 19 "18917" "26:19" 1579 "VM45-49" 55.16 "M" 11 "First Timer!" 51
+"20" "sunderland" "1" 20 "45077" "26:46" 1606 "SM30-34" 48.32 "M" 12 "First Timer!" 2
+"21" "sunderland" "1" 21 "37087" "29:27" 1767 "VW40-44" 52.07 "F" 9 "First Timer!" 107
+"22" "sunderland" "1" 22 "44860" "29:28" 1768 "SW30-34" 50.57 "F" 10 "First Timer!" 9
+"23" "sunderland" "1" 23 "45078" "29:54" 1794 "SM30-34" 43.26 "M" 13 "First Timer!" 2
+"24" "sunderland" "1" 24 "44505" "30:18" 1818 "VM55-59" 50.72 "M" 14 "First Timer!" 3
+"25" "sunderland" "1" 25 "44923" "30:19" 1819 "VW35-39" 49.97 "F" 11 "First Timer!" 4
+"26" "sunderland" "1" 26 NA NA NA NA NA NA NA NA NA
+"27" "sunderland" "1" 27 "44646" "32:58" 1978 "VM35-39" 39.99 "M" 16 "First Timer!" 46
+"28" "sunderland" "1" 28 "44924" "33:41" 2021 "SW25-29" 43.94 "F" 12 "First Timer!" 51
+"29" "sunderland" "1" 29 "43346" "36:10" 2170 "VM55-59" 42.86 "M" 17 "First Timer!" 4
