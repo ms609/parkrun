@@ -83,7 +83,7 @@ ScrapeEventHistory <- function (eventName, eventIndex = paste0(EventDirectory(ev
                                 write=TRUE) {
   dir.create(EventDirectory(eventName))
   
-  url <- paste0("http://www.parkrun.org.uk/", eventName, "/results/eventhistory/")
+  url <- paste0("https://www.parkrun.org.uk/", eventName, "/results/eventhistory/")
   html <- getURLContent(url)
   
   runDateRegExp <- '\\?runSeqNumber=(\\d+)\\\\*">(\\d\\d)/(\\d\\d)/(\\d\\d\\d\\d)'
