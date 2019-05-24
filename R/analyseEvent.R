@@ -1,3 +1,8 @@
+#' Convert even date to point in season, in radians
+#' @param date String giving date of event
+#' @export
+EventSeason <- function (date) 2 * pi * as.integer(as.Date.factor(date) - as.Date('1999-01-01')) / 365.25
+
 #' Plot event history
 #' 
 #' @param course event name
@@ -36,10 +41,9 @@ AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4, fo
     rownames(x)[athleteSpeeds < normalRange[1] | athleteSpeeds > normalRange[2]]
   })))
   repeatResults <- repeatResults[!rownames(repeatResults) %in% outliers, ]
-  Season <- function (date) 2 * pi * as.integer(as.Date.factor(date) - as.Date('1999-01-01')) / 365.25
   
   with(repeatResults, {
-    eventSeason <- Season(date)
+    eventSeason <- EventSeason(date)
     timeModel <- lm(I(5000 / timeInSeconds) ~ sin(eventSeason) + cos(eventSeason) + (athleteNumber * eventSeason), data=repeatResults)
     timeResid <- resid(timeModel)
     #plot(timeResid ~ runSeqNumber)
@@ -59,7 +63,7 @@ AnalyseEvent <- function (course, events, runsToQualify = length(events) / 4, fo
     runNotable <- abs(runEsts) > residErr
     
     coefs <- summary(timeModel)$coefficients
-    eventSeasons <- Season(eventDates)
+    eventSeasons <- EventSeason(eventDates)
     eventSeasonality <- coefs['(Intercept)', 'Estimate'] +
       coefs['sin(eventSeason)', 'Estimate'] * sin(eventSeasons) +
       coefs['cos(eventSeason)', 'Estimate'] * cos(eventSeasons)
