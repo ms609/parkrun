@@ -1,3 +1,5 @@
+## TODO: Ignore first N events... check eventTrends to determine N!
+
 #' Gather results from cache
 #' @param courses Vector specifying names of courses to query
 #' @return List of matrices of results
@@ -77,6 +79,8 @@ CompareTwoEvents <- function (course1, course2) {
 #' 
 #' @export
 AddToCourseMatrix <- function (course1, course2) {
+  if (identical(course1, course2)) return (NA)
+  
   difference <- CompareTwoEvents(course1, course2)
   resultsFile <- 'results/matrix.txt'
   errorsFile <- 'results/matrixErrors.txt'
