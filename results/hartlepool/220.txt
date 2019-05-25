@@ -1,0 +1,109 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "hartlepool" "220" 1 "183480" "18:49" 1129 "VM40-44" 74.22 "M" 1 "PB stays at 00:17:01" 183
+"2" "hartlepool" "220" 2 "317656" "18:52" 1132 "VM35-39" 69.88 "M" 2 "PB stays at 00:18:22" 148
+"3" "hartlepool" "220" 3 "1966708" "19:22" 1162 "VM35-39" 68.93 "M" 3 "First Timer!" 111
+"4" "hartlepool" "220" 4 "828067" "19:26" 1166 "VM45-49" 74.7 "M" 4 "PB stays at 00:18:26" 66
+"5" "hartlepool" "220" 5 "467883" "19:48" 1188 "VM50-54" 75.08 "M" 5 "PB stays at 00:18:04" 48
+"6" "hartlepool" "220" 6 NA NA NA NA NA NA NA NA NA
+"7" "hartlepool" "220" 7 "42317" "20:14" 1214 "VM35-39" 66.47 "M" 7 "PB stays at 00:18:25" 44
+"8" "hartlepool" "220" 8 "3931686" "20:43" 1243 "VM35-39" 63.64 "M" 8 "PB stays at 00:18:44" 12
+"9" "hartlepool" "220" 9 "1694115" "20:46" 1246 "VM40-44" 67.74 "M" 9 "PB stays at 00:19:38" 176
+"10" "hartlepool" "220" 10 "471709" "20:53" 1253 "VM55-59" 76.14 "M" 10 "PB stays at 00:19:49" 238
+"11" "hartlepool" "220" 11 "3527905" "21:00" 1260 "SM25-29" 61.43 "M" 11 "PB stays at 00:19:49" 72
+"12" "hartlepool" "220" 12 "276219" "21:16" 1276 "VW45-49" 76.96 "F" 1 "PB stays at 00:20:50" 208
+"13" "hartlepool" "220" 13 "530340" "21:19" 1279 "SW30-34" 69.74 "F" 2 "First Timer!" 54
+"14" "hartlepool" "220" 14 "2575693" "21:29" 1289 "VM45-49" 66.49 "M" 12 "PB stays at 00:21:07" 109
+"15" "hartlepool" "220" 15 "3058058" "21:40" 1300 "VM50-54" 70.31 "M" 13 "PB stays at 00:19:55" 67
+"16" "hartlepool" "220" 16 "454358" "21:59" 1319 "VM50-54" 69.29 "M" 14 "PB stays at 00:20:21" 219
+"17" "hartlepool" "220" 17 "610893" "22:26" 1346 "VM40-44" 62.26 "M" 15 "PB stays at 00:19:54" 64
+"18" "hartlepool" "220" 18 "1237531" "22:40" 1360 "VM45-49" 63.53 "M" 16 "PB stays at 00:21:50" 61
+"19" "hartlepool" "220" 19 "3712896" "22:44" 1364 "SM30-34" 57.18 "M" 17 "PB stays at 00:21:03" 28
+"20" "hartlepool" "220" 20 "40158" "22:51" 1371 "VM55-59" 68.42 "M" 18 "First Timer!" 147
+"21" "hartlepool" "220" 21 "959549" "23:08" 1388 "VM55-59" 66.43 "M" 19 "PB stays at 00:22:18" 196
+"22" "hartlepool" "220" 22 "941609" "23:20" 1400 "VM35-39" 56.5 "M" 20 "PB stays at 00:18:11" 52
+"23" "hartlepool" "220" 23 "45255" "23:24" 1404 "VM65-69" 73.72 "M" 21 "First Timer!" 78
+"24" "hartlepool" "220" 24 "1568300" "23:38" 1418 "SM25-29" 54.58 "M" 22 "PB stays at 00:21:09" 19
+"25" "hartlepool" "220" 25 "3116205" "23:41" 1421 "VM40-44" 58.97 "M" 23 "PB stays at 00:22:11" 35
+"26" "hartlepool" "220" 26 "4706455" "23:44" 1424 "VM50-54" 62.15 "M" 24 "First Timer!" 34
+"27" "hartlepool" "220" 27 "484389" "23:48" 1428 "SW25-29" 62.18 "F" 3 "PB stays at 00:22:43" 239
+"28" "hartlepool" "220" 28 "1158176" "23:56" 1436 "VM40-44" 57.87 "M" 25 "PB stays at 00:22:19" 57
+"29" "hartlepool" "220" 29 "268350" "24:04" 1444 "VM55-59" 64.96 "M" 26 "PB stays at 00:21:12" 151
+"30" "hartlepool" "220" 30 "2340299" "24:09" 1449 "VM60-64" 68.81 "M" 27 "PB stays at 00:22:33" 37
+"31" "hartlepool" "220" 31 "4126800" "24:36" 1476 "SM30-34" 53.32 "M" 28 "PB stays at 00:22:50" 36
+"32" "hartlepool" "220" 32 "573183" "24:47" 1487 "VM40-44" 56.36 "M" 29 "PB stays at 00:23:28" 23
+"33" "hartlepool" "220" 33 "454368" "24:48" 1488 "VW55-59" 72.98 "F" 4 "PB stays at 00:22:57" 38
+"34" "hartlepool" "220" 34 "2575679" "24:56" 1496 "VW45-49" 64.3 "F" 5 "New PB!" 109
+"35" "hartlepool" "220" 35 "326871" "24:56" 1496 "VW50-54" 69.85 "F" 6 "New PB!" 22
+"36" "hartlepool" "220" 36 "1918057" "24:58" 1498 "SW18-19" 59.48 "F" 7 "PB stays at 00:23:25" 77
+"37" "hartlepool" "220" 37 "2238158" "25:06" 1506 "VM55-59" 63.35 "M" 30 "PB stays at 00:23:54" 105
+"38" "hartlepool" "220" 38 "970019" "25:22" 1522 "VM45-49" 56.31 "M" 31 "PB stays at 00:23:50" 20
+"39" "hartlepool" "220" 39 NA NA NA NA NA NA NA NA NA
+"40" "hartlepool" "220" 40 "519309" "25:26" 1526 "VM55-59" 61.99 "M" 33 "PB stays at 00:22:32" 62
+"41" "hartlepool" "220" 41 "3536490" "25:28" 1528 "VM35-39" 52.81 "M" 34 "PB stays at 00:22:30" 38
+"42" "hartlepool" "220" 42 "4754523" "25:28" 1528 "VM35-39" 52.42 "M" 35 "New PB!" 13
+"43" "hartlepool" "220" 43 "3699628" "25:33" 1533 "VM60-64" 65.04 "M" 36 "PB stays at 00:25:22" 36
+"44" "hartlepool" "220" 44 "4776698" "25:40" 1540 "VM40-44" 54.42 "M" 37 "New PB!" 15
+"45" "hartlepool" "220" 45 "1646466" "25:41" 1541 "VM45-49" 55.22 "M" 38 "PB stays at 00:22:46" 43
+"46" "hartlepool" "220" 46 "4587583" "25:42" 1542 "VM35-39" 52.72 "M" 39 "First Timer!" 34
+"47" "hartlepool" "220" 47 "1092155" "25:43" 1543 "VM45-49" 56.45 "M" 40 "PB stays at 00:23:20" 128
+"48" "hartlepool" "220" 48 "50617" "25:51" 1551 "VM70-74" 68.21 "M" 41 "New PB!" 401
+"49" "hartlepool" "220" 49 "2628074" "26:01" 1561 "SW30-34" 57.01 "F" 8 "PB stays at 00:24:39" 25
+"50" "hartlepool" "220" 50 "1183187" "26:41" 1601 "VM45-49" 53.53 "M" 42 "New PB!" 3
+"51" "hartlepool" "220" 51 NA NA NA NA NA NA NA NA NA
+"52" "hartlepool" "220" 52 "2043652" "27:01" 1621 "VM40-44" 50.89 "M" 44 "PB stays at 00:23:45" 77
+"53" "hartlepool" "220" 53 "4392643" "27:06" 1626 "JM15-17" 51.35 "M" 45 "First Timer!" 6
+"54" "hartlepool" "220" 54 "4566424" "27:09" 1629 "SM20-24" 47.51 "M" 46 "PB stays at 00:24:17" 30
+"55" "hartlepool" "220" 55 "3024768" "27:12" 1632 "SM18-19" 48.47 "M" 47 "PB stays at 00:24:53" 58
+"56" "hartlepool" "220" 56 NA NA NA NA NA NA NA NA NA
+"57" "hartlepool" "220" 57 "499457" "27:21" 1641 "SW25-29" 54.11 "F" 9 "New PB!" 38
+"58" "hartlepool" "220" 58 "327699" "27:53" 1673 "SM30-34" 46.8 "M" 49 "PB stays at 00:26:15" 319
+"59" "hartlepool" "220" 59 "1529677" "28:03" 1683 "VM60-64" 58.17 "M" 50 "PB stays at 00:27:02" 33
+"60" "hartlepool" "220" 60 "1732072" "28:20" 1700 "VM55-59" 54.71 "M" 51 "New PB!" 7
+"61" "hartlepool" "220" 61 "173534" "28:51" 1731 "VM65-69" 59.79 "M" 52 "PB stays at 00:24:31" 291
+"62" "hartlepool" "220" 62 "3859262" "29:02" 1742 "VM60-64" 55.22 "M" 53 "First Timer!" 31
+"63" "hartlepool" "220" 63 "3644212" "29:05" 1745 "VW45-49" 55.13 "F" 10 "PB stays at 00:26:51" 18
+"64" "hartlepool" "220" 64 "2767830" "29:07" 1747 "VW45-49" 54.55 "F" 11 "PB stays at 00:24:12" 23
+"65" "hartlepool" "220" 65 "1484777" "29:25" 1765 "VW50-54" 57.68 "F" 12 "First Timer!" 6
+"66" "hartlepool" "220" 66 "4777504" "29:37" 1777 "SM30-34" 43.89 "M" 54 "First Timer!" 6
+"67" "hartlepool" "220" 67 NA NA NA NA NA NA NA NA NA
+"68" "hartlepool" "220" 68 "481440" "30:00" 1800 "VW50-54" 58.78 "F" 13 "First Timer!" 38
+"69" "hartlepool" "220" 69 NA NA NA NA NA NA NA NA NA
+"70" "hartlepool" "220" 70 "4743769" "30:11" 1811 "SW30-34" 49.03 "F" 14 "PB stays at 00:29:02" 3
+"71" "hartlepool" "220" 71 "2742686" "30:12" 1812 "VW45-49" 54.19 "F" 15 "PB stays at 00:28:59" 69
+"72" "hartlepool" "220" 72 NA NA NA NA NA NA NA NA NA
+"73" "hartlepool" "220" 73 "4759271" "31:34" 1894 "VM50-54" 48.26 "M" 58 "PB stays at 00:30:31" 3
+"74" "hartlepool" "220" 74 NA NA NA NA NA NA NA NA NA
+"75" "hartlepool" "220" 75 "4126783" "31:45" 1905 "SW30-34" 46.72 "F" 16 "PB stays at 00:25:58" 52
+"76" "hartlepool" "220" 76 "2964741" "31:56" 1916 "VW50-54" 55.22 "F" 17 "PB stays at 00:29:59" 66
+"77" "hartlepool" "220" 77 "4152607" "32:08" 1928 "VW35-39" 47.3 "F" 18 "PB stays at 00:27:39" 38
+"78" "hartlepool" "220" 78 "4405655" "32:32" 1952 "VW45-49" 48.82 "F" 19 "PB stays at 00:29:48" 14
+"79" "hartlepool" "220" 79 NA NA NA NA NA NA NA NA NA
+"80" "hartlepool" "220" 80 "3406438" "32:40" 1960 "VW40-44" 47.45 "F" 20 "PB stays at 00:29:30" 28
+"81" "hartlepool" "220" 81 "4765119" "32:49" 1969 "VW45-49" 49.87 "F" 21 "First Timer!" 1
+"82" "hartlepool" "220" 82 "1215145" "32:52" 1972 "VW40-44" 46.81 "F" 22 "PB stays at 00:27:57" 40
+"83" "hartlepool" "220" 83 "1244805" "33:38" 2018 "VW45-49" 47.67 "F" 23 "PB stays at 00:28:23" 139
+"84" "hartlepool" "220" 84 "2292506" "33:39" 2019 "VW50-54" 51.06 "F" 24 "First Timer!" 54
+"85" "hartlepool" "220" 85 NA NA NA NA NA NA NA NA NA
+"86" "hartlepool" "220" 86 NA NA NA NA NA NA NA NA NA
+"87" "hartlepool" "220" 87 NA NA NA NA NA NA NA NA NA
+"88" "hartlepool" "220" 88 "4256445" "34:21" 2061 "VW50-54" 50.02 "F" 25 "PB stays at 00:27:45" 13
+"89" "hartlepool" "220" 89 "4793654" "34:29" 2069 "VM45-49" 41.13 "M" 64 "First Timer!" 5
+"90" "hartlepool" "220" 90 "2628035" "34:30" 2070 "VM45-49" 41.11 "M" 65 "PB stays at 00:27:10" 34
+"91" "hartlepool" "220" 91 "3186838" "34:41" 2081 "SW20-24" 42.67 "F" 26 "PB stays at 00:29:28" 16
+"92" "hartlepool" "220" 92 "4558877" "34:50" 2090 "SW20-24" 42.49 "F" 27 "First Timer!" 4
+"93" "hartlepool" "220" 93 "4774699" "35:36" 2136 "SW30-34" 41.67 "F" 28 "First Timer!" 8
+"94" "hartlepool" "220" 94 "4585236" "35:37" 2137 "SW30-34" 41.65 "F" 29 "First Timer!" 5
+"95" "hartlepool" "220" 95 "4371901" "35:41" 2141 "VW35-39" 42.6 "F" 30 "PB stays at 00:33:11" 2
+"96" "hartlepool" "220" 96 "4123604" "36:01" 2161 "VW50-54" 48.96 "F" 31 "First Timer!" 33
+"97" "hartlepool" "220" 97 "4392629" "36:38" 2198 "VW50-54" 47.54 "F" 32 "First Timer!" 24
+"98" "hartlepool" "220" 98 "2753054" "38:39" 2319 "VM35-39" 34.33 "M" 66 "First Timer!" 1
+"99" "hartlepool" "220" 99 "3398472" "41:47" 2507 "VW55-59" 44.52 "F" 33 "PB stays at 00:37:08" 22
+"100" "hartlepool" "220" 100 "4725356" "41:48" 2508 "VM70-74" 42.7 "M" 67 "PB stays at 00:38:30" 5
+"101" "hartlepool" "220" 101 "1090595" "42:30" 2550 "VW45-49" 37.37 "F" 34 "First Timer!" 55
+"102" "hartlepool" "220" 102 "249753" "42:31" 2551 "VM45-49" 33.36 "M" 68 "First Timer!" 306
+"103" "hartlepool" "220" 103 "1279913" "42:37" 2557 "JW10" 44.04 "F" 35 "First Timer!" 79
+"104" "hartlepool" "220" 104 "402601" "42:38" 2558 "VW40-44" 36.63 "F" 36 "First Timer!" 191
+"105" "hartlepool" "220" 105 "4792048" "45:32" 2732 "SW25-29" 32.5 "F" 37 "First Timer!" 2
+"106" "hartlepool" "220" 106 "697914" "51:11" 3071 "JW10" 33.34 "F" 38 "First Timer!" 173
+"107" "hartlepool" "220" 107 "247849" "51:11" 3071 "VM40-44" 27.48 "M" 69 "First Timer!" 203
+"108" "hartlepool" "220" 108 "492070" "51:31" 3091 "VW55-59" 35.13 "F" 39 "PB stays at 00:32:14" 185
