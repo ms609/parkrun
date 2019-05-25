@@ -1,0 +1,106 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "sunderland" "245" 1 "325947" "17:57" 1077 "SM25-29" 71.96 "M" 1 "PB stays at 00:15:43" 95
+"2" "sunderland" "245" 2 "511695" "18:38" 1118 "SM30-34" 69.77 "M" 2 "PB stays at 00:17:26" 62
+"3" "sunderland" "245" 3 "173216" "18:51" 1131 "VM35-39" 70.82 "M" 3 "PB stays at 00:17:40" 32
+"4" "sunderland" "245" 4 "144010" "19:16" 1156 "VM45-49" 73.62 "M" 4 "PB stays at 00:18:11" 315
+"5" "sunderland" "245" 5 "235755" "19:47" 1187 "VM50-54" 77 "M" 5 "PB stays at 00:19:20" 38
+"6" "sunderland" "245" 6 "51373" "19:49" 1189 "VM60-64" 82.34 "M" 6 "PB stays at 00:19:29" 237
+"7" "sunderland" "245" 7 NA NA NA NA NA NA NA NA NA
+"8" "sunderland" "245" 8 "557565" "20:13" 1213 "VM40-44" 69.58 "M" 8 "PB stays at 00:19:35" 254
+"9" "sunderland" "245" 9 "140279" "20:30" 1230 "VM50-54" 73.09 "M" 9 "PB stays at 00:18:40" 101
+"10" "sunderland" "245" 10 "157964" "20:33" 1233 "SM30-34" 63.26 "M" 10 "PB stays at 00:19:50" 88
+"11" "sunderland" "245" 11 "56872" "20:39" 1239 "VM45-49" 69.17 "M" 11 "PB stays at 00:19:44" 323
+"12" "sunderland" "245" 12 "139720" "20:40" 1240 "VM40-44" 68.06 "M" 12 "PB stays at 00:18:51" 360
+"13" "sunderland" "245" 13 "1141099" "20:41" 1241 "SM25-29" 62.37 "M" 13 "First Timer!" 2
+"14" "sunderland" "245" 14 "626522" "20:44" 1244 "VM55-59" 76.05 "M" 14 "PB stays at 00:20:37" 155
+"15" "sunderland" "245" 15 "292245" "20:55" 1255 "SM30-34" 61.99 "M" 15 "PB stays at 00:17:31" 116
+"16" "sunderland" "245" 16 "28032" "20:56" 1256 "SW30-34" 70.7 "F" 1 "PB stays at 00:18:39" 116
+"17" "sunderland" "245" 17 "625436" "21:03" 1263 "SW25-29" 70.31 "F" 2 "New PB!" 10
+"18" "sunderland" "245" 18 "316635" "21:04" 1264 "VM50-54" 70.02 "M" 16 "PB stays at 00:20:48" 126
+"19" "sunderland" "245" 19 NA NA NA NA NA NA NA NA NA
+"20" "sunderland" "245" 20 "1126410" "21:10" 1270 "VM55-59" 73.23 "M" 18 "First Timer!" 14
+"21" "sunderland" "245" 21 NA NA NA NA NA NA NA NA NA
+"22" "sunderland" "245" 22 NA NA NA NA NA NA NA NA NA
+"23" "sunderland" "245" 23 NA NA NA NA NA NA NA NA NA
+"24" "sunderland" "245" 24 "44445" "21:32" 1292 "VM45-49" 66.33 "M" 22 "PB stays at 00:19:33" 361
+"25" "sunderland" "245" 25 "118362" "21:38" 1298 "VM50-54" 69.88 "M" 23 "PB stays at 00:19:58" 270
+"26" "sunderland" "245" 26 "527805" "21:48" 1308 "SM30-34" 59.48 "M" 24 "PB stays at 00:18:50" 126
+"27" "sunderland" "245" 27 "80691" "21:54" 1314 "VM55-59" 70.17 "M" 25 "PB stays at 00:18:23" 18
+"28" "sunderland" "245" 28 "44985" "22:08" 1328 "VM40-44" 63.55 "M" 26 "PB stays at 00:19:51" 198
+"29" "sunderland" "245" 29 "70137" "22:11" 1331 "VM35-39" 59.43 "M" 27 "PB stays at 00:18:58" 177
+"30" "sunderland" "245" 30 "70533" "22:18" 1338 "VM40-44" 63.08 "M" 28 "PB stays at 00:20:43" 111
+"31" "sunderland" "245" 31 "69600" "22:18" 1338 "VM50-54" 66.67 "M" 29 "PB stays at 00:21:06" 130
+"32" "sunderland" "245" 32 "75613" "22:19" 1339 "VM55-59" 71.25 "M" 30 "PB stays at 00:19:52" 126
+"33" "sunderland" "245" 33 "351093" "22:45" 1365 "VM40-44" 60.88 "M" 31 "PB stays at 00:20:24" 246
+"34" "sunderland" "245" 34 "63588" "22:47" 1367 "SW30-34" 65.11 "F" 3 "PB stays at 00:21:18" 63
+"35" "sunderland" "245" 35 "351099" "22:55" 1375 "VM45-49" 61.89 "M" 32 "PB stays at 00:20:32" 258
+"36" "sunderland" "245" 36 "1131952" "23:03" 1383 "SM20-24" 56.18 "M" 33 "New PB!" 6
+"37" "sunderland" "245" 37 "189618" "23:19" 1399 "VM35-39" 57.68 "M" 34 "PB stays at 00:22:15" 13
+"38" "sunderland" "245" 38 "98127" "23:26" 1406 "VM40-44" 60.03 "M" 35 "PB stays at 00:20:24" 299
+"39" "sunderland" "245" 39 "572282" "23:33" 1413 "VM35-39" 57.54 "M" 36 "PB stays at 00:20:16" 108
+"40" "sunderland" "245" 40 "50617" "23:42" 1422 "VM65-69" 71.45 "M" 37 "PB stays at 00:21:43" 402
+"41" "sunderland" "245" 41 "156357" "23:52" 1432 "VM40-44" 58.03 "M" 38 "PB stays at 00:21:58" 78
+"42" "sunderland" "245" 42 "132157" "24:04" 1444 "VM50-54" 63.3 "M" 39 "PB stays at 00:22:24" 346
+"43" "sunderland" "245" 43 "170154" "24:17" 1457 "VM55-59" 64.93 "M" 40 "First Timer!" 337
+"44" "sunderland" "245" 44 "83327" "24:28" 1468 "VM45-49" 59.81 "M" 41 "PB stays at 00:23:19" 365
+"45" "sunderland" "245" 45 "488753" "24:28" 1468 "VM55-59" 62.81 "M" 42 "PB stays at 00:23:11" 51
+"46" "sunderland" "245" 46 NA NA NA NA NA NA NA NA NA
+"47" "sunderland" "245" 47 "111823" "24:40" 1480 "VM55-59" 64.46 "M" 44 "PB stays at 00:20:50" 90
+"48" "sunderland" "245" 48 "364520" "24:46" 1486 "SM30-34" 52.49 "M" 45 "PB stays at 00:24:05" 96
+"49" "sunderland" "245" 49 "172448" "24:56" 1496 "VM40-44" 56.42 "M" 46 "PB stays at 00:24:38" 9
+"50" "sunderland" "245" 50 "182297" "25:25" 1525 "VM50-54" 58.49 "M" 47 "PB stays at 00:23:33" 227
+"51" "sunderland" "245" 51 "170153" "25:42" 1542 "SW30-34" 57.85 "F" 4 "First Timer!" 301
+"52" "sunderland" "245" 52 "1060046" "25:43" 1543 "VM40-44" 53.47 "M" 48 "New PB!" 248
+"53" "sunderland" "245" 53 NA NA NA NA NA NA NA NA NA
+"54" "sunderland" "245" 54 "1010323" "25:58" 1558 "VM40-44" 52.57 "M" 50 "PB stays at 00:25:36" 19
+"55" "sunderland" "245" 55 NA NA NA NA NA NA NA NA NA
+"56" "sunderland" "245" 56 "1143192" "26:07" 1567 "VW45-49" 60.82 "F" 5 "First Timer!" 2
+"57" "sunderland" "245" 57 "31477" "26:08" 1568 "VM60-64" 61.93 "M" 52 "PB stays at 00:22:47" 201
+"58" "sunderland" "245" 58 "86909" "26:20" 1580 "VM40-44" 51.84 "M" 53 "PB stays at 00:20:45" 330
+"59" "sunderland" "245" 59 "262239" "26:35" 1595 "SW30-34" 56.05 "F" 6 "PB stays at 00:23:27" 36
+"60" "sunderland" "245" 60 "225676" "26:35" 1595 "VW50-54" 64.64 "F" 7 "PB stays at 00:24:02" 279
+"61" "sunderland" "245" 61 "210730" "26:46" 1606 "VM50-54" 55.54 "M" 54 "PB stays at 00:24:02" 149
+"62" "sunderland" "245" 62 "284642" "27:12" 1632 "VM65-69" 62.81 "M" 55 "PB stays at 00:24:43" 300
+"63" "sunderland" "245" 63 "1130169" "27:18" 1638 "VM45-49" 51.95 "M" 56 "New PB!" 56
+"64" "sunderland" "245" 64 "76888" "27:26" 1646 "SW30-34" 53.95 "F" 8 "PB stays at 00:27:02" 78
+"65" "sunderland" "245" 65 "764620" "27:28" 1648 "SW30-34" 53.88 "F" 9 "PB stays at 00:24:58" 127
+"66" "sunderland" "245" 66 "943459" "27:39" 1659 "VW45-49" 57.44 "F" 10 "PB stays at 00:25:39" 7
+"67" "sunderland" "245" 67 "170145" "27:40" 1660 "VM35-39" 47.65 "M" 57 "First Timer!" 245
+"68" "sunderland" "245" 68 "1058540" "27:58" 1678 "SM25-29" 46.19 "M" 58 "First Timer!" 72
+"69" "sunderland" "245" 69 "436489" "28:15" 1695 "VM45-49" 51.8 "M" 59 "PB stays at 00:24:50" 29
+"70" "sunderland" "245" 70 "433500" "28:22" 1702 "SM30-34" 46 "M" 60 "PB stays at 00:24:47" 56
+"71" "sunderland" "245" 71 NA NA NA NA NA NA NA NA NA
+"72" "sunderland" "245" 72 "986387" "28:56" 1736 "SM30-34" 44.82 "M" 62 "PB stays at 00:25:16" 46
+"73" "sunderland" "245" 73 "425964" "28:59" 1739 "VM60-64" 56.3 "M" 63 "PB stays at 00:27:24" 116
+"74" "sunderland" "245" 74 "625492" "29:01" 1741 "VW60-64" 66.86 "F" 11 "New PB!" 27
+"75" "sunderland" "245" 75 NA NA NA NA NA NA NA NA NA
+"76" "sunderland" "245" 76 NA NA NA NA NA NA NA NA NA
+"77" "sunderland" "245" 77 "1139090" "29:37" 1777 "VW35-39" 51.1 "F" 12 "First Timer!" 202
+"78" "sunderland" "245" 78 "1143571" "30:00" 1800 "SW25-29" 49.33 "F" 13 "First Timer!" 1
+"79" "sunderland" "245" 79 "45317" "30:25" 1825 "VM75-79" 63.4 "M" 66 "PB stays at 00:24:59" 369
+"80" "sunderland" "245" 80 "128128" "30:40" 1840 "VM60-64" 54.18 "M" 67 "PB stays at 00:26:33" 330
+"81" "sunderland" "245" 81 "1092016" "30:44" 1844 "VM40-44" 45.07 "M" 68 "First Timer!" 43
+"82" "sunderland" "245" 82 "1089553" "30:47" 1847 "SM18-19" 42.83 "M" 69 "PB stays at 00:29:12" 12
+"83" "sunderland" "245" 83 "541251" "30:53" 1853 "VM65-69" 55.32 "M" 70 "New PB!" 39
+"84" "sunderland" "245" 84 "1097814" "31:02" 1862 "VW45-49" 52.2 "F" 14 "New PB!" 222
+"85" "sunderland" "245" 85 "804278" "31:15" 1875 "VW45-49" 50.83 "F" 15 "New PB!" 102
+"86" "sunderland" "245" 86 "259338" "31:27" 1887 "VW40-44" 48.91 "F" 16 "PB stays at 00:26:35" 273
+"87" "sunderland" "245" 87 "819557" "31:28" 1888 "JM11-14" 47.25 "M" 71 "PB stays at 00:24:04" 118
+"88" "sunderland" "245" 88 "164349" "31:35" 1895 "SW18-19" 47.39 "F" 17 "PB stays at 00:26:54" 57
+"89" "sunderland" "245" 89 "88816" "31:36" 1896 "VW55-59" 57.28 "F" 18 "PB stays at 00:26:39" 164
+"90" "sunderland" "245" 90 "83326" "31:38" 1898 "VW45-49" 50.68 "F" 19 "PB stays at 00:25:41" 376
+"91" "sunderland" "245" 91 "315498" "31:39" 1899 "SW20-24" 46.76 "F" 20 "PB stays at 00:29:45" 58
+"92" "sunderland" "245" 92 "705929" "31:43" 1903 "VW35-39" 47.45 "F" 21 "PB stays at 00:26:14" 198
+"93" "sunderland" "245" 93 "87621" "31:44" 1904 "VW40-44" 48.84 "F" 22 "PB stays at 00:26:35" 313
+"94" "sunderland" "245" 94 NA NA NA NA NA NA NA NA NA
+"95" "sunderland" "245" 95 "157800" "32:32" 1952 "SW30-34" 45.7 "F" 23 "PB stays at 00:27:41" 53
+"96" "sunderland" "245" 96 "827155" "32:33" 1953 "VW35-39" 46.7 "F" 24 "PB stays at 00:30:46" 32
+"97" "sunderland" "245" 97 NA NA NA NA NA NA NA NA NA
+"98" "sunderland" "245" 98 "63052" "34:49" 2089 "VW45-49" 46.53 "F" 25 "PB stays at 00:28:47" 149
+"99" "sunderland" "245" 99 "217847" "34:58" 2098 "VW50-54" 47.95 "F" 26 "PB stays at 00:32:21" 172
+"100" "sunderland" "245" 100 "951072" "35:51" 2151 "SW25-29" 41.28 "F" 27 "First Timer!" 3
+"101" "sunderland" "245" 101 "734823" "35:51" 2151 "SW25-29" 41.28 "F" 28 "First Timer!" 21
+"102" "sunderland" "245" 102 "141717" "36:13" 2173 "VW65-69" 56.83 "F" 29 "PB stays at 00:32:45" 281
+"103" "sunderland" "245" 103 "131509" "37:45" 2265 "VW55-59" 49.98 "F" 30 "New PB!" 18
+"104" "sunderland" "245" 104 "373134" "38:52" 2332 "VW65-69" 53.77 "F" 31 "PB stays at 00:36:07" 59
+"105" "sunderland" "245" 105 "1123771" "41:49" 2509 "SW30-34" 35.47 "F" 32 "First Timer!" 1

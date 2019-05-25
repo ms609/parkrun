@@ -1,0 +1,148 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "southshields" "176" 1 "146728" "17:33" 1053 "VM35-39" 76.64 "M" 1 "PB stays at 00:17:01" 67
+"2" "southshields" "176" 2 "153896" "17:53" 1073 "SM25-29" 72.23 "M" 2 "PB stays at 00:17:26" 71
+"3" "southshields" "176" 3 "2221197" "18:10" 1090 "SM30-34" 71.83 "M" 3 "PB stays at 00:17:58" 45
+"4" "southshields" "176" 4 NA NA NA NA NA NA NA NA NA
+"5" "southshields" "176" 5 "224561" "18:53" 1133 "VM35-39" 70.7 "M" 5 "PB stays at 00:17:46" 60
+"6" "southshields" "176" 6 "1017179" "18:56" 1136 "VM35-39" 69.63 "M" 6 "PB stays at 00:18:32" 62
+"7" "southshields" "176" 7 "668713" "18:58" 1138 "SM20-24" 68.01 "M" 7 "PB stays at 00:18:02" 23
+"8" "southshields" "176" 8 "548303" "19:07" 1147 "VM55-59" 80.38 "M" 8 "New PB!" 114
+"9" "southshields" "176" 9 "65207" "19:37" 1177 "VM40-44" 70.6 "M" 9 "First Timer!" 184
+"10" "southshields" "176" 10 "1859307" "19:42" 1182 "VM40-44" 69.29 "M" 10 "New PB!" 10
+"11" "southshields" "176" 11 "142794" "19:49" 1189 "VM40-44" 68.88 "M" 11 "PB stays at 00:18:42" 213
+"12" "southshields" "176" 12 "1165029" "19:55" 1195 "JM15-17" 68.79 "M" 12 "PB stays at 00:17:48" 60
+"13" "southshields" "176" 13 "587007" "20:09" 1209 "VM45-49" 72.04 "M" 13 "PB stays at 00:19:31" 125
+"14" "southshields" "176" 14 "1896686" "20:17" 1217 "SM25-29" 63.6 "M" 14 "PB stays at 00:19:48" 18
+"15" "southshields" "176" 15 NA NA NA NA NA NA NA NA NA
+"16" "southshields" "176" 16 "110191" "20:29" 1229 "VM50-54" 73.15 "M" 16 "PB stays at 00:18:48" 340
+"17" "southshields" "176" 17 "2301267" "20:47" 1247 "VM40-44" 67.68 "M" 17 "PB stays at 00:20:39" 49
+"18" "southshields" "176" 18 "642683" "20:51" 1251 "VM50-54" 72.5 "M" 18 "PB stays at 00:19:50" 40
+"19" "southshields" "176" 19 "650410" "20:58" 1258 "VM40-44" 65.58 "M" 19 "New PB!" 4
+"20" "southshields" "176" 20 "453515" "21:05" 1265 "SW20-24" 70.2 "F" 1 "PB stays at 00:20:37" 92
+"21" "southshields" "176" 21 "499944" "21:11" 1271 "VM35-39" 63.49 "M" 20 "PB stays at 00:19:40" 243
+"22" "southshields" "176" 22 "1022549" "21:49" 1309 "VM40-44" 63.48 "M" 21 "PB stays at 00:20:34" 41
+"23" "southshields" "176" 23 "1654388" "21:52" 1312 "SW30-34" 67.84 "F" 2 "PB stays at 00:20:49" 95
+"24" "southshields" "176" 24 "2729945" "21:58" 1318 "SM25-29" 58.73 "M" 22 "New PB!" 4
+"25" "southshields" "176" 25 NA NA NA NA NA NA NA NA NA
+"26" "southshields" "176" 26 "2623398" "22:02" 1322 "SM25-29" 58.55 "M" 24 "New PB!" 17
+"27" "southshields" "176" 27 "1863211" "22:09" 1329 "VM55-59" 71.78 "M" 25 "PB stays at 00:19:48" 130
+"28" "southshields" "176" 28 "126486" "22:20" 1340 "VM60-64" 73.06 "M" 26 "PB stays at 00:19:35" 167
+"29" "southshields" "176" 29 "609305" "22:22" 1342 "VW50-54" 75.86 "F" 3 "PB stays at 00:20:29" 90
+"30" "southshields" "176" 30 "1608515" "22:23" 1343 "VM40-44" 60.98 "M" 27 "PB stays at 00:21:19" 36
+"31" "southshields" "176" 31 "516165" "22:26" 1346 "VM50-54" 65.75 "M" 28 "PB stays at 00:21:01" 140
+"32" "southshields" "176" 32 "501928" "22:31" 1351 "VM40-44" 61.07 "M" 29 "PB stays at 00:20:50" 188
+"33" "southshields" "176" 33 "570857" "22:35" 1355 "SM25-29" 57.12 "M" 30 "PB stays at 00:22:28" 30
+"34" "southshields" "176" 34 "1896653" "22:35" 1355 "SW20-24" 65.54 "F" 4 "PB stays at 00:21:47" 23
+"35" "southshields" "176" 35 "97216" "22:36" 1356 "VM40-44" 61.28 "M" 31 "PB stays at 00:18:42" 161
+"36" "southshields" "176" 36 "1695278" "22:46" 1366 "VM35-39" 59.08 "M" 32 "New PB!" 48
+"37" "southshields" "176" 37 "2280902" "22:49" 1369 "VM45-49" 62.6 "M" 33 "PB stays at 00:22:14" 4
+"38" "southshields" "176" 38 "2386595" "22:51" 1371 "SM30-34" 57.4 "M" 34 "New PB!" 16
+"39" "southshields" "176" 39 "117089" "22:53" 1373 "VM40-44" 61.03 "M" 35 "PB stays at 00:21:51" 137
+"40" "southshields" "176" 40 "1660168" "22:54" 1374 "VW40-44" 67.18 "F" 5 "PB stays at 00:22:17" 105
+"41" "southshields" "176" 41 "484173" "23:05" 1385 "VM65-69" 73.36 "M" 36 "PB stays at 00:21:23" 228
+"42" "southshields" "176" 42 NA NA NA NA NA NA NA NA NA
+"43" "southshields" "176" 43 "610675" "23:24" 1404 "VM40-44" 58.33 "M" 38 "PB stays at 00:21:53" 160
+"44" "southshields" "176" 44 "2682115" "23:30" 1410 "VM35-39" 56.45 "M" 39 "PB stays at 00:20:24" 74
+"45" "southshields" "176" 45 "738786" "23:36" 1416 "SW25-29" 62.71 "F" 6 "New PB!" 38
+"46" "southshields" "176" 46 "1962141" "23:41" 1421 "VM35-39" 56.02 "M" 40 "PB stays at 00:23:03" 27
+"47" "southshields" "176" 47 "2701416" "23:43" 1423 "SM30-34" 54.53 "M" 41 "New PB!" 2
+"48" "southshields" "176" 48 "381870" "23:58" 1438 "SM25-29" 53.82 "M" 42 "PB stays at 00:20:02" 43
+"49" "southshields" "176" 49 "522884" "24:10" 1450 "SM25-29" 53.38 "M" 43 "PB stays at 00:23:06" 26
+"50" "southshields" "176" 50 "905670" "24:21" 1461 "VM50-54" 62.08 "M" 44 "PB stays at 00:21:51" 25
+"51" "southshields" "176" 51 "1672181" "24:27" 1467 "VM50-54" 61.83 "M" 45 "PB stays at 00:23:34" 15
+"52" "southshields" "176" 52 "2039138" "24:32" 1472 "VM60-64" 66.51 "M" 46 "New PB!" 30
+"53" "southshields" "176" 53 "292781" "24:36" 1476 "VM50-54" 60.91 "M" 47 "PB stays at 00:19:54" 111
+"54" "southshields" "176" 54 "2191206" "24:47" 1487 "SM25-29" 52.05 "M" 48 "PB stays at 00:22:54" 15
+"55" "southshields" "176" 55 "1057363" "24:49" 1489 "SW30-34" 59.77 "F" 7 "PB stays at 00:22:36" 118
+"56" "southshields" "176" 56 "1854931" "25:12" 1512 "VM50-54" 60.45 "M" 49 "PB stays at 00:24:15" 55
+"57" "southshields" "176" 57 "515260" "25:13" 1513 "VM45-49" 56.25 "M" 50 "PB stays at 00:23:10" 126
+"58" "southshields" "176" 58 "1236684" "25:13" 1513 "SM30-34" 51.55 "M" 51 "PB stays at 00:20:27" 36
+"59" "southshields" "176" 59 "1539374" "25:13" 1513 "VM40-44" 54.13 "M" 52 "PB stays at 00:23:28" 98
+"60" "southshields" "176" 60 "509372" "25:16" 1516 "SM30-34" 51.32 "M" 53 "PB stays at 00:19:34" 128
+"61" "southshields" "176" 61 "241208" "25:22" 1522 "VM40-44" 55.06 "M" 54 "PB stays at 00:20:36" 135
+"62" "southshields" "176" 62 NA NA NA NA NA NA NA NA NA
+"63" "southshields" "176" 63 "874036" "25:23" 1523 "VM40-44" 54.17 "M" 56 "PB stays at 00:23:52" 224
+"64" "southshields" "176" 64 "1898692" "25:32" 1532 "VW35-39" 58.55 "F" 8 "PB stays at 00:22:32" 87
+"65" "southshields" "176" 65 "1249396" "25:35" 1535 "VM55-59" 60.59 "M" 57 "PB stays at 00:21:54" 113
+"66" "southshields" "176" 66 NA NA NA NA NA NA NA NA NA
+"67" "southshields" "176" 67 "2715232" "25:46" 1546 "SW25-29" 57.44 "F" 9 "First Timer!" 1
+"68" "southshields" "176" 68 "1263599" "25:56" 1556 "JM10" 60.86 "M" 59 "PB stays at 00:24:45" 21
+"69" "southshields" "176" 69 "2117848" "25:57" 1557 "VM55-59" 61.27 "M" 60 "New PB!" 140
+"70" "southshields" "176" 70 "749218" "25:59" 1559 "SW30-34" 57.22 "F" 10 "PB stays at 00:24:19" 168
+"71" "southshields" "176" 71 "969053" "26:08" 1568 "VM40-44" 53 "M" 61 "PB stays at 00:23:56" 83
+"72" "southshields" "176" 72 "666171" "26:09" 1569 "SW30-34" 56.66 "F" 11 "PB stays at 00:23:31" 132
+"73" "southshields" "176" 73 "2388923" "26:14" 1574 "VW45-49" 60.55 "F" 12 "New PB!" 6
+"74" "southshields" "176" 74 "233864" "26:16" 1576 "VM70-74" 67.13 "M" 62 "PB stays at 00:24:03" 76
+"75" "southshields" "176" 75 "1251939" "26:20" 1580 "JM11-14" 55.06 "M" 63 "PB stays at 00:25:43" 15
+"76" "southshields" "176" 76 "1608163" "26:27" 1587 "VW40-44" 57.84 "F" 13 "PB stays at 00:26:06" 93
+"77" "southshields" "176" 77 "2162983" "26:32" 1592 "VM35-39" 51.07 "M" 64 "PB stays at 00:26:14" 33
+"78" "southshields" "176" 78 NA NA NA NA NA NA NA NA NA
+"79" "southshields" "176" 79 "583231" "26:51" 1611 "VW45-49" 59.71 "F" 14 "PB stays at 00:23:01" 160
+"80" "southshields" "176" 80 "2734848" "26:51" 1611 "SM20-24" 48.04 "M" 66 "New PB!" 2
+"81" "southshields" "176" 81 "530872" "27:06" 1626 "SW30-34" 54.86 "F" 15 "PB stays at 00:23:37" 163
+"82" "southshields" "176" 82 "551450" "27:13" 1633 "VM40-44" 51.32 "M" 67 "PB stays at 00:19:21" 145
+"83" "southshields" "176" 83 "1578709" "27:14" 1634 "VM45-49" 53.3 "M" 68 "PB stays at 00:25:08" 32
+"84" "southshields" "176" 84 "1415208" "27:21" 1641 "VM50-54" 53.93 "M" 69 "PB stays at 00:24:02" 36
+"85" "southshields" "176" 85 "1632298" "27:22" 1642 "VM35-39" 48.48 "M" 70 "PB stays at 00:21:50" 20
+"86" "southshields" "176" 86 "554995" "27:24" 1644 "VW50-54" 62.71 "F" 16 "PB stays at 00:24:08" 213
+"87" "southshields" "176" 87 "113385" "27:27" 1647 "VW50-54" 63.45 "F" 17 "PB stays at 00:26:13" 161
+"88" "southshields" "176" 88 "377247" "27:28" 1648 "VM50-54" 55.46 "M" 71 "PB stays at 00:25:40" 277
+"89" "southshields" "176" 89 "1582311" "27:31" 1651 "VW35-39" 54.69 "F" 18 "PB stays at 00:27:24" 7
+"90" "southshields" "176" 90 "560345" "27:33" 1653 "VM60-64" 58.2 "M" 72 "PB stays at 00:24:57" 89
+"91" "southshields" "176" 91 "605900" "27:53" 1673 "VW40-44" 54.87 "F" 19 "First Timer!" 97
+"92" "southshields" "176" 92 "501308" "27:54" 1674 "VW55-59" 65.77 "F" 20 "PB stays at 00:24:34" 67
+"93" "southshields" "176" 93 NA NA NA NA NA NA NA NA NA
+"94" "southshields" "176" 94 "1387182" "27:58" 1678 "VW45-49" 58.52 "F" 21 "PB stays at 00:25:27" 106
+"95" "southshields" "176" 95 "2667603" "27:58" 1678 "VW35-39" 54.35 "F" 22 "New PB!" 106
+"96" "southshields" "176" 96 "1817738" "28:02" 1682 "VW35-39" 53.69 "F" 23 "New PB!" 91
+"97" "southshields" "176" 97 "498843" "28:13" 1693 "VW45-49" 58 "F" 24 "PB stays at 00:23:56" 74
+"98" "southshields" "176" 98 "583263" "28:14" 1694 "VM60-64" 57.79 "M" 74 "PB stays at 00:24:43" 143
+"99" "southshields" "176" 99 "2159814" "28:58" 1738 "VM60-64" 56.85 "M" 75 "PB stays at 00:26:18" 136
+"100" "southshields" "176" 100 "1606710" "29:02" 1742 "VW35-39" 52.35 "F" 25 "PB stays at 00:27:26" 36
+"101" "southshields" "176" 101 "2730807" "29:04" 1744 "SM25-29" 44.38 "M" 76 "New PB!" 83
+"102" "southshields" "176" 102 "1730856" "29:09" 1749 "VW35-39" 52.14 "F" 26 "PB stays at 00:23:53" 114
+"103" "southshields" "176" 103 "1975876" "29:22" 1762 "VW45-49" 56.41 "F" 27 "PB stays at 00:27:35" 70
+"104" "southshields" "176" 104 "963466" "29:23" 1763 "VW35-39" 51.5 "F" 28 "PB stays at 00:25:56" 157
+"105" "southshields" "176" 105 "1310612" "29:27" 1767 "VM50-54" 50.48 "M" 77 "PB stays at 00:27:42" 90
+"106" "southshields" "176" 106 "1639298" "29:40" 1780 "VM45-49" 48.15 "M" 78 "PB stays at 00:26:00" 73
+"107" "southshields" "176" 107 "2422250" "29:40" 1780 "VM40-44" 47.42 "M" 79 "First Timer!" 54
+"108" "southshields" "176" 108 "2696823" "29:53" 1793 "JM11-14" 51.2 "M" 80 "PB stays at 00:28:51" 2
+"109" "southshields" "176" 109 "2502668" "29:55" 1795 "VM40-44" 45.63 "M" 81 "PB stays at 00:19:06" 11
+"110" "southshields" "176" 110 "461953" "30:06" 1806 "VW45-49" 55.04 "F" 29 "PB stays at 00:24:28" 252
+"111" "southshields" "176" 111 NA NA NA NA NA NA NA NA NA
+"112" "southshields" "176" 112 "2123417" "31:03" 1863 "JM10" 54.8 "M" 83 "PB stays at 00:27:02" 42
+"113" "southshields" "176" 113 "1081569" "31:05" 1865 "VW35-39" 48.69 "F" 30 "PB stays at 00:29:49" 73
+"114" "southshields" "176" 114 "2757456" "31:10" 1870 "JM10" 54.6 "M" 84 "First Timer!" 2
+"115" "southshields" "176" 115 "2540654" "31:13" 1873 "VW45-49" 50.88 "F" 31 "First Timer!" 15
+"116" "southshields" "176" 116 "1158122" "31:18" 1878 "VM35-39" 42.97 "M" 85 "PB stays at 00:25:37" 94
+"117" "southshields" "176" 117 "1979345" "31:18" 1878 "VW50-54" 54.9 "F" 32 "PB stays at 00:27:35" 132
+"118" "southshields" "176" 118 "2329647" "31:20" 1880 "VM40-44" 43.56 "M" 86 "New PB!" 86
+"119" "southshields" "176" 119 "2367685" "31:51" 1911 "VW35-39" 47.72 "F" 33 "PB stays at 00:26:34" 92
+"120" "southshields" "176" 120 "2367578" "32:00" 1920 "VW40-44" 47.81 "F" 34 "PB stays at 00:25:52" 114
+"121" "southshields" "176" 121 "85190" "32:20" 1940 "VW55-59" 55.98 "F" 35 "PB stays at 00:30:52" 153
+"122" "southshields" "176" 122 "1191794" "32:20" 1940 "VM70-74" 56.75 "M" 87 "PB stays at 00:28:09" 142
+"123" "southshields" "176" 123 "2684442" "32:25" 1945 "VW35-39" 46.89 "F" 36 "New PB!" 10
+"124" "southshields" "176" 124 "577506" "32:57" 1977 "SW30-34" 45.22 "F" 37 "PB stays at 00:29:56" 2
+"125" "southshields" "176" 125 "198359" "32:57" 1977 "VM50-54" 46.23 "M" 88 "PB stays at 00:28:05" 112
+"126" "southshields" "176" 126 NA NA NA NA NA NA NA NA NA
+"127" "southshields" "176" 127 "2160184" "33:24" 2004 "VW50-54" 52.15 "F" 38 "PB stays at 00:29:43" 25
+"128" "southshields" "176" 128 "2748676" "33:25" 2005 "JW15-17" 45.79 "F" 39 "First Timer!" 1
+"129" "southshields" "176" 129 "2726578" "33:25" 2005 "VM45-49" 42.74 "M" 90 "First Timer!" 4
+"130" "southshields" "176" 130 "2402801" "33:26" 2006 "JW10" 54.19 "F" 40 "New PB!" 2
+"131" "southshields" "176" 131 "2402707" "33:26" 2006 "VM45-49" 42.72 "M" 91 "New PB!" 2
+"132" "southshields" "176" 132 "1974135" "34:03" 2043 "VW35-39" 44.44 "F" 41 "PB stays at 00:31:21" 148
+"133" "southshields" "176" 133 "2667644" "34:54" 2094 "JM11-14" 41.55 "M" 92 "PB stays at 00:21:46" 40
+"134" "southshields" "176" 134 "2717456" "35:11" 2111 "JW11-14" 44.67 "F" 42 "First Timer!" 8
+"135" "southshields" "176" 135 "2240789" "35:18" 2118 "VW55-59" 52.69 "F" 43 "PB stays at 00:27:42" 13
+"136" "southshields" "176" 136 "1364306" "36:19" 2179 "VW40-44" 42.68 "F" 44 "PB stays at 00:30:30" 23
+"137" "southshields" "176" 137 "407186" "36:38" 2198 "VM65-69" 45.77 "M" 93 "PB stays at 00:33:08" 97
+"138" "southshields" "176" 138 NA NA NA NA NA NA NA NA NA
+"139" "southshields" "176" 139 "2205425" "36:56" 2216 "SW20-24" 40.07 "F" 45 "PB stays at 00:21:24" 80
+"140" "southshields" "176" 140 "985806" "37:13" 2233 "VW35-39" 40.17 "F" 46 "PB stays at 00:33:50" 79
+"141" "southshields" "176" 141 "2368150" "38:37" 2317 "SW30-34" 38.41 "F" 47 "New PB!" 78
+"142" "southshields" "176" 142 "692610" "39:04" 2344 "VW40-44" 39.38 "F" 48 "PB stays at 00:27:44" 51
+"143" "southshields" "176" 143 "36220" "40:38" 2438 "VM75-79" 47.46 "M" 95 "PB stays at 00:32:54" 288
+"144" "southshields" "176" 144 "25431" "40:39" 2439 "VM45-49" 35.71 "M" 96 "PB stays at 00:21:21" 412
+"145" "southshields" "176" 145 "2676265" "40:54" 2454 "VW35-39" 36.8 "F" 49 "New PB!" 4
+"146" "southshields" "176" 146 "498506" "40:55" 2455 "VW55-59" 44.85 "F" 50 "PB stays at 00:34:09" 222
+"147" "southshields" "176" 147 "518172" "40:55" 2455 "VW70-74" 55.32 "F" 51 "PB stays at 00:30:09" 210

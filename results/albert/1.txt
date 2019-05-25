@@ -1,0 +1,27 @@
+"eventName" "runSeqNumber" "pos" "athleteNumber" "time" "timeInSeconds" "ageCat" "ageGrade" "gender" "genderPos" "note" "totalRuns"
+"1" "albert" "1" 1 "16235" "17:27" 1047 "VM35-39" 76.5 "M" 1 "First Timer!" 129
+"2" "albert" "1" 2 "16147" "18:44" 1124 "VM35-39" 70.37 "M" 2 "First Timer!" 28
+"3" "albert" "1" 3 "15530" "18:58" 1138 "VM45-49" 75.31 "M" 3 "First Timer!" 11
+"4" "albert" "1" 4 "16277" "19:20" 1160 "SM20-24" 66.72 "M" 4 "First Timer!" 49
+"5" "albert" "1" 5 "15896" "19:46" 1186 "VM40-44" 71.16 "M" 5 "First Timer!" 388
+"6" "albert" "1" 6 "10555" "20:07" 1207 "VM50-54" 73.9 "M" 6 "First Timer!" 526
+"7" "albert" "1" 7 "16310" "20:45" 1245 "VM55-59" 75.34 "M" 7 "First Timer!" 233
+"8" "albert" "1" 8 "10556" "21:42" 1302 "SW20-24" 68.2 "F" 1 "First Timer!" 112
+"9" "albert" "1" 9 "16144" "22:16" 1336 "VM60-64" 73.28 "M" 8 "First Timer!" 312
+"10" "albert" "1" 10 "14538" "22:25" 1345 "VM45-49" 64.24 "M" 9 "First Timer!" 42
+"11" "albert" "1" 11 "16309" "22:46" 1366 "JM15-17" 61.13 "M" 10 "First Timer!" 2
+"12" "albert" "1" 12 "15516" "24:25" 1465 "VM50-54" 60.89 "M" 11 "First Timer!" 177
+"13" "albert" "1" 13 "15729" "24:36" 1476 "VM35-39" 54.67 "M" 12 "First Timer!" 66
+"14" "albert" "1" 14 "16224" "25:25" 1525 "VM50-54" 59.48 "M" 13 "First Timer!" 233
+"15" "albert" "1" 15 "11885" "26:07" 1567 "VW55-59" 69.11 "F" 2 "First Timer!" 3
+"16" "albert" "1" 16 "15867" "26:27" 1587 "JM15-17" 51.8 "M" 14 "First Timer!" 3
+"17" "albert" "1" 17 "16305" "26:53" 1613 "VW60-64" 71.92 "F" 3 "First Timer!" 143
+"18" "albert" "1" 18 "15515" "27:19" 1639 "VW50-54" 61.93 "F" 4 "First Timer!" 319
+"19" "albert" "1" 19 "16308" "28:47" 1727 "VM40-44" 48.12 "M" 15 "First Timer!" 15
+"20" "albert" "1" 20 "10558" "29:56" 1796 "VW50-54" 56.51 "F" 5 "First Timer!" 541
+"21" "albert" "1" 21 "16165" "30:40" 1840 "SW25-29" 48.26 "F" 6 "First Timer!" 389
+"22" "albert" "1" 22 "16041" "31:23" 1883 "VW50-54" 55.28 "F" 7 "First Timer!" 344
+"23" "albert" "1" 23 "16198" "34:50" 2090 "VW50-54" 49.19 "F" 8 "First Timer!" 1
+"24" "albert" "1" 24 "16268" "51:49" 3109 "SW25-29" 28.56 "F" 9 "First Timer!" 37
+"25" "albert" "1" 25 "16267" "51:59" 3119 "SW30-34" 28.5 "F" 10 "First Timer!" 10
+"26" "albert" "1" 26 "16269" "52:33" 3153 "VW60-64" 36.79 "F" 11 "First Timer!" 9
